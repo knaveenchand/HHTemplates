@@ -1,0 +1,31 @@
+
+Farmer has two seasons. He can either be APCNF or Non-APCNF but not both.
+
+sample structure
+FarmerID -> Season -> TableName -> Fields
+FarmerID -> Season -> TableName -> SubTable -> Fields
+C1234: 
+        Kharif:
+                Q01:
+                        Q0101: Response
+                        Q0102: Response
+                        Q0103: Response
+                Q02:
+                        Q0201: Response
+                        Q0202: Response
+                Q03AddNew:
+                        123456: 
+                                Q0301AddNew: Response
+                                Q0302AddNew: Response
+                                Q0303AddNew: Response
+                        908984:
+                                Q0301AddNew: Response
+                                Q0302AddNew: Response
+                                Q0303AddNew: Response
+                Q04:
+                        Q0401: Response
+                        Q04
+
+
+        Rabi:   
+

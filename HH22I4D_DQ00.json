@@ -1,0 +1,260 @@
+{
+    "name": "HH22I4D_DQ00",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen Chand",
+    "platforms": [
+      "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [
+      "createdbyuserid"
+    ],
+    "components": [
+      {
+        "id": "VA_Scroll_Q0",
+        "type": "VerticalScrollArrangement",
+        "properties": {
+          "WidthPercent": 90
+        },
+        "components": [
+          {
+            "id": "Card_View1",
+            "type": "MakeroidCardView",
+            "properties": {
+              "AlignHorizontal": 3,
+              "Width": -2
+            },
+            "components": [
+              {
+                "id": "Label4",
+                "type": "Label",
+                "properties": {
+                  "FontBold": true,
+                  "Width": -2,
+                  "Text": "Verification",
+                  "TextAlignment": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": "Card_View1helptext",
+            "type": "MakeroidCardView",
+            "properties": {
+              "AlignHorizontal": 3,
+              "Width": -2
+            },
+            "components": [
+              {
+                "id": "Label4helptext",
+                "type": "Label",
+                "properties": {
+                  "Width": -2,
+                  "Text": "Verification is needed to check for any Duplicate Entry.",
+                  "TextAlignment": 1
+                }
+              }
+            ]
+          },
+          {
+            "id": "Card_View10603",
+            "type": "MakeroidCardView",
+            "properties": {
+              "AlignHorizontal": 3,
+              "Width": -2
+            },
+            "components": [
+              {
+                "id": "Label1",
+                "type": "Label",
+                "properties": {
+                  "Width": -2,
+                  "Text": "Is the Cultivator from Sample or Outside?"
+                }
+              },
+              {
+                "id": "Horizontal_Arrangement1",
+                "type": "HorizontalArrangement",
+                "properties": {
+                  "AlignVertical": 2,
+                  "Width": -2
+                },
+                "components": [
+                  {
+                    "id": "Q0001_SampleOrNot",
+                    "type": "TextBox",
+                    "properties": {
+                      "BackgroundColor": 4293848814,
+                      "ReadOnly": true,
+                      "WidthPercent": 50
+                    }
+                  },
+                  {
+                    "id": "KNCListPickerQ0001_SampleOrNot",
+                    "type": "ListPicker",
+                    "properties": {
+                      "ElementsFromString": "Sample, Non-Sample",
+                      "Text": "Select",
+                      "Title": "Sample or Non Sample",
+                      "WidthPercent": 30
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "Label3",
+                "type": "Label",
+                "properties": {
+                  "Width": -2,
+                  "HTMLFormat": true,
+                  "Text": "Serial Number of Cultivator (Farmer ID)"
+                }
+              },
+              {
+                "id": "Horizontal_Arrangement2",
+                "type": "HorizontalArrangement",
+                "properties": {
+                  "AlignVertical": 2,
+                  "Width": -2
+                },
+                "components": [
+                  {
+                    "id": "VAFarmerIDSerialNum",
+                    "type": "VerticalArrangement",
+                    "properties": {
+                      "Width": -2
+                    },
+                    "components": [
+                      {
+                        "id": "Q0002_FarmerID",
+                        "type": "TextBox",
+                        "properties": {
+                          "BackgroundColor": 4293848814,
+                          "ReadOnly": true,
+                          "WidthPercent": 50,
+                          "Visible": false
+                        }
+                      },
+                      {
+                        "id": "Q0003_SerialNumber",
+                        "type": "TextBox",
+                        "properties": {
+                          "Width": -2
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ListPickerQ0002_FarmerID",
+                    "type": "ListPicker",
+                    "properties": {
+                      "ShowFilterBar": true,
+                      "Text": "Select",
+                      "Title": "Sample Farmer IDs",
+                      "WidthPercent": 30
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "Card_ViewVerify",
+            "type": "MakeroidCardView",
+            "properties": {
+              "AlignHorizontal": 3,
+              "Width": -2
+            },
+            "components": [
+              {
+                "id": "ButtonCheckDuplicates",
+                "type": "Button",
+                "properties": {
+                  "Width": -2,
+                  "Text": "Check for Duplicates"
+                }
+              }
+            ]
+          },
+          {
+            "id": "VerifiedCard",
+            "type": "MakeroidCardView",
+            "properties": {
+              "AlignHorizontal": 3,
+              "Width": -2,
+              "Visible": false
+            },
+            "components": [
+              {
+                "id": "Q0VerifiedIcon",
+                "type": "Label",
+                "properties": {
+                  "FontSize": 30,
+                  "FontTypeface": 7,
+                  "Text": "verified",
+                  "TextColor": -16537101
+                }
+              },
+              {
+                "id": "Q0VerifiedText",
+                "type": "Label",
+                "properties": {
+                  "Width": -2,
+                  "Text": "Verified. No Duplicates Found.",
+                  "TextAlignment": 1
+                }
+              },
+              {
+                "id": "ProceedToNewEntry",
+                "type": "Button",
+                "properties": {
+                  "Width": -2,
+                  "Text": "Proceed to Data Entry",
+                  "BackgroundColor": -16738680
+                }
+              }
+            ]
+          },
+          {
+            "id": "ErrorCard",
+            "type": "MakeroidCardView",
+            "properties": {
+              "AlignHorizontal": 3,
+              "Width": -2,
+              "Visible": false
+            },
+            "components": [
+              {
+                "id": "Q0ErrorIcon",
+                "type": "Label",
+                "properties": {
+                  "FontSize": 30,
+                  "FontTypeface": 7,
+                  "Text": "error",
+                  "TextColor": -1565085
+                }
+              },
+              {
+                "id": "Q0ErrorText",
+                "type": "Label",
+                "properties": {
+                  "Width": -2,
+                  "Text": "Error. Found Duplicates.",
+                  "TextAlignment": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q00_CreatedBy",
+        "type": "TextBox",
+        "properties": {
+          "Visible": false,
+          "Text": "{createdbyuserid}"
+        }
+      }
+    ]
+  }
