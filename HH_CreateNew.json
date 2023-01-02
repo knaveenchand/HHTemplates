@@ -1,0 +1,179 @@
+{
+    "name": "PMDSEntry",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "Vertical_Arrangement3",
+            "type": "VerticalArrangement",
+            "properties": {
+                "AlignHorizontal": 3,
+                "Height": -2,
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id": "VA_Scroll_Q0",
+                    "type": "VerticalScrollArrangement",
+                    "properties": {
+                        "Width": -1090
+                    },
+                    "components": [
+                        {
+                            "id": "Space1",
+                            "type": "SpaceView",
+                            "properties": {
+                                "Height": 30,
+                                "Width": -2
+                            }
+                        },
+                        {
+                            "id": "Label1",
+                            "type": "Label",
+                            "properties": {
+                                "Width": -2,
+                                "Text": "Is the Cultivator from Sample or Outside?"
+                            }
+                        },
+                        {
+                            "id": "Horizontal_Arrangement1",
+                            "type": "HorizontalArrangement",
+                            "properties": {
+                                "AlignVertical": 2,
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "SampleOrNot",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "List_Picker_SampleorNot",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "ElementsFromString": "Sample, Non-Sample",
+                                        "Text": "Select",
+                                        "Title": "Sample or Non Sample"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Label3",
+                            "type": "Label",
+                            "properties": {
+                                "Width": -2,
+                                "Text": "Farmer ID"
+                            }
+                        },
+                        {
+                            "id": "Horizontal_Arrangement2",
+                            "type": "HorizontalArrangement",
+                            "properties": {
+                                "AlignVertical": 2,
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "FarmerID",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "List_Picker_SampleFarmerID",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "ShowFilterBar": true,
+                                        "Text": "Select Sample Farmer ID",
+                                        "Title": "Sample Farmer IDs"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "VA_Scroll_Q01",
+                    "type": "VerticalScrollArrangement",
+                    "properties": {
+                        "Width": -1090
+                    },
+                    "components": [
+                        {
+                            "id": "Label_Q1_1",
+                            "type": "Label",
+                            "properties": {
+                                "Width": -2,
+                                "Text": "Season"
+                            }
+                        },
+                        {
+                            "id": "HA_Q1_1",
+                            "type": "HorizontalArrangement",
+                            "properties": {
+                                "AlignVertical": 2,
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Q1_1_Season",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "List_Picker_Season",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "ElementsFromString": "1=Pre-Kharif Dry Sowing (PMDS), 2=Pre-Rabi Dry Sowing (PRDS)",
+                                        "Text": "Select",
+                                        "Title": "Sample or Non Sample"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Vertical_Arrangement2",
+            "type": "VerticalArrangement",
+            "components": [
+                {
+                    "id": "Label2",
+                    "type": "Label",
+                    "properties": {
+                        "Text": "Text for Label2"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Bottom_Navigation1",
+            "type": "KodularBottomNavigation"
+        },
+        {
+            "id": "TinyDBSampleFarmers",
+            "type": "TinyDB",
+            "properties": {
+                "Namespace": "TinyDBSampleFarmers"
+            }
+        }
+    ]
+}

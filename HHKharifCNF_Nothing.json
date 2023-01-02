@@ -1,0 +1,40 @@
+{
+    "name": "HHKharifCNF_Nothing",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Nothing",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"Nothing_TitleCard",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"Nothing_Title",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Nothing to display",
+                                "TextAlignment": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

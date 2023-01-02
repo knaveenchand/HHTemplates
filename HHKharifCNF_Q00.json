@@ -1,0 +1,935 @@
+{
+    "name": "HHKharifCNF_Q00",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q00",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q00",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q00",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q00. Identification",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAScroll_Q00",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id": "CardViewKeys_Q00",
+                            "type": "MakeroidCardView",
+                            "properties":{
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelKeys_Q00a",
+                                    "type": "Label",
+                                    "properties":{
+                                        "Width": -2,
+                                        "Text": "FarmerID"
+                                    }
+                                },
+                                {
+                                    "id": "Q0000_FarmerID",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "BackgroundColor": -3355444,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelKeys_Q00b",
+                                    "type": "Label",
+                                    "properties":{
+                                        "Width": -2,
+                                        "Text": "Sample or Non-Sample"
+                                    }
+                                },
+                                {
+                                    "id": "Q0000_SampleOrNot",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "BackgroundColor": -3355444,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "CardView_Q0002",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelKeys_Q0001",
+                                    "type": "Label",
+                                    "properties":{
+                                        "Width": -2,
+                                        "Text": "1. Season"
+                                    }
+                                },
+                                {
+                                    "id": "Q0001_Season",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "BackgroundColor": -3355444,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "Label_Q0002",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "2. Type of Schedule"
+                                    }
+                                },
+                                {
+                                    "id": "HA_Q0002",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0002_TypeOfSchedule",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": -3355444,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View0003",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "List_Picker_GPList",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "Text": "Select GP, Mandal, District, Zone"
+                                    }
+                                },
+                                {
+                                    "id": "HA_0003",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignHorizontal": 3,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Card_View000301",
+                                            "type": "MakeroidCardView",
+                                            "properties": {
+                                                "Width": -1050
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Label000301",
+                                                    "type": "Label",
+                                                    "properties": {
+                                                        "Width": -2,
+                                                        "Text": "Q3.1 Agroclimatic Zone"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "Q000301_AgroclimaticZone",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                        "BackgroundColor": 4293848814,
+                                                        "Width": -2,
+                                                        "ReadOnly": true
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "Card_View000302",
+                                            "type": "MakeroidCardView",
+                                            "properties": {
+                                                "Width": -1030
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Label000302",
+                                                    "type": "Label",
+                                                    "properties": {
+                                                        "Width": -2,
+                                                        "Text": "Q3.2 Code"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "Q000302_AgroclimaticZoneCode",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                        "BackgroundColor": 4293848814,
+                                                        "Width": -2,
+                                                        "ReadOnly": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "HA_0004",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignHorizontal": 3,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Card_View000401",
+                                            "type": "MakeroidCardView",
+                                            "properties": {
+                                                "Width": -1050
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Label000401",
+                                                    "type": "Label",
+                                                    "properties": {
+                                                        "Width": -2,
+                                                        "Text": "Q4.1 District"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "Q000401_District",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                        "BackgroundColor": 4293848814,
+                                                        "Width": -2,
+                                                        "ReadOnly": true
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "Card_View000402",
+                                            "type": "MakeroidCardView",
+                                            "properties": {
+                                                "Width": -1030
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Label000402",
+                                                    "type": "Label",
+                                                    "properties": {
+                                                        "Width": -2,
+                                                        "Text": "Q4.2 Code"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "Q000402_DistrictCode",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                        "BackgroundColor": 4293848814,
+                                                        "Width": -2,
+                                                        "ReadOnly": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "HA_0005",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignHorizontal": 3,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Card_View000501",
+                                            "type": "MakeroidCardView",
+                                            "properties": {
+                                                "Width": -1050
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Label000501",
+                                                    "type": "Label",
+                                                    "properties": {
+                                                        "Width": -2,
+                                                        "Text": "Q5.1 Mandal"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "Q000501_Mandal",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                        "BackgroundColor": 4293848814,
+                                                        "Width": -2,
+                                                        "ReadOnly": true
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "Card_View000502",
+                                            "type": "MakeroidCardView",
+                                            "properties": {
+                                                "Width": -1030
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Label000502",
+                                                    "type": "Label",
+                                                    "properties": {
+                                                        "Width": -2,
+                                                        "Text": "Q5.2 Code"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "Q000502_MandalCode",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                        "BackgroundColor": 4293848814,
+                                                        "Width": -2,
+                                                        "ReadOnly": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "HA_0006",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignHorizontal": 3,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Card_View000601",
+                                            "type": "MakeroidCardView",
+                                            "properties": {
+                                                "Width": -1050
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Label000601",
+                                                    "type": "Label",
+                                                    "properties": {
+                                                        "Width": -2,
+                                                        "Text": "Q6.1 GP"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "Q000601_GP",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                        "BackgroundColor": 4293848814,
+                                                        "Width": -2,
+                                                        "ReadOnly": true
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "Card_View000602",
+                                            "type": "MakeroidCardView",
+                                            "properties": {
+                                                "Width": -1030
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Label000602",
+                                                    "type": "Label",
+                                                    "properties": {
+                                                        "Width": -2,
+                                                        "Text": "Q6.2 Code"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "Q000602_GPCode",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                        "BackgroundColor": 4293848814,
+                                                        "Width": -2,
+                                                        "ReadOnly": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View0007",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label0007",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q7 Name of the head of the household with surname:"
+                                    }
+                                },
+                                {
+                                    "id": "Q0007_FarmerName",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2, 
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View0008",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label0008",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q10 Mobile number of the cultivator/ relative (if landline, start with STD code)"
+                                    }
+                                },
+                                {
+                                    "id": "Q0008_MobileNumber",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View0009",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label0009",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q9 Is there any female member having knowledge on natural farming?"
+                                    }
+                                },
+                                {
+                                    "id": "HA_0009",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0009_HasWomanWithNFKnowHow",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0009_HasWomanWithNFKnowHow",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "Yes, No",
+                                                "Text": "Select",
+                                                "Title": "Woman with NF Knowhow",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View0010",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label0010",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q10 If yes, name of the woman farmer (Request her to join the interview)"
+                                    }
+                                },
+                                {
+                                    "id": "Q0010_WomanFarmerName",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View0011",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label0011",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q11 Social Category"
+                                    }
+                                },
+                                {
+                                    "id": "HA_0011",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0011_SocialCategory",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0011_SocialCategory",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "1=SC, 2=ST, 3=BC, 4=OC",
+                                                "Text": "Select",
+                                                "Title": "Social Category",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View0012",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label0012",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q12 Serial number of the cultivator as per the listing schedule (Auto-populated)"
+                                    }
+                                },
+                                {
+                                    "id": "Q0012_SerialNumberOfCultivator",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ReadOnly": true,
+                                        "BackgroundColor":-3355444
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View0013",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "HA_0013",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignHorizontal": 3,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Card_View001301",
+                                            "type": "MakeroidCardView",
+                                            "properties": {
+                                                "Width": -1050
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Label001301",
+                                                    "type": "Label",
+                                                    "properties": {
+                                                        "Width": -2,
+                                                        "Text": "Q13.1 Investigators Name"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "Q001301_InvestigatorName",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                        "BackgroundColor": 4293848814,
+                                                        "Width": -2,
+                                                        "ReadOnly": true
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "Card_View001302",
+                                            "type": "MakeroidCardView",
+                                            "properties": {
+                                                "Width": -1030
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Label001302",
+                                                    "type": "Label",
+                                                    "properties": {
+                                                        "Width": -2,
+                                                        "Text": "Q13.2 Code"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "Q001302_InvestigatorCode",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                        "BackgroundColor": 4293848814,
+                                                        "Width": -2,
+                                                        "ReadOnly": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View0014",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "List_Picker_SupervisorsList",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "Text": "Select from Team List"
+                                    }
+                                },
+                                {
+                                    "id": "HA_0014",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignHorizontal": 3,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Card_View001401",
+                                            "type": "MakeroidCardView",
+                                            "properties": {
+                                                "Width": -1050
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Label001401",
+                                                    "type": "Label",
+                                                    "properties": {
+                                                        "Width": -2,
+                                                        "Text": "Q14.1 Supervisor Name"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "Q001401_SupervisorName",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                        "BackgroundColor": 4293848814,
+                                                        "Width": -2,
+                                                        "ReadOnly": true
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "Card_View001402",
+                                            "type": "MakeroidCardView",
+                                            "properties": {
+                                                "Width": -1030
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Label001402",
+                                                    "type": "Label",
+                                                    "properties": {
+                                                        "Width": -2,
+                                                        "Text": "Q14.2 Code"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "Q001402_SupervisorCode",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                        "BackgroundColor": 4293848814,
+                                                        "Width": -2,
+                                                        "ReadOnly": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View0015",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label0015",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q15 Date of 1st Visit"
+                                    }
+                                },
+                                {
+                                    "id": "HA_0015",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0015_DateOfInterview",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCDatePickerQ0015_DateOfInterview",
+                                            "type": "DatePicker",
+                                            "properties": {
+                                                "Text": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View0016",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label0016",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q16 Date of 2nd Visit"
+                                    }
+                                },
+                                {
+                                    "id": "HA_0016",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0016_DateOfInterview",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCDatePickerQ0016_DateOfInterview",
+                                            "type": "DatePicker",
+                                            "properties": {
+                                                "Text": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View0017",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label0017",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q16 Date of checking of Supervisor"
+                                    }
+                                },
+                                {
+                                    "id": "HA_0017",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0017_DateOfCheckingOfSupervisor",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCDatePickerQ0017_DateOfCheckingOfSupervisor",
+                                            "type": "DatePicker",
+                                            "properties": {
+                                                "Text": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View0018",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label0018",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q17 Date of checking of R Supervisor"
+                                    }
+                                },
+                                {
+                                    "id": "HA_0018",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0018_DateOfReCheckingOfRSupervisor",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCDatePickerQ0018_DateOfReCheckingOfRSupervisor",
+                                            "type": "DatePicker",
+                                            "properties": {
+                                                "Text": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+
+                    ]
+
+                }
+
+                
+            ]
+        }
+    ]
+}
