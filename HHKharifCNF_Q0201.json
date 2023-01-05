@@ -28,7 +28,7 @@
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Q0201. Parcel wise own (including leased out lands) and leased-in lands details as on 1st June 2022",
+                                "Text":"Q0201. Parcels",
                                 "TextAlignment": 1,
                                 "FontBold": true,
                                 "FontSize": 16
@@ -36,32 +36,32 @@
                             }
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "id": "VAforBtn_Q0201",
-            "type":"VerticalArrangement",
-            "properties":{
-                "Width":-2,
-                "AlignHorizontal":2
-            },
-            "components":[
+                },
                 {
-                    "id":"BtnAddNew_Q0201",
-                    "type":"Button",
+                    "id": "VAforBtn_Q0201",
+                    "type":"VerticalArrangement",
                     "properties":{
-                        "Text": "+ Add New"
+                        "Width":-2,
+                        "AlignHorizontal":2
+                    },
+                    "components":[
+                        {
+                            "id":"BtnAddNew_Q0201",
+                            "type":"Button",
+                            "properties":{
+                                "Text": "+ Add New"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAforHoldingCards_Q0201AddNew",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
                     }
                 }
             ]
-        },
-        {
-            "id":"VAforHoldingCards_Q0201AddNew",
-            "type":"VerticalScrollArrangement",
-            "properties":{
-                "Width":-2
-            }
         }
     ]
 }

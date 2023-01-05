@@ -1,0 +1,75 @@
+{
+    "name": "HH22i4DfromPMDS_ItemCard",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": ["id", "DisplayContent"],
+    "components": [
+        {
+            "id": "VAMain_{id}",
+            "type": "VerticalArrangement",
+            "properties": {
+                "AlignHorizontal": 3,
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id": "CardView_{id}",
+                    "type": "MakeroidCardView",
+                    "properties": {
+                        "Width": -1080
+                    },
+                    "components": [
+                        {
+                            "id": "VAID_{id}",
+                            "type": "VerticalArrangement",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelID_{id}",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "ID: {id}"
+                                    }
+                                },
+                                {
+                                    "id": "LabelDisplayContent_{id}",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "{DisplayContent}",
+                                        "HTMLFormat":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "VABtn_{id}",
+                            "type": "VerticalArrangement",
+                            "properties": {
+                                "AlignHorizontal": 2,
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "BtnViewEdit_{id}",
+                                    "type": "Button",
+                                    "properties": {
+                                        "Text": "View or Edit"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
