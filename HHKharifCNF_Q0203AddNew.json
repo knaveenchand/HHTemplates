@@ -43,7 +43,8 @@
             "id":"VAScroll_Q0203AddNew",
             "type":"VerticalScrollArrangement",
             "properties":{
-                "WidthPercent": 75
+                "WidthPercent": 75,
+                "HeightPercent":70
             },
             "components":[
                 {
@@ -385,7 +386,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0203AddNew10Others",
+                            "id":"Label_Q0203AddNew10MixedOthers",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -562,7 +563,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0203AddNew10Others",
+                            "id":"Label_Q0203AddNew10SingleOthers",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -617,8 +618,7 @@
                     "properties": {
                         "Width": -2
                     }
-                }            
-                
+                }                
             ]
         },
         {

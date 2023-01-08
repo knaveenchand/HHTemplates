@@ -1,0 +1,60 @@
+{
+    "name": "HHKharifCNF_Finish",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Finish",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Finish",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Finish",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Verify and Save",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "VAforBtn_Finish",
+                    "type":"VerticalArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id":"BtnFinish_Save",
+                            "type":"Button",
+                            "properties":{
+                                "Text": "Verify and Save"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
