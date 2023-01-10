@@ -444,7 +444,8 @@
                     "id": "KNCListPickerQ0303AddNew17_GrowthInput1",
                     "type": "ListPicker",
                     "properties": {
-                    "Width": -2,
+                    "Text": "Select", 
+                    "Width": -2, 
                     "ElementsFromString": "1=Livestock penning (quintals), 2=Crop residue leaf on the field (quintals), 3=Amrutajalam (Ltrs), 4=Azola (Kgs), 5=Neem cake (Kg), 6=Mulching (quintals), 7=Green Manure (quintals), 8=Tank silt (quintals), 9=Castor Cake (kg) 10=Others (specify)"
                     }
                 },
@@ -549,7 +550,8 @@
                     "id": "KNCListPickerQ0303AddNew21_GrowthInput2",
                     "type": "ListPicker",
                     "properties": {
-                    "Width": -2,
+                    "Text": "Select", 
+                    "Width": -2, 
                     "ElementsFromString": "1=Livestock penning (quintals), 2=Crop residue leaf on the field (quintals), 3=Amrutajalam (Ltrs), 4=Azola (Kgs), 5=Neem cake (Kg), 6=Mulching (quintals), 7=Green Manure (quintals), 8=Tank silt (quintals), 9=Castor Cake (kg) 10=Others (specify)"
                     }
                 },
@@ -654,7 +656,8 @@
                     "id": "KNCListPickerQ0303AddNew25_GrowthInput3",
                     "type": "ListPicker",
                     "properties": {
-                    "Width": -2,
+                    "Text": "Select", 
+                    "Width": -2, 
                     "ElementsFromString": "1=Livestock penning (quintals), 2=Crop residue leaf on the field (quintals), 3=Amrutajalam (Ltrs), 4=Azola (Kgs), 5=Neem cake (Kg), 6=Mulching (quintals), 7=Green Manure (quintals), 8=Tank silt (quintals), 9=Castor Cake (kg) 10=Others (specify)"
                     }
                 },
@@ -759,7 +762,8 @@
                     "id": "KNCListPickerQ0303AddNew29_ProtectionInput1",
                     "type": "ListPicker",
                     "properties": {
-                    "Width": -2,
+                    "Text": "Select", 
+                    "Width": -2, 
                     "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
                     }
                 },
@@ -864,7 +868,8 @@
                     "id": "KNCListPickerQ0303AddNew33_ProtectionInput2",
                     "type": "ListPicker",
                     "properties": {
-                    "Width": -2,
+                    "Text": "Select", 
+                    "Width": -2, 
                     "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
                     }
                 },
@@ -969,7 +974,8 @@
                     "id": "KNCListPickerQ0303AddNew37_ProtectionInput3",
                     "type": "ListPicker",
                     "properties": {
-                    "Width": -2,
+                    "Text": "Select", 
+                    "Width": -2, 
                     "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
                     }
                 },
@@ -1074,7 +1080,8 @@
                     "id": "KNCListPickerQ0303AddNew41_ProtectionInput4",
                     "type": "ListPicker",
                     "properties": {
-                    "Width": -2,
+                    "Text": "Select", 
+                    "Width": -2, 
                     "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
                     }
                 },
@@ -1179,7 +1186,8 @@
                     "id": "KNCListPickerQ0303AddNew45_ProtectionInput5",
                     "type": "ListPicker",
                     "properties": {
-                    "Width": -2,
+                    "Text": "Select", 
+                    "Width": -2, 
                     "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
                     }
                 },
@@ -1284,7 +1292,8 @@
                     "id": "KNCListPickerQ0303AddNew49_ProtectionInput6",
                     "type": "ListPicker",
                     "properties": {
-                    "Width": -2,
+                    "Text": "Select", 
+                    "Width": -2, 
                     "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
                     }
                 },
@@ -1389,7 +1398,8 @@
                     "id": "KNCListPickerQ0303AddNew53_ProtectionInput7",
                     "type": "ListPicker",
                     "properties": {
-                    "Width": -2,
+                    "Text": "Select", 
+                    "Width": -2, 
                     "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
                     }
                 },
@@ -1494,7 +1504,8 @@
                     "id": "KNCListPickerQ0303AddNew57_ProtectionInput8",
                     "type": "ListPicker",
                     "properties": {
-                    "Width": -2,
+                    "Text": "Select", 
+                    "Width": -2, 
                     "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
                     }
                 },
@@ -1599,7 +1610,8 @@
                     "id": "KNCListPickerQ0303AddNew61_ProtectionInput9",
                     "type": "ListPicker",
                     "properties": {
-                    "Width": -2,
+                    "Text": "Select", 
+                    "Width": -2, 
                     "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
                     }
                 },

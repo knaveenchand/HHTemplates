@@ -1,0 +1,67 @@
+{
+    "name": "HHKharifCNF_Q0306",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q0306",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q0306",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q0306",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q0306. Yields obtained from mixed crops plots",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "VAforBtn_Q0306",
+                    "type":"VerticalArrangement",
+                    "properties":{
+                        "Width":-2,
+                        "AlignHorizontal":2
+                    },
+                    "components":[
+                        {
+                            "id":"BtnAddNew_Q0306",
+                            "type":"Button",
+                            "properties":{
+                                "Text": "+ Add New"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAforHoldingCards_Q0306AddNew",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    }
+                }
+            ]
+        }
+    ]
+}
