@@ -922,13 +922,16 @@
                                     ]
                                 }
                             ]
+                        },
+                        {
+                            "id":"SpacerQ00",
+                            "type":"SpaceView",
+                            "properties":{
+                                "Height":50
+                            }
                         }
-
                     ]
-
                 }
-
-                
             ]
         }
     ]

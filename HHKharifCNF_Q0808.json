@@ -1,5 +1,5 @@
 {
-    "name": "HHKharifCNF_Finish",
+    "name": "HHKharifCNF_Q0808",
     "metadata-version": 1,
     "extension_version": 5,
     "author": "Naveen",
@@ -10,26 +10,25 @@
     "keys": [],
     "components": [
         {
-            "id": "PageVA_Finish",
+            "id": "PageVA_Q0808",
             "type": "VerticalArrangement",
             "properties": {
                 "Width": -2
-
             },
             "components": [
                 {
-                    "id":"PageTitleCard_Finish",
+                    "id":"PageTitleCard_Q0808",
                     "type":"MakeroidCardView",
                     "properties":{
                         "Width":-2
                     },
                     "components": [
                         {
-                            "id":"PageTitleLabel_Finish",
+                            "id":"PageTitleLabel_Q0808",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Verify and Save",
+                                "Text":"Q0808. Month wise number of days crops were standing on each plot during March to October 2022",
                                 "TextAlignment": 1,
                                 "FontBold": true,
                                 "FontSize": 16
@@ -39,30 +38,28 @@
                     ]
                 },
                 {
-                    "id": "VAforBtn_Finish",
+                    "id": "VAforBtn_Q0808",
                     "type":"VerticalArrangement",
                     "properties":{
-                        "Width":-2
+                        "Width":-2,
+                        "AlignHorizontal":2
                     },
                     "components":[
                         {
-                            "id":"BtnFinish_SaveOnline",
+                            "id":"BtnAddNew_Q0808",
                             "type":"Button",
                             "properties":{
-                                "Width":-2,
-                                "Text": "Save Online"
-                            }
-                        },
-                        {
-                            "id":"BtnFinish_SaveOffline",
-                            "type":"Button",
-                            "properties":{
-                                "Width":-2,
-                                "Text": "Save Offline"
+                                "Text": "+ Add New"
                             }
                         }
-
                     ]
+                },
+                {
+                    "id":"VAforHoldingCards_Q0808AddNew",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    }
                 }
             ]
         }

@@ -1,0 +1,744 @@
+{
+    "name": "HHKharifCNF_Q04",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q04",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q04",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q04",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q04. Water Use",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAScroll_Q04",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id": "CardViewKeys_Q04",
+                            "type": "MakeroidCardView",
+                            "properties":{
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelKeys_Q0401",
+                                    "type": "Label",
+                                    "properties":{
+                                        "Width": -2,
+                                        "Text": "4.1 Did you experience any changes in water use for growing the APCNF crops vis-a-vis non-CNF crop?"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0401_ChangeInWaterUse",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "ElementsFromString": "1=Yes, 2=No, 3=Cannot Say",
+                                        "Text": "Select",
+                                        "Title": "Select",
+                                        "WidthPercent": 30
+                                    }
+                                },                                
+                                {
+                                    "id": "Q0401_ChangeInWaterUse",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "BackgroundColor": -3355444,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "CardView_Q0402",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelKeys_Q0401IfYes",
+                                    "type": "Label",
+                                    "properties":{
+                                        "Width": -2,
+                                        "Text": "4.2. If yes, fill the following table"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0403_Crop01",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0403_Crop01",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Crop01"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0403_Crop01",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Select Crop",
+                                        "Title":"Select Crop"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_Crop01",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0403OthersCrop01",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Crop01: If Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_OthersCrop01",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0403ResponseCrop01",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Response (Five-Point Scale)"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0403_ResponseCrop01",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_ResponseCrop01",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0403_Crop02",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0403_Crop02",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Crop02"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0403_Crop02",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Select Crop",
+                                        "Title":"Select Crop"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_Crop02",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0403OthersCrop02",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Crop02: If Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_OthersCrop02",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0403ResponseCrop02",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Response (Five-Point Scale)"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0403_ResponseCrop02",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_ResponseCrop02",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0403_Crop03",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0403_Crop03",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Crop03"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0403_Crop03",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Select Crop",
+                                        "Title":"Select Crop"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_Crop03",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0403OthersCrop03",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Crop03: If Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_OthersCrop03",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0403ResponseCrop03",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Response (Five-Point Scale)"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0403_ResponseCrop03",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_ResponseCrop03",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0403_Crop04",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0403_Crop04",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Crop04"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0403_Crop04",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Select Crop",
+                                        "Title":"Select Crop"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_Crop04",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0403OthersCrop04",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Crop04: If Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_OthersCrop04",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0403ResponseCrop04",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Response (Five-Point Scale)"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0403_ResponseCrop04",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_ResponseCrop04",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0403_Crop05",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0403_Crop05",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Crop05"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0403_Crop05",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Select Crop",
+                                        "Title":"Select Crop"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_Crop05",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0403OthersCrop05",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Crop05: If Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_OthersCrop05",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0403ResponseCrop05",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Response (Five-Point Scale)"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0403_ResponseCrop05",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_ResponseCrop05",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0403_Crop06",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0403_Crop06",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Crop06"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0403_Crop06",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Select Crop",
+                                        "Title":"Select Crop"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_Crop06",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0403OthersCrop06",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Crop06: If Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_OthersCrop06",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0403ResponseCrop06",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Response (Five-Point Scale)"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0403_ResponseCrop06",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_ResponseCrop06",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0403_Crop07",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0403_Crop07",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Crop07"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0403_Crop07",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Select Crop",
+                                        "Title":"Select Crop"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_Crop07",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0403OthersCrop07",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Crop07: If Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_OthersCrop07",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0403ResponseCrop07",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Response (Five-Point Scale)"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0403_ResponseCrop07",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_ResponseCrop07",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0403_Crop08",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0403_Crop08",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Crop08"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0403_Crop08",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Select Crop",
+                                        "Title":"Select Crop"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_Crop08",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0403OthersCrop08",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Crop08: If Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_OthersCrop08",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0403ResponseCrop08",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Response (Five-Point Scale)"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0403_ResponseCrop08",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0403_ResponseCrop08",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }        
+            ]
+        }
+    ]
+}

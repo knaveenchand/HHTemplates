@@ -1,0 +1,659 @@
+{
+    "name": "HHKharifCNF_Q06",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q06",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q06",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q06",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q06. Challenges encountered in adopting PMDS+CNF",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAScroll_Q06",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id": "Card_ViewQ0601_ChallengesYN",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0601_challengesYN",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Do you face any challenges in adopting PMDS+CNF practices now?",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0601_challengesYN",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Yes, 2=No, 3=Cannot say",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0601_challengesYN",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0602_ifyeschallenges",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "If yes, what are the challenges that you are facing (Multiple answers possible)?"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0602_challenge01",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ0602_challenge01",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text":"1. Scarcity of Labour"
+                                    }
+                                },
+                                {
+                                    "id": "HAQ0602_challenge01",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0602_challenge01",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0602_challenge01",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "Yes, No",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }                                        
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0602_challenge02",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ0602_challenge02",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text":"2. Scarcity of Own labour"
+                                    }
+                                },
+                                {
+                                    "id": "HAQ0602_challenge02",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0602_challenge02",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0602_challenge02",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "Yes, No",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }                                        
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0602_challenge03",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ0602_challenge03",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text":"3. Not willing to prepare biological inputs"
+                                    }
+                                },
+                                {
+                                    "id": "HAQ0602_challenge03",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0602_challenge03",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0602_challenge03",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "Yes, No",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }                                        
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0602_challenge04",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ0602_challenge04",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text":"4. Realized prices for APCNF output are less than the expected prices"
+                                    }
+                                },
+                                {
+                                    "id": "HAQ0602_challenge04",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0602_challenge04",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0602_challenge04",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "Yes, No",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }                                        
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0602_challenge05",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ0602_challenge05",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text":"5. Scarcity of livestock for dung and urine"
+                                    }
+                                },
+                                {
+                                    "id": "HAQ0602_challenge05",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0602_challenge05",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0602_challenge05",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "Yes, No",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }                                        
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0602_challenge06",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ0602_challenge06",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text":"6. Lack of adequate knowledge about APCNF"
+                                    }
+                                },
+                                {
+                                    "id": "HAQ0602_challenge06",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0602_challenge06",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0602_challenge06",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "Yes, No",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }                                        
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0602_challenge07",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ0602_challenge07",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text":"7. Scarcity of raw materials to make biological inputs"
+                                    }
+                                },
+                                {
+                                    "id": "HAQ0602_challenge07",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0602_challenge07",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0602_challenge07",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "Yes, No",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }                                        
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0602_challenge08",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ0602_challenge08",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text":"8. Shortage of extension services"
+                                    }
+                                },
+                                {
+                                    "id": "HAQ0602_challenge08",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0602_challenge08",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0602_challenge08",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "Yes, No",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }                                        
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0602_challenge09",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ0602_challenge09",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text":"9. Shortage of equipments and implements to prepare biological inputs (drums, grinding machines etc.)"
+                                    }
+                                },
+                                {
+                                    "id": "HAQ0602_challenge09",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0602_challenge09",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0602_challenge09",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "Yes, No",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }                                        
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0602_challenge10",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ0602_challenge10",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text":"10. Others, specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0602_challenge10Others",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2
+                                    }
+                                },
+                                {
+                                    "id": "HAQ0602_challenge10",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0602_challenge10",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0602_challenge10",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "Yes, No",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }                                        
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0602_challenge11",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ0602_challenge11",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text":"11. Others, specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0602_challenge11Others",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2
+                                    }
+                                },
+                                {
+                                    "id": "HAQ0602_challenge11",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0602_challenge11",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0602_challenge11",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "Yes, No",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }                                        
+                            ]
+                        },
+                        {
+                            "id":"LabelQ0603_continueapcnf",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text": "Would you like to continue APCNF farming?"
+                            }
+                        },
+                        {
+                            "id":"KNCListPickerQ0603_continueapcnf",
+                            "type":"ListPicker",
+                            "properties": {
+                                "ElementsFromString": "1=Yes, 2=No, 3=Cannot say",
+                                "Text": "Select",
+                                "Title": "Select"
+                            }
+                        },
+                        {
+                            "id":"Q0603_continueapcnf",
+                            "type":"TextBox",
+                            "properties": {
+                                "BackgroundColor": 4293848814,
+                                "ReadOnly": true
+                            }
+                        },
+                        {
+                            "id":"LabelQ0604_livestockcount",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text": "No. of livestock purchased to adopt CNF practices (If not purchased, put 0)"
+                            }
+                        },
+                        {
+                            "id":"Q0604_livestockcount",
+                            "type":"TextBox",
+                            "properties": {
+                                "Width":-2,
+                                "InputType": 5
+
+                            }
+                        }
+                    ]
+                }        
+            ]
+        }
+    ]
+}

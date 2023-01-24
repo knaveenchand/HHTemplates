@@ -1,0 +1,888 @@
+{
+    "name": "HHKharifCNF_Q07",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q07",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q07",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q07",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q07.  Benefits accrued beyond costs and returns due to APCNF",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAScroll_Q07",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id": "Card_ViewQ0701_ChallengesYN",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0701_landquality",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "7.1 Changes in land quality, if any",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0701_landquality",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Yes, 2=No, 3=Cannot say",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0701_landquality",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0702a_soilsoftness",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ0702a_soilsoftness",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text":"7.2.a Soil softness"
+                                    }
+                                },
+                                {
+                                    "id": "HAQ0702a_soilsoftness",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0702a_soilsoftness",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0702a_soilsoftness",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "Yes, No",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }                                        
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0702b_earthworms",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ0702b_earthworms",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text":"7.2.b Earthworms in the soil"
+                                    }
+                                },
+                                {
+                                    "id": "HAQ0702b_earthworms",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0702b_earthworms",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0702b_earthworms",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "Yes, No",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }                                        
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0702c_greencover",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ0702c_greencover",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text":"7.2.c Green cover in the fields"
+                                    }
+                                },
+                                {
+                                    "id": "HAQ0702c_greencover",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0702c_greencover",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0702c_greencover",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "Yes, No",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0702d_moisture",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ0702d_moisture",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text":"7.2.d Moisture levels in the soil"
+                                    }
+                                },
+                                {
+                                    "id": "HAQ0702d_moisture",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0702d_moisture",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0702d_moisture",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "Yes, No",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0702e_others",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ0702e_others",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text":"7.2.e Others specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0702e_othersspecify",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2
+                                    }
+                                },
+                                {
+                                    "id": "HAQ0702e_others",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0702e_others",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0702e_others",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "Yes, No",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0702f_others",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ0702f_others",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text":"7.2.f Others specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0702f_othersspecify",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2
+                                    }
+                                },
+                                {
+                                    "id": "HAQ0702f_others",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0702f_others",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0702f_others",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "Yes, No",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0703_consumeCNF",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0703_consumeCNF",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "7.3 Do you consume APCNF produce?",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0703_consumeCNF",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Yes, 2=No, 3=Cannot say",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0703_consumeCNF",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0703_TasteCNF",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0703_TasteCNF",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "7.3 Do you consume APCNF produce?",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0703_TasteCNF",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Yes, 2=No, 3=Cannot say",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0703_TasteCNF",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0704_TasteCNF",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0704_TasteCNF",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "7.4 Crop quality related changes",
+                                        "FontSize": 16
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ070401_GrainWeight",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ070401_GrainWeight",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "7.4.1 Grain Weight"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ070401_GrainWeight",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q070401_GrainWeight",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ070402_GrainSize",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ070402_GrainSize",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "7.4.2 Grain Size"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ070402_GrainSize",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q070402_GrainSize",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ070403_StemStrength",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ070403_StemStrength",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "7.4.3 Stem Strength"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ070403_StemStrength",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q070403_StemStrength",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ070404_tolerancedryspell",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ070404_tolerancedryspell",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "7.4.4 Plant tolerance to dry spells"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ070404_tolerancedryspell",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q070404_tolerancedryspell",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ070405_tolerancerain",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ070405_tolerancerain",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "7.4.5 Plant tolerance to heavy rains"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ070405_tolerancerain",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q070405_tolerancerain",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ070406_tolerancewinds",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ070406_tolerancewinds",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "7.4.6 Plant tolerance to Strong Winds"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ070406_tolerancewinds",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q070406_tolerancewinds",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ070407_others",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ070407_others",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "7.4.7 Others Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q070407_othersspecify",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ070407_others",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q070407_others",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ075_changefinancial",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ075_changefinancial",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "7.4.5 Changes in your financial situation after APCNF"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ075_changefinancial",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q075_changefinancial",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0706_changehealth",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0706_changehealth",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "7.4.6 Changes in the health status of your family, after APCNF"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0706_changehealth",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0706_changehealth",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0707_changeexpenses",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0707_changeexpenses",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "7.4.7 Changes in your expenditure on family health after APCNF"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0707_changeexpenses",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0707_changeexpenses",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0708_changestress",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0708_changestress",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "7.4.8 Changes in farming related stress due to APCNF"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0708_changestress",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0708_changestress",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

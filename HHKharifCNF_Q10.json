@@ -1,0 +1,1211 @@
+{
+    "name": "HHKharifCNF_Q10",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q10",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q10",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q10",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q10.  Marketing",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAScroll_Q10",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id": "Card_ViewQ1001_ChangesMarketing",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ1001_ChangesMarketing",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "10.1 Changes in output market after APCNF compared to that non-CNF output",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ100101_marketingchannels",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "10.1.1 Number of (new) market channels"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ100101_marketingchannels",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q100101_marketingchannels",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ100102_consumers",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "10.1.2. Interest of consumers on APCNF products"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ100102_consumers",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q100102_consumers",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ100103_respect",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "10.1.3. Respect in the market from buyers"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ100103_respect",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q100103_respect",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ100104_friends",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "10.1.4. Respect from friends and family"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ100104_friends",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Decreased considerably, 2=Decreased moderately, 3=No change, 4=Increased moderately, 5=Increased considerably",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q100104_friends",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1002_HigherPrices",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ1002_HigherPrices",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "10.2 Did you get higher prices for any APCNF output of any crop",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ1002_higherprices",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Yes, 2=No, 3=Cannot Say",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q1002_higherprices",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "LabelQ1003_IfYes",
+                            "type": "Label",
+                            "properties": {
+                                "Width": -2,
+                                "Text": "10.3 If Yes, Give Details",
+                                "FontSize": 16
+                            }
+                        },
+                        {
+                            "id": "Card_ViewQ1003_Crop1",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "KNCListPickerQ1003_Crop1",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Crop1",
+                                        "Title":"Crop1"
+                                    }
+                                },
+                                {
+                                    "id": "Q1003_Crop1",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1003_APNCFPriceCrop1",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Price realized for APCNF output - Crop1"
+                                    }
+                                },
+                                {
+                                    "id":"Q1003_APNCFPriceCrop1",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1003_NonAPNCFPriceCrop1",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Prevailing price for non-APCNF output at the time of your sale - Crop1"
+                                    }
+                                },
+                                {
+                                    "id":"Q1003_NonAPNCFPriceCrop1",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1003_Crop2",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "KNCListPickerQ1003_Crop2",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Crop2",
+                                        "Title":"Crop2"
+                                    }
+                                },
+                                {
+                                    "id": "Q1003_Crop2",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1003_APNCFPriceCrop2",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Price realized for APCNF output - Crop2"
+                                    }
+                                },
+                                {
+                                    "id":"Q1003_APNCFPriceCrop2",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1003_NonAPNCFPriceCrop2",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Prevailing price for non-APCNF output at the time of your sale - Crop2"
+                                    }
+                                },
+                                {
+                                    "id":"Q1003_NonAPNCFPriceCrop2",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1003_Crop3",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "KNCListPickerQ1003_Crop3",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Crop3",
+                                        "Title":"Crop3"
+                                    }
+                                },
+                                {
+                                    "id": "Q1003_Crop3",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1003_APNCFPriceCrop3",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Price realized for APCNF output - Crop3"
+                                    }
+                                },
+                                {
+                                    "id":"Q1003_APNCFPriceCrop3",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1003_NonAPNCFPriceCrop3",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Prevailing price for non-APCNF output at the time of your sale - Crop3"
+                                    }
+                                },
+                                {
+                                    "id":"Q1003_NonAPNCFPriceCrop3",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1003_Crop4",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "KNCListPickerQ1003_Crop4",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Crop4",
+                                        "Title":"Crop4"
+                                    }
+                                },
+                                {
+                                    "id": "Q1003_Crop4",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1003_APNCFPriceCrop4",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Price realized for APCNF output - Crop4"
+                                    }
+                                },
+                                {
+                                    "id":"Q1003_APNCFPriceCrop4",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1003_NonAPNCFPriceCrop4",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Prevailing price for non-APCNF output at the time of your sale - Crop4"
+                                    }
+                                },
+                                {
+                                    "id":"Q1003_NonAPNCFPriceCrop4",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1003_Crop5",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "KNCListPickerQ1003_Crop5",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Crop5",
+                                        "Title":"Crop5"
+                                    }
+                                },
+                                {
+                                    "id": "Q1003_Crop5",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1003_APNCFPriceCrop5",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Price realized for APCNF output - Crop5"
+                                    }
+                                },
+                                {
+                                    "id":"Q1003_APNCFPriceCrop5",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1003_NonAPNCFPriceCrop5",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Prevailing price for non-APCNF output at the time of your sale - Crop5"
+                                    }
+                                },
+                                {
+                                    "id":"Q1003_NonAPNCFPriceCrop5",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1003_Crop6",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "KNCListPickerQ1003_Crop6",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Crop6",
+                                        "Title":"Crop6"
+                                    }
+                                },
+                                {
+                                    "id": "Q1003_Crop6",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1003_APNCFPriceCrop6",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Price realized for APCNF output - Crop6"
+                                    }
+                                },
+                                {
+                                    "id":"Q1003_APNCFPriceCrop6",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1003_NonAPNCFPriceCrop6",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Prevailing price for non-APCNF output at the time of your sale - Crop6"
+                                    }
+                                },
+                                {
+                                    "id":"Q1003_NonAPNCFPriceCrop6",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1004_Innovations",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ1004_Innovations",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "10.4 Did you do any processing and marketing innovations to get higher prices for APCNF products",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ1004_Innovations",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Yes, 2=No, 3=Cannot Say",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q1004_Innovations",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "LabelQ1005_IfYes",
+                            "type": "Label",
+                            "properties": {
+                                "Width": -2,
+                                "Text": "10.5 If Yes, Give Details",
+                                "FontSize": 16
+                            }
+                        },
+                        {
+                            "id": "Card_ViewQ1005_Crop1",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "KNCListPickerQ1005_Crop1",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Crop1",
+                                        "Title":"Crop1"
+                                    }
+                                },
+                                {
+                                    "id": "Q1005_Crop1",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_QtySoldCrop1",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Quantity sold (in quintals) - Crop1"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_QtySoldCrop1",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_ProcessingCostCrop1",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Total cost of all processing (per quintal) - Crop1"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_ProcessingCostCrop1",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_PriceAfterProcessCrop1",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Price realised after processing (Rs/ q) - Crop1"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_PriceAfterProcessCrop1",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_PriceBeforeProcessCrop1",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Price would have got, without processing, at the time of your sale (Rs/q) - Crop1"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_PriceBeforeProcessCrop1",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1005_Crop2",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "KNCListPickerQ1005_Crop2",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Crop2",
+                                        "Title":"Crop2"
+                                    }
+                                },
+                                {
+                                    "id": "Q1005_Crop2",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_QtySoldCrop2",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Quantity sold (in quintals) - Crop2"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_QtySoldCrop2",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_ProcessingCostCrop2",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Total cost of all processing (per quintal) - Crop2"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_ProcessingCostCrop2",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_PriceAfterProcessCrop2",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Price realised after processing (Rs/ q) - Crop2"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_PriceAfterProcessCrop2",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_PriceBeforeProcessCrop2",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Price would have got, without processing, at the time of your sale (Rs/q) - Crop2"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_PriceBeforeProcessCrop2",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1005_Crop3",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "KNCListPickerQ1005_Crop3",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Crop3",
+                                        "Title":"Crop3"
+                                    }
+                                },
+                                {
+                                    "id": "Q1005_Crop3",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_QtySoldCrop3",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Quantity sold (in quintals) - Crop3"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_QtySoldCrop3",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_ProcessingCostCrop3",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Total cost of all processing (per quintal) - Crop3"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_ProcessingCostCrop3",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_PriceAfterProcessCrop3",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Price realised after processing (Rs/ q) - Crop3"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_PriceAfterProcessCrop3",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_PriceBeforeProcessCrop3",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Price would have got, without processing, at the time of your sale (Rs/q) - Crop3"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_PriceBeforeProcessCrop3",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1005_Crop4",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "KNCListPickerQ1005_Crop4",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Crop4",
+                                        "Title":"Crop4"
+                                    }
+                                },
+                                {
+                                    "id": "Q1005_Crop4",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_QtySoldCrop4",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Quantity sold (in quintals) - Crop4"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_QtySoldCrop4",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_ProcessingCostCrop4",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Total cost of all processing (per quintal) - Crop4"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_ProcessingCostCrop4",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_PriceAfterProcessCrop4",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Price realised after processing (Rs/ q) - Crop4"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_PriceAfterProcessCrop4",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_PriceBeforeProcessCrop4",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Price would have got, without processing, at the time of your sale (Rs/q) - Crop4"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_PriceBeforeProcessCrop4",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1005_Crop5",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "KNCListPickerQ1005_Crop5",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Crop5",
+                                        "Title":"Crop5"
+                                    }
+                                },
+                                {
+                                    "id": "Q1005_Crop5",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_QtySoldCrop5",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Quantity sold (in quintals) - Crop5"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_QtySoldCrop5",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_ProcessingCostCrop5",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Total cost of all processing (per quintal) - Crop5"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_ProcessingCostCrop5",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_PriceAfterProcessCrop5",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Price realised after processing (Rs/ q) - Crop5"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_PriceAfterProcessCrop5",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_PriceBeforeProcessCrop5",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Price would have got, without processing, at the time of your sale (Rs/q) - Crop5"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_PriceBeforeProcessCrop5",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1005_Crop6",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "KNCListPickerQ1005_Crop6",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "01=Paddy, 02=Maize, 03=Groundnut, 04=Cotton, 05=Tomato, 06=Chillies, 07=Black gram, 08=Green gram, 09=Bengal gram, 10=Cashew, 11=Mango, 12=Palm oil, 13=Banana, 14=Citrus, 15=Jowar, 16=Bajra, 17=Ragi, 18=Other cereals, 19=Red gram, 20=Other pulses, 21=Sunflower, 22=Coconuts, 23=Sesamum, 24=Other oil seeds, 25=Sugarcane, 26=Onion, 27=Other vegetables, 28=Other Fruits,29=Turmeric, 30=Poly crops, 31=Others, 99=4+crops",
+                                        "Text": "Crop6",
+                                        "Title":"Crop6"
+                                    }
+                                },
+                                {
+                                    "id": "Q1005_Crop6",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_QtySoldCrop6",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Quantity sold (in quintals) - Crop6"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_QtySoldCrop6",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_ProcessingCostCrop6",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Total cost of all processing (per quintal) - Crop6"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_ProcessingCostCrop6",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_PriceAfterProcessCrop6",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Price realised after processing (Rs/ q) - Crop6"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_PriceAfterProcessCrop6",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ1005_PriceBeforeProcessCrop6",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Price would have got, without processing, at the time of your sale (Rs/q) - Crop6"
+                                    }
+                                },
+                                {
+                                    "id":"Q1005_PriceBeforeProcessCrop6",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                }
+                                
+                            ]
+                        }
+
+                    ]
+                }
+            ]
+        }
+    ]
+}
