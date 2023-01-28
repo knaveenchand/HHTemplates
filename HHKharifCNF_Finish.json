@@ -42,7 +42,8 @@
                     "id": "VAforBtn_Finish",
                     "type":"VerticalArrangement",
                     "properties":{
-                        "Width":-2
+                        "Width":-2,
+                        "AlignVertical": 2
                     },
                     "components":[
                         {
@@ -59,6 +60,15 @@
                             "properties":{
                                 "Width":-2,
                                 "Text": "Save Offline"
+                            }
+                        },
+                        {
+                            "id":"BtnFinish_Delete",
+                            "type":"Button",
+                            "properties":{
+                                "Width":-2,
+                                "Visible": false,
+                                "Text": "Delete Entry"
                             }
                         }
 
