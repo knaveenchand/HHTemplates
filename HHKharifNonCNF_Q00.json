@@ -1,5 +1,5 @@
 {
-    "name": "HHKharifCNF_Q00",
+    "name": "HHKharifNonCNF_Q00",
     "metadata-version": 1,
     "extension_version": 5,
     "author": "Naveen",
@@ -466,7 +466,7 @@
                                     "type": "Label",
                                     "properties": {
                                         "Width": -2,
-                                        "Text": "Q9 Is there any female member having knowledge on natural farming?"
+                                        "Text": "Q09 Social Category"
                                     }
                                 },
                                 {
@@ -478,7 +478,7 @@
                                     },
                                     "components": [
                                         {
-                                            "id": "Q0009_HasWomanWithNFKnowHow",
+                                            "id": "Q0009_SocialCategory",
                                             "type": "TextBox",
                                             "properties": {
                                                 "BackgroundColor": 4293848814,
@@ -487,12 +487,12 @@
                                             }
                                         },
                                         {
-                                            "id": "KNCListPickerQ0009_HasWomanWithNFKnowHow",
+                                            "id": "KNCListPickerQ0009_SocialCategory",
                                             "type": "ListPicker",
                                             "properties": {
-                                                "ElementsFromString": "Yes, No",
+                                                "ElementsFromString": "1=SC, 2=ST, 3=BC, 4=OC",
                                                 "Text": "Select",
-                                                "Title": "Woman with NF Knowhow",
+                                                "Title": "Social Category",
                                                 "WidthPercent": 30
                                             }
                                         }
@@ -512,14 +512,16 @@
                                     "type": "Label",
                                     "properties": {
                                         "Width": -2,
-                                        "Text": "Q10 If yes, name of the woman farmer (Request her to join the interview)"
+                                        "Text": "Q10 Serial number of the cultivator as per the listing schedule (Auto-populated)"
                                     }
                                 },
                                 {
-                                    "id": "Q0010_WomanFarmerName",
+                                    "id": "Q0010_SerialNumberOfCultivator",
                                     "type": "TextBox",
                                     "properties": {
-                                        "Width": -2
+                                        "Width": -2,
+                                        "ReadOnly": true,
+                                        "BackgroundColor":-3355444
                                     }
                                 }
                             ]
@@ -532,79 +534,7 @@
                             },
                             "components": [
                                 {
-                                    "id": "Label0011",
-                                    "type": "Label",
-                                    "properties": {
-                                        "Width": -2,
-                                        "Text": "Q11 Social Category"
-                                    }
-                                },
-                                {
                                     "id": "HA_0011",
-                                    "type": "HorizontalArrangement",
-                                    "properties": {
-                                        "AlignVertical": 2,
-                                        "Width": -2
-                                    },
-                                    "components": [
-                                        {
-                                            "id": "Q0011_SocialCategory",
-                                            "type": "TextBox",
-                                            "properties": {
-                                                "BackgroundColor": 4293848814,
-                                                "ReadOnly": true,
-                                                "WidthPercent": 50
-                                            }
-                                        },
-                                        {
-                                            "id": "KNCListPickerQ0011_SocialCategory",
-                                            "type": "ListPicker",
-                                            "properties": {
-                                                "ElementsFromString": "1=SC, 2=ST, 3=BC, 4=OC",
-                                                "Text": "Select",
-                                                "Title": "Social Category",
-                                                "WidthPercent": 30
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "Card_View0012",
-                            "type": "MakeroidCardView",
-                            "properties": {
-                                "Width": -2
-                            },
-                            "components": [
-                                {
-                                    "id": "Label0012",
-                                    "type": "Label",
-                                    "properties": {
-                                        "Width": -2,
-                                        "Text": "Q12 Serial number of the cultivator as per the listing schedule (Auto-populated)"
-                                    }
-                                },
-                                {
-                                    "id": "Q0012_SerialNumberOfCultivator",
-                                    "type": "TextBox",
-                                    "properties": {
-                                        "Width": -2,
-                                        "ReadOnly": true,
-                                        "BackgroundColor":-3355444
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "id": "Card_View0013",
-                            "type": "MakeroidCardView",
-                            "properties": {
-                                "Width": -2
-                            },
-                            "components": [
-                                {
-                                    "id": "HA_0013",
                                     "type": "HorizontalArrangement",
                                     "properties": {
                                         "AlignHorizontal": 3,
@@ -612,22 +542,22 @@
                                     },
                                     "components": [
                                         {
-                                            "id": "Card_View001301",
+                                            "id": "Card_View001101",
                                             "type": "MakeroidCardView",
                                             "properties": {
                                                 "Width": -1050
                                             },
                                             "components": [
                                                 {
-                                                    "id": "Label001301",
+                                                    "id": "Label001101",
                                                     "type": "Label",
                                                     "properties": {
                                                         "Width": -2,
-                                                        "Text": "Q13.1 Investigators Name"
+                                                        "Text": "Q11.1 Investigators Name"
                                                     }
                                                 },
                                                 {
-                                                    "id": "Q001301_InvestigatorName",
+                                                    "id": "Q001101_InvestigatorName",
                                                     "type": "TextBox",
                                                     "properties": {
                                                         "BackgroundColor": 4293848814,
@@ -638,22 +568,22 @@
                                             ]
                                         },
                                         {
-                                            "id": "Card_View001302",
+                                            "id": "Card_View001102",
                                             "type": "MakeroidCardView",
                                             "properties": {
                                                 "Width": -1030
                                             },
                                             "components": [
                                                 {
-                                                    "id": "Label001302",
+                                                    "id": "Label001102",
                                                     "type": "Label",
                                                     "properties": {
                                                         "Width": -2,
-                                                        "Text": "Q13.2 Code"
+                                                        "Text": "Q11.2 Code"
                                                     }
                                                 },
                                                 {
-                                                    "id": "Q001302_InvestigatorCode",
+                                                    "id": "Q001102_InvestigatorCode",
                                                     "type": "TextBox",
                                                     "properties": {
                                                         "BackgroundColor": 4293848814,
@@ -668,7 +598,7 @@
                             ]
                         },
                         {
-                            "id": "Card_View0014",
+                            "id": "Card_View0012",
                             "type": "MakeroidCardView",
                             "properties": {
                                 "Width": -2
@@ -684,7 +614,7 @@
                                     }
                                 },
                                 {
-                                    "id": "HA_0014",
+                                    "id": "HA_0012",
                                     "type": "HorizontalArrangement",
                                     "properties": {
                                         "AlignHorizontal": 3,
@@ -692,22 +622,22 @@
                                     },
                                     "components": [
                                         {
-                                            "id": "Card_View001401",
+                                            "id": "Card_View001201",
                                             "type": "MakeroidCardView",
                                             "properties": {
                                                 "Width": -1050
                                             },
                                             "components": [
                                                 {
-                                                    "id": "Label001401",
+                                                    "id": "Label001201",
                                                     "type": "Label",
                                                     "properties": {
                                                         "Width": -2,
-                                                        "Text": "Q14.1 Supervisor Name"
+                                                        "Text": "Q12.1 Supervisor Name"
                                                     }
                                                 },
                                                 {
-                                                    "id": "Q001401_SupervisorName",
+                                                    "id": "Q001201_SupervisorName",
                                                     "type": "TextBox",
                                                     "properties": {
                                                         "BackgroundColor": 4293848814,
@@ -718,22 +648,22 @@
                                             ]
                                         },
                                         {
-                                            "id": "Card_View001402",
+                                            "id": "Card_View001202",
                                             "type": "MakeroidCardView",
                                             "properties": {
                                                 "Width": -1030
                                             },
                                             "components": [
                                                 {
-                                                    "id": "Label001402",
+                                                    "id": "Label001202",
                                                     "type": "Label",
                                                     "properties": {
                                                         "Width": -2,
-                                                        "Text": "Q14.2 Code"
+                                                        "Text": "Q12.2 Code"
                                                     }
                                                 },
                                                 {
-                                                    "id": "Q001402_SupervisorCode",
+                                                    "id": "Q001202_SupervisorCode",
                                                     "type": "TextBox",
                                                     "properties": {
                                                         "BackgroundColor": 4293848814,
@@ -742,6 +672,94 @@
                                                     }
                                                 }
                                             ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View0013",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label0013",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q13 Date of 1st Visit"
+                                    }
+                                },
+                                {
+                                    "id": "HA_0013",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0013_DateOfInterview",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCDatePickerQ0013_DateOfInterview",
+                                            "type": "DatePicker",
+                                            "properties": {
+                                                "Text": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View0014",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label0014",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q14 Date of 2nd Visit"
+                                    }
+                                },
+                                {
+                                    "id": "HA_0014",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0014_DateOfInterview",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCDatePickerQ0014_DateOfInterview",
+                                            "type": "DatePicker",
+                                            "properties": {
+                                                "Text": "Select",
+                                                "WidthPercent": 30
+                                            }
                                         }
                                     ]
                                 }
@@ -759,7 +777,7 @@
                                     "type": "Label",
                                     "properties": {
                                         "Width": -2,
-                                        "Text": "Q15 Date of 1st Visit"
+                                        "Text": "Q15 Date of checking of Supervisor"
                                     }
                                 },
                                 {
@@ -771,7 +789,7 @@
                                     },
                                     "components": [
                                         {
-                                            "id": "Q0015_DateOfInterview",
+                                            "id": "Q0015_DateOfCheckingOfSupervisor",
                                             "type": "TextBox",
                                             "properties": {
                                                 "BackgroundColor": 4293848814,
@@ -780,7 +798,7 @@
                                             }
                                         },
                                         {
-                                            "id": "KNCDatePickerQ0015_DateOfInterview",
+                                            "id": "KNCDatePickerQ0015_DateOfCheckingOfSupervisor",
                                             "type": "DatePicker",
                                             "properties": {
                                                 "Text": "Select",
@@ -803,7 +821,7 @@
                                     "type": "Label",
                                     "properties": {
                                         "Width": -2,
-                                        "Text": "Q16 Date of 2nd Visit"
+                                        "Text": "Q16 Date of checking of R Supervisor"
                                     }
                                 },
                                 {
@@ -815,7 +833,7 @@
                                     },
                                     "components": [
                                         {
-                                            "id": "Q0016_DateOfInterview",
+                                            "id": "Q0016_DateOfReCheckingOfRSupervisor",
                                             "type": "TextBox",
                                             "properties": {
                                                 "BackgroundColor": 4293848814,
@@ -824,95 +842,7 @@
                                             }
                                         },
                                         {
-                                            "id": "KNCDatePickerQ0016_DateOfInterview",
-                                            "type": "DatePicker",
-                                            "properties": {
-                                                "Text": "Select",
-                                                "WidthPercent": 30
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "Card_View0017",
-                            "type": "MakeroidCardView",
-                            "properties": {
-                                "Width": -2
-                            },
-                            "components": [
-                                {
-                                    "id": "Label0017",
-                                    "type": "Label",
-                                    "properties": {
-                                        "Width": -2,
-                                        "Text": "Q17 Date of checking of Supervisor"
-                                    }
-                                },
-                                {
-                                    "id": "HA_0017",
-                                    "type": "HorizontalArrangement",
-                                    "properties": {
-                                        "AlignVertical": 2,
-                                        "Width": -2
-                                    },
-                                    "components": [
-                                        {
-                                            "id": "Q0017_DateOfCheckingOfSupervisor",
-                                            "type": "TextBox",
-                                            "properties": {
-                                                "BackgroundColor": 4293848814,
-                                                "ReadOnly": true,
-                                                "WidthPercent": 50
-                                            }
-                                        },
-                                        {
-                                            "id": "KNCDatePickerQ0017_DateOfCheckingOfSupervisor",
-                                            "type": "DatePicker",
-                                            "properties": {
-                                                "Text": "Select",
-                                                "WidthPercent": 30
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "Card_View0018",
-                            "type": "MakeroidCardView",
-                            "properties": {
-                                "Width": -2
-                            },
-                            "components": [
-                                {
-                                    "id": "Label0018",
-                                    "type": "Label",
-                                    "properties": {
-                                        "Width": -2,
-                                        "Text": "Q18 Date of checking of R Supervisor"
-                                    }
-                                },
-                                {
-                                    "id": "HA_0018",
-                                    "type": "HorizontalArrangement",
-                                    "properties": {
-                                        "AlignVertical": 2,
-                                        "Width": -2
-                                    },
-                                    "components": [
-                                        {
-                                            "id": "Q0018_DateOfReCheckingOfRSupervisor",
-                                            "type": "TextBox",
-                                            "properties": {
-                                                "BackgroundColor": 4293848814,
-                                                "ReadOnly": true,
-                                                "WidthPercent": 50
-                                            }
-                                        },
-                                        {
-                                            "id": "KNCDatePickerQ0018_DateOfReCheckingOfRSupervisor",
+                                            "id": "KNCDatePickerQ0016_DateOfReCheckingOfRSupervisor",
                                             "type": "DatePicker",
                                             "properties": {
                                                 "Text": "Select",

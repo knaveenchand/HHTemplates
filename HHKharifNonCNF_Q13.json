@@ -1,0 +1,148 @@
+{
+    "name": "HHKharifNonCNF_Q13",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q13",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q13",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q13",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q13.  Researcher Observations",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAScroll_Q13",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id":"LabelQ1301",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Researcher Observation 1"
+                            }
+                        }, 
+                        {
+                            "id":"Q1301_ResearcherObservation1",
+                            "type":"TextBox",
+                            "properties":{
+                                "Width":-2,
+                                "Multiline": true
+                            }
+                        },
+                        {
+                            "id":"LabelQ1302",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Researcher Observation 2"
+                            }
+                        }, 
+                        {
+                            "id":"Q1302_ResearcherObservation2",
+                            "type":"TextBox",
+                            "properties":{
+                                "Width":-2,
+                                "Multiline": true
+                            }
+                        },
+                        {
+                            "id":"LabelQ1303",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Researcher Observation 3"
+                            }
+                        }, 
+                        {
+                            "id":"Q1303_ResearcherObservation3",
+                            "type":"TextBox",
+                            "properties":{
+                                "Width":-2,
+                                "Multiline": true
+                            }
+                        },
+                        {
+                            "id":"LabelQ1304",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Researcher Observation 4"
+                            }
+                        }, 
+                        {
+                            "id":"Q1304_ResearcherObservation4",
+                            "type":"TextBox",
+                            "properties":{
+                                "Width":-2,
+                                "Multiline": true
+                            }
+                        },
+                        {
+                            "id":"LabelQ1305",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Researcher Observation 5"
+                            }
+                        }, 
+                        {
+                            "id":"Q1305_ResearcherObservation5",
+                            "type":"TextBox",
+                            "properties":{
+                                "Width":-2,
+                                "Multiline": true
+                            }
+                        },
+                        {
+                            "id":"LabelQ1306",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Researcher Observation 6"
+                            }
+                        }, 
+                        {
+                            "id":"Q1306_ResearcherObservation6",
+                            "type":"TextBox",
+                            "properties":{
+                                "Width":-2,
+                                "Multiline": true
+                            }
+                        }
+
+                    ]
+                }
+            ]
+        }
+    ]
+}

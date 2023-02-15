@@ -1,5 +1,5 @@
 {
-    "name": "HHKharifCNF_Q0306AddNew",
+    "name": "HHKharifNonCNF_Q0301AddNew",
     "metadata-version": 1,
     "extension_version": 5,
     "author": "Naveen",
@@ -10,7 +10,7 @@
     "keys": [],
     "components": [
         {
-            "id": "PageVA_Q0306AddNew",
+            "id": "PageVA_Q0301AddNew",
             "type": "VerticalArrangement",
             "properties": {
                 "Width": -2,
@@ -18,18 +18,18 @@
             },
             "components": [
                 {
-                    "id":"PageTitleCard_Q0306AddNew",
+                    "id":"PageTitleCard_Q0301AddNew",
                     "type":"MakeroidCardView",
                     "properties":{
                         "Width":-2
                     },
                     "components": [
                         {
-                            "id":"PageTitleLabel_Q0306AddNew",
+                            "id":"PageTitleLabel_Q0301AddNew",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Q0306. Yields obtained from mixed crops plots",
+                                "Text":"Q0301. Crop wise seed, seedlings and baby plants used during Kharif 2022-23",
                                 "TextAlignment": 1,
                                 "FontBold": true,
                                 "FontSize": 16
@@ -39,7 +39,7 @@
                     ]
                 },
                 {
-                    "id":"VAScroll_Q0306AddNew",
+                    "id":"VAScroll_Q0301AddNew",
                     "type":"VerticalScrollArrangement",
                     "properties":{
                         "WidthPercent": 75,
@@ -47,7 +47,7 @@
                     },
                     "components":[
                         {
-                            "id": "LabelKeys_Q0306AddNew00",
+                            "id": "LabelKeys_Q0301AddNew00",
                             "type": "Label",
                             "properties":{
                                 "Width": -2,
@@ -55,7 +55,7 @@
                             }
                         },
                         {
-                            "id": "Q0306AddNew00_ID",
+                            "id": "Q0301AddNew00_ID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -64,7 +64,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0306AddNew00_ParcelPlotCombo",
+                            "id":"Label_Q0301AddNew00_ParcelPlotCombo",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -72,16 +72,16 @@
                             }
                         },
                         {
-                            "id":"ListPickerPPFrom0203_Q0306AddNew",
+                            "id":"ListPickerPPFrom0203_Q0301AddNew",
                             "type":"ListPicker",
                             "properties":{
-                                "Text":"Select Parcel-Plot Combination from Mixed Crop Plots",
+                                "Text":"Select Parcel-Plot Combination",
                                 "Title": "Select Parcel-Plot Combination",
                                 "Width":-2
                             }
                         },
                         {
-                            "id": "Q0306AddNew00_ParcelPlotCombo",
+                            "id": "Q0301AddNew00_ParcelPlotCombo",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -90,7 +90,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0306AddNew00_ParcelID",
+                            "id":"Label_Q0301AddNew00_ParcelID",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -98,7 +98,7 @@
                             }
                         },
                         {
-                            "id": "Q0306AddNew00_ParcelID",
+                            "id": "Q0301AddNew00_ParcelID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -107,7 +107,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0306AddNew01_SNoParcel",
+                            "id":"Label_Q0301AddNew01_SNoParcel",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -115,7 +115,7 @@
                             }
                         },
                         {
-                            "id": "Q0306AddNew01_SNoParcel",
+                            "id": "Q0301AddNew01_SNoParcel",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -124,7 +124,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0306AddNew00_PlotID",
+                            "id":"Label_Q0301AddNew00_PlotID",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -132,7 +132,7 @@
                             }
                         },
                         {
-                            "id": "Q0306AddNew00_PlotID",
+                            "id": "Q0301AddNew00_PlotID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -141,7 +141,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0306AddNew02_PlotNumber",
+                            "id":"Label_Q0301AddNew02_PlotNumber",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -149,7 +149,7 @@
                             }
                         },
                         {
-                            "id": "Q0306AddNew02_PlotNumber",
+                            "id": "Q0301AddNew02_PlotNumber",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -158,7 +158,23 @@
                             }
                         },
                         {
-                            "id":"Label_Q0306AddNew06",
+                            "id":"Label_Q0301AddNew03",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Area Sown in Kharif (Acres.Cents)"
+                            }
+                        },
+                        {
+                            "id": "Q0301AddNew03_AreaInKharif",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"Label_Q0301AddNew06",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -166,7 +182,7 @@
                             }
                         },
                         {
-                            "id": "Q0306AddNew06_TypeOfFarming",
+                            "id": "Q0301AddNew06_TypeOfFarming",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -174,32 +190,15 @@
                             }
                         },
                         {
-                            "id":"CardQ0306AddNew_Crops",
-                            "type":"MakeroidCardView",
-                            "properties":{
-                                "Width":-2
-                            },
-                            "components":[
-                                {
-                                    "id":"LabelQ0306AddNew_Crops",
-                                    "type":"Label",
-                                    "properties":{
-                                        "Width":-2,
-                                        "Text":"Crops"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "id":"Label_Q0306AddNew10_MixedCrop",
+                            "id":"Label_Q0301AddNew10",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Crop 1"
+                                "Text":"Single Crop Name"
                             }
                         },
                         {
-                            "id": "Q0306AddNew10_MixedCrop",
+                            "id": "Q0301AddNew10_SingleCrop",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -207,15 +206,40 @@
                             }
                         },
                         {
-                            "id":"Label_Q0306AddNew11_MixedCrop",
+                            "id":"Label_Q0301AddNew06OwnSeed",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Crop 2"
+                                "Text":"Own Seed Kgs"
                             }
                         },
                         {
-                            "id": "Q0306AddNew11_MixedCrop",
+                            "id": "Q0301AddNew06_SeedsOwnKg",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"Label_Q0301AddNew07",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"In case of Seeds Purchased, Source"
+                            }
+                        },
+                        {
+                            "id": "KNCListPickerQ0301AddNew07_SeedsPurchaseSource",
+                            "type": "ListPicker",
+                            "properties": {
+                                "ElementsFromString": "1=NPM (Input shop), 2=Purchased from fellow farmers, 3=Local Seedbank, 4=Supplied by the Government or Rythu Bharosa Kendram, 5=Facilitated by RySS, 6=Purchased from market, 7=Others",
+                                "Text": "Select",
+                                "Title": "Select"
+                            }
+                        },
+                        {
+                            "id": "Q0301AddNew07_SeedsPurchaseSource",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -223,64 +247,30 @@
                             }
                         },
                         {
-                            "id":"Label_Q0306AddNew12_MixedCrop",
+                            "id":"Label_Q0301AddNew07Others",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Crop 3"
+                                "Text":"If Others above, specify:"
                             }
                         },
                         {
-                            "id": "Q0306AddNew12_MixedCrop",
+                            "id": "Q0301AddNew07_SeedsPurchaseSourceOthers",
                             "type": "TextBox",
                             "properties": {
-                                "Width": -2,
-                                "ReadOnly":true
+                                "Width": -2
                             }
                         },
                         {
-                            "id":"Label_Q0306AddNew13_MixedCrop",
+                            "id":"Label_Q0301AddNew08",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Crop 4"
+                                "Text":"Purchased Seed Kgs"
                             }
                         },
                         {
-                            "id": "Q0306AddNew13_MixedCrop",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "ReadOnly":true
-                            }
-                        },
-                        {
-                            "id":"CardQ0306AddNew_Area",
-                            "type":"MakeroidCardView",
-                            "properties":{
-                                "Width":-2
-                            },
-                            "components":[
-                                {
-                                    "id":"LabelQ0306AddNew_Area",
-                                    "type":"Label",
-                                    "properties":{
-                                        "Width":-2,
-                                        "Text":"Area under each crop"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "id":"Label_Q0306AddNew6_MixedCropArea",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Area under Crop 1"
-                            }
-                        },
-                        {
-                            "id": "Q0306AddNew6_MixedCropArea",
+                            "id": "Q0301AddNew08_SeedsPurchaseKg",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -288,138 +278,25 @@
                             }
                         },
                         {
-                            "id":"Label_Q0306AddNew7_MixedCropArea",
+                            "id":"Label_Q0301AddNew09",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Area under Crop 2"
+                                "Text":"Total cost of seeds in Rs"
                             }
                         },
                         {
-                            "id": "Q0306AddNew7_MixedCropArea",
+                            "id": "Q0301AddNew09_SeedsTotalCostRs",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
                                 "InputType": 5
                             }
-                        },
-                        {
-                            "id":"Label_Q0306AddNew8_MixedCropArea",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Area under Crop 3"
-                            }
-                        },
-                        {
-                            "id": "Q0306AddNew8_MixedCropArea",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "InputType": 5
-                            }
-                        },
-                        {
-                            "id":"Label_Q0306AddNew9_MixedCropArea",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Area under Crop 4"
-                            }
-                        },
-                        {
-                            "id": "Q0306AddNew9_MixedCropArea",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "InputType": 5
-                            }
-                        },
-                        {
-                            "id":"CardQ0306AddNew_Output",
-                            "type":"MakeroidCardView",
-                            "properties":{
-                                "Width":-2
-                            },
-                            "components":[
-                                {
-                                    "id":"LabelQ0306AddNew_Output",
-                                    "type":"Label",
-                                    "properties":{
-                                        "Width":-2,
-                                        "Text":"Output in Quintals from each crop"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "id":"Label_Q0306AddNew10_MixedCropOutput",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Output for Crop 1"
-                            }
-                        },
-                        {
-                            "id": "Q0306AddNew10_MixedCropOutput",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "InputType": 5
-                            }
-                        },
-                        {
-                            "id":"Label_Q0306AddNew11_MixedCropOutput",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Output for Crop 2"
-                            }
-                        },
-                        {
-                            "id": "Q0306AddNew11_MixedCropOutput",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "InputType": 5
-                            }
-                        },
-                        {
-                            "id":"Label_Q0306AddNew12_MixedCropOutput",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Output for Crop 3"
-                            }
-                        },
-                        {
-                            "id": "Q0306AddNew12_MixedCropOutput",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "InputType": 5
-                            }
-                        },
-                        {
-                            "id":"Label_Q0306AddNew13_MixedCropOutput",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Output for Crop 4"
-                            }
-                        },
-                        {
-                            "id": "Q0306AddNew13_MixedCropOutput",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "InputType": 5
-                            }
-                        }          
+                        }
                     ]
                 },
                 {
-                    "id": "HAforBtns_Q0306AddNew",
+                    "id": "HAforBtns_Q0301AddNew",
                     "type":"HorizontalArrangement",
                     "properties":{
                         "Width":-2,
@@ -427,29 +304,30 @@
                     },
                     "components":[
                         {
-                            "id":"PopUpBtnCancel_Q0306AddNew",
+                            "id":"PopUpBtnCancel_Q0301AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Cancel"
                             }
                         },
                         {
-                            "id":"PopUpBtnDelete_Q0306AddNew",
+                            "id":"PopUpBtnDelete_Q0301AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Delete"
                             }
                         },
                         {
-                            "id":"PopUpBtnSave_Q0306AddNew",
+                            "id":"PopUpBtnSave_Q0301AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Save"
                             }
                         }
                     ]
-                }
+                }        
             ]
         }
+
     ]
 }

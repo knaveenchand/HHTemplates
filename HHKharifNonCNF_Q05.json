@@ -1,0 +1,1173 @@
+{
+    "name": "HHKharifNonCNF_Q05",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q05",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q05",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q05",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q05. Debt position of household as on Date of Survey (Each of outstanding/ active loan should be recorded in a separate row) (START WITH OLDEST LOAN TO LATEST LOAN)",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAScroll_Q05",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id": "Card_ViewQ0501_Loan01",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0501_Loan01",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan01",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501_MonthYearLoan01",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Month & year of borrowing MM/YYYY"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_MonthYearLoan01",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },        
+                                {
+                                    "id": "KNCListPickerQ0501Source_Loan01",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Commercial bank, 2=Co-operative society or Bank, 3=Microfinance institutions, 4=SHGs, 5=NGOs, specify below, 6= Relatives and friends, 7=Money lender, 8=Landlord or employer, 9=Local traders, 10=Other",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501Source_Loan01",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501SourceOthersLoan01",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan01: If Other Source, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_SourceOthersLoan01",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501SourceNGOLoan01",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan01: If NGO Source, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_NGOLoan01",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501_AmountLoan01",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Amount of loan received Rs."
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_AmountLoan01",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType": 5
+                                    }
+                                },   
+                                {
+                                    "id": "LabelQ0501PurposeLoan01",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Purpose"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0501_PurposeLoan01",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Consumption, 2=Agriculture, 3=Assets or land purchase, 4=Livestock purchase, 5=Business, 6=Education, 7=Health, 8=Festivals celebration, 9=Life cycle events, 10=others specify",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_PurposeLoan01",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501PurposeOthersLoan01",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan01: If Other Purpose, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_PurposeOthersLoan01",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501InteretLoan01",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan01: Rate of interest per annum in %"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_InterestLoan01",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501RepaidLoan01",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan01: Amount repaid if any as on date in Rs"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_RepaidLoan01",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501OutstandngLoan01",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan01: Outstanding Amount to be repaid as on date in Rs."
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_OutstandingLoan01",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0501_Loan02",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0501_Loan02",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan02",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501_MonthYearLoan02",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Month & year of borrowing MM/YYYY"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_MonthYearLoan02",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },        
+                                {
+                                    "id": "KNCListPickerQ0501Source_Loan02",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Commercial bank, 2=Co-operative society or Bank, 3=Microfinance institutions, 4=SHGs, 5=NGOs, specify below, 6= Relatives and friends, 7=Money lender, 8=Landlord or employer, 9=Local traders, 10=Other",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501Source_Loan02",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501SourceOthersLoan02",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan02: If Other Source, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_SourceOthersLoan02",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501SourceNGOLoan02",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan02: If NGO Source, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_NGOLoan02",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501_AmountLoan02",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Amount of loan received Rs."
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_AmountLoan02",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType": 5
+                                    }
+                                },   
+                                {
+                                    "id": "LabelQ0501PurposeLoan02",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Purpose"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0501_PurposeLoan02",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Consumption, 2=Agriculture, 3=Assets or land purchase, 4=Livestock purchase, 5=Business, 6=Education, 7=Health, 8=Festivals celebration, 9=Life cycle events, 10=others specify",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_PurposeLoan02",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501PurposeOthersLoan02",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan02: If Other Purpose, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_PurposeOthersLoan02",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501InteretLoan02",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan02: Rate of interest per annum in %"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_InterestLoan02",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501RepaidLoan02",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan02: Amount repaid if any as on date in Rs"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_RepaidLoan02",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501OutstandngLoan02",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan02: Outstanding Amount to be repaid as on date in Rs."
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_OutstandingLoan02",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0501_Loan03",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0501_Loan03",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan03",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501_MonthYearLoan03",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Month & year of borrowing MM/YYYY"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_MonthYearLoan03",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },        
+                                {
+                                    "id": "KNCListPickerQ0501Source_Loan03",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Commercial bank, 2=Co-operative society or Bank, 3=Microfinance institutions, 4=SHGs, 5=NGOs, specify below, 6= Relatives and friends, 7=Money lender, 8=Landlord or employer, 9=Local traders, 10=Other",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501Source_Loan03",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501SourceOthersLoan03",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan03: If Other Source, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_SourceOthersLoan03",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501SourceNGOLoan03",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan03: If NGO Source, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_NGOLoan03",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501_AmountLoan03",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Amount of loan received Rs."
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_AmountLoan03",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType": 5
+                                    }
+                                },   
+                                {
+                                    "id": "LabelQ0501PurposeLoan03",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Purpose"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0501_PurposeLoan03",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Consumption, 2=Agriculture, 3=Assets or land purchase, 4=Livestock purchase, 5=Business, 6=Education, 7=Health, 8=Festivals celebration, 9=Life cycle events, 10=others specify",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_PurposeLoan03",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501PurposeOthersLoan03",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan03: If Other Purpose, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_PurposeOthersLoan03",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501InteretLoan03",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan03: Rate of interest per annum in %"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_InterestLoan03",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501RepaidLoan03",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan03: Amount repaid if any as on date in Rs"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_RepaidLoan03",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501OutstandngLoan03",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan03: Outstanding Amount to be repaid as on date in Rs."
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_OutstandingLoan03",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0501_Loan04",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0501_Loan04",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan04",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501_MonthYearLoan04",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Month & year of borrowing MM/YYYY"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_MonthYearLoan04",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },        
+                                {
+                                    "id": "KNCListPickerQ0501Source_Loan04",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Commercial bank, 2=Co-operative society or Bank, 3=Microfinance institutions, 4=SHGs, 5=NGOs, specify below, 6= Relatives and friends, 7=Money lender, 8=Landlord or employer, 9=Local traders, 10=Other",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501Source_Loan04",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501SourceOthersLoan04",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan04: If Other Source, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_SourceOthersLoan04",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501SourceNGOLoan04",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan04: If NGO Source, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_NGOLoan04",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501_AmountLoan04",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Amount of loan received Rs."
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_AmountLoan04",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType": 5
+                                    }
+                                },   
+                                {
+                                    "id": "LabelQ0501PurposeLoan04",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Purpose"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0501_PurposeLoan04",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Consumption, 2=Agriculture, 3=Assets or land purchase, 4=Livestock purchase, 5=Business, 6=Education, 7=Health, 8=Festivals celebration, 9=Life cycle events, 10=others specify",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_PurposeLoan04",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501PurposeOthersLoan04",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan04: If Other Purpose, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_PurposeOthersLoan04",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501InteretLoan04",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan04: Rate of interest per annum in %"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_InterestLoan04",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501RepaidLoan04",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan04: Amount repaid if any as on date in Rs"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_RepaidLoan04",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501OutstandngLoan04",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan04: Outstanding Amount to be repaid as on date in Rs."
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_OutstandingLoan04",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0501_Loan05",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0501_Loan05",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan05",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501_MonthYearLoan05",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Month & year of borrowing MM/YYYY"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_MonthYearLoan05",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },        
+                                {
+                                    "id": "KNCListPickerQ0501Source_Loan05",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Commercial bank, 2=Co-operative society or Bank, 3=Microfinance institutions, 4=SHGs, 5=NGOs, specify below, 6= Relatives and friends, 7=Money lender, 8=Landlord or employer, 9=Local traders, 10=Other",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501Source_Loan05",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501SourceOthersLoan05",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan05: If Other Source, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_SourceOthersLoan05",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501SourceNGOLoan05",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan05: If NGO Source, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_NGOLoan05",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501_AmountLoan05",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Amount of loan received Rs."
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_AmountLoan05",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType": 5
+                                    }
+                                },   
+                                {
+                                    "id": "LabelQ0501PurposeLoan05",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Purpose"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0501_PurposeLoan05",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Consumption, 2=Agriculture, 3=Assets or land purchase, 4=Livestock purchase, 5=Business, 6=Education, 7=Health, 8=Festivals celebration, 9=Life cycle events, 10=others specify",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_PurposeLoan05",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501PurposeOthersLoan05",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan05: If Other Purpose, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_PurposeOthersLoan05",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501InteretLoan05",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan05: Rate of interest per annum in %"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_InterestLoan05",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501RepaidLoan05",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan05: Amount repaid if any as on date in Rs"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_RepaidLoan05",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501OutstandngLoan05",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan05: Outstanding Amount to be repaid as on date in Rs."
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_OutstandingLoan05",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0501_Loan06",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0501_Loan06",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan06",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501_MonthYearLoan06",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Month & year of borrowing MM/YYYY"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_MonthYearLoan06",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },        
+                                {
+                                    "id": "KNCListPickerQ0501Source_Loan06",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Commercial bank, 2=Co-operative society or Bank, 3=Microfinance institutions, 4=SHGs, 5=NGOs, specify below, 6= Relatives and friends, 7=Money lender, 8=Landlord or employer, 9=Local traders, 10=Other",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501Source_Loan06",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501SourceOthersLoan06",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan06: If Other Source, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_SourceOthersLoan06",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501SourceNGOLoan06",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan06: If NGO Source, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_NGOLoan06",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501_AmountLoan06",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Amount of loan received Rs."
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_AmountLoan06",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType": 5
+                                    }
+                                },   
+                                {
+                                    "id": "LabelQ0501PurposeLoan06",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Purpose"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0501_PurposeLoan06",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": true,
+                                        "ElementsFromString": "1=Consumption, 2=Agriculture, 3=Assets or land purchase, 4=Livestock purchase, 5=Business, 6=Education, 7=Health, 8=Festivals celebration, 9=Life cycle events, 10=others specify",
+                                        "Text": "Select",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_PurposeLoan06",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501PurposeOthersLoan06",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan06: If Other Purpose, Specify"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_PurposeOthersLoan06",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501InteretLoan06",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan06: Rate of interest per annum in %"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_InterestLoan06",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501RepaidLoan06",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan06: Amount repaid if any as on date in Rs"
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_RepaidLoan06",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ0501OutstandngLoan06",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Loan06: Outstanding Amount to be repaid as on date in Rs."
+                                    }
+                                },
+                                {
+                                    "id": "Q0501_OutstandingLoan06",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }        
+            ]
+        }
+    ]
+}

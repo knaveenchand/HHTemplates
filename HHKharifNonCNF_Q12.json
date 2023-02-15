@@ -1,0 +1,148 @@
+{
+    "name": "HHKharifNonCNF_Q12",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q12",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q12",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q12",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q12.  Farmer Suggestions for encouraging PMDS and CNF in the state",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAScroll_Q12",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id":"LabelQ1201",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Farmer Suggestion 1"
+                            }
+                        }, 
+                        {
+                            "id":"Q1201_FarmerSuggestion1",
+                            "type":"TextBox",
+                            "properties":{
+                                "Width":-2,
+                                "Multiline": true
+                            }
+                        },
+                        {
+                            "id":"LabelQ1202",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Farmer Suggestion 2"
+                            }
+                        }, 
+                        {
+                            "id":"Q1202_FarmerSuggestion2",
+                            "type":"TextBox",
+                            "properties":{
+                                "Width":-2,
+                                "Multiline": true
+                            }
+                        },
+                        {
+                            "id":"LabelQ1203",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Farmer Suggestion 3"
+                            }
+                        }, 
+                        {
+                            "id":"Q1203_FarmerSuggestion3",
+                            "type":"TextBox",
+                            "properties":{
+                                "Width":-2,
+                                "Multiline": true
+                            }
+                        },
+                        {
+                            "id":"LabelQ1204",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Farmer Suggestion 4"
+                            }
+                        }, 
+                        {
+                            "id":"Q1204_FarmerSuggestion4",
+                            "type":"TextBox",
+                            "properties":{
+                                "Width":-2,
+                                "Multiline": true
+                            }
+                        },
+                        {
+                            "id":"LabelQ1205",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Farmer Suggestion 5"
+                            }
+                        }, 
+                        {
+                            "id":"Q1205_FarmerSuggestion5",
+                            "type":"TextBox",
+                            "properties":{
+                                "Width":-2,
+                                "Multiline": true
+                            }
+                        },
+                        {
+                            "id":"LabelQ1206",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Farmer Suggestion 6"
+                            }
+                        }, 
+                        {
+                            "id":"Q1206_FarmerSuggestion6",
+                            "type":"TextBox",
+                            "properties":{
+                                "Width":-2,
+                                "Multiline": true
+                            }
+                        }
+
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "name": "HHKharifNonCNF_Q0301",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q0301",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q0301",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q0301",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q0301. Crop wise seed, seedlings and baby plants used during Kharif 2022-23",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "VAforBtn_Q0301",
+                    "type":"VerticalArrangement",
+                    "properties":{
+                        "Width":-2,
+                        "AlignHorizontal":2
+                    },
+                    "components":[
+                        {
+                            "id":"BtnAddNew_Q0301",
+                            "type":"Button",
+                            "properties":{
+                                "Text": "+ Add New"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAforHoldingCards_Q0301AddNew",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -13,7 +13,8 @@
             "id": "PageVA_Q0302AddNew",
             "type": "VerticalArrangement",
             "properties": {
-                "Width": -2
+                "Width": -2,
+                "AlignHorizontal":3
             },
             "components": [
                 {
@@ -43,7 +44,7 @@
             "type":"VerticalScrollArrangement",
             "properties":{
                 "WidthPercent": 75,
-                "HeightPercent":70
+                "HeightPercent":60
             },
             "components":[
                 {

@@ -1,5 +1,5 @@
 {
-    "name": "HHKharifCNF_Q0303AddNew",
+    "name": "HHKharifNonCNF_Q0303AddNew",
     "metadata-version": 1,
     "extension_version": 5,
     "author": "Naveen",
@@ -29,7 +29,7 @@
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Q0303. Crop wise Material Input used during Kharif 2022-23",                                
+                                "Text":"Q0303. Crop wise Material Input used during Kharif 2022-23.",                                
                                 "TextAlignment": 1,
                                 "FontBold": true,
                                 "FontSize": 16
@@ -217,7 +217,7 @@
                                     "type":"Label",
                                     "properties":{
                                         "Width":-2,
-                                        "Text":"Biological inputs for plant growth– Quantity and value (If home produced, write approximate market value) [FYM: Farm Yard Manure, BJM: Beejamrutham, GJM: Ghanajeevamrutham, DJM: Dravajeevamrutham]"
+                                        "Text":"Chemical inputs for plant growth Quantity and value "
                                     }
                                 }
                             ]
@@ -270,16 +270,17 @@
                             "InputType": 5
                             }
                         },
+        
                         {
-                            "id": "Label_Q0303AddNew08_BJMOwnQtyLt",
+                            "id": "Label_Q0303AddNew09_UreaPurchasedQtyQtl",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "8_BJMOwnQtyLt"
+                            "Text": "9_UreaPurchasedQtyQtl"
                             }
                         },
                         {
-                            "id": "Q0303AddNew08_BJMOwnQtyLt",
+                            "id": "Q0303AddNew09_UreaPurchasedQtyQtl",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -287,15 +288,32 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew09_BJMPurchasedQtyLt",
+                            "id": "Label_Q0303AddNew10_UreaTotalCostRs",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "9_BJMPurchasedQtyLt"
+                            "Text": "10_UreaTotalCostRs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew09_BJMPurchasedQtyLt",
+                            "id": "Q0303AddNew10_UreaTotalCostRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        
+                        {
+                            "id": "Label_Q0303AddNew12_DAPPurchasedQtyQtl",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "12_DAPPurchasedQtyQtl"
+                            }
+                        },
+                        {
+                            "id": "Q0303AddNew12_DAPPurchasedQtyQtl",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -303,15 +321,32 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew10_BJMTotalCostRs",
+                            "id": "Label_Q0303AddNew13_DAPTotalCostRs",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "10_BJMTotalCostRs"
+                            "Text": "13_DAPTotalCostRs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew10_BJMTotalCostRs",
+                            "id": "Q0303AddNew13_DAPTotalCostRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        
+                        {
+                            "id": "Label_Q0303AddNew15_NPKComplexPurchasedQtyQtl",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "15_NPKComplexPurchasedQtyQtl"
+                            }
+                        },
+                        {
+                            "id": "Q0303AddNew15_NPKComplexPurchasedQtyQtl",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -319,15 +354,32 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew11_GJMOwnQtyLt",
+                            "id": "Label_Q0303AddNew16_NPKComplexTotalCostRs",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "11_GJMOwnQtyLt"
+                            "Text": "16_NPKComplexTotalCostRs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew11_GJMOwnQtyLt",
+                            "id": "Q0303AddNew16_NPKComplexTotalCostRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        
+                        {
+                            "id": "Label_Q0303AddNew17_AmmoniumSulfatePurchasedQtyQtl",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "17_AmmoniumSulfateQtyQtl"
+                            }
+                        },
+                        {
+                            "id": "Q0303AddNew17_AmmoniumSulfatePurchasedQtyQtl",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -335,85 +387,21 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew12_GJMPurchasedQtyLt",
+                            "id": "Label_Q0303AddNew18_AmmoniumSulfateTotalCostRs",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "12_GJMPurchasedQtyLt"
+                            "Text": "18_AmmoniumSulfateTotalCostRs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew12_GJMPurchasedQtyLt",
+                            "id": "Q0303AddNew18_AmmoniumSulfateTotalCostRs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
                             "InputType": 5
                             }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew13_GJMTotalCostRs",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "13_GJMTotalCostRs"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew13_GJMTotalCostRs",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew14_DJMOwnQtyLt",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "14_DJMOwnQtyLt"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew14_DJMOwnQtyLt",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew15_DJMPurchasedQtyLt",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "15_DJMPurchasedQtyLt"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew15_DJMPurchasedQtyLt",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew16_DJMTotalCostRs",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "16_DJMTotalCostRs"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew16_DJMTotalCostRs",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
+                        },                
                         {
                             "id":"CardQ0303AddNew_GrowthInputs1",
                             "type":"MakeroidCardView",
@@ -443,9 +431,10 @@
                             "id": "KNCListPickerQ0303AddNew17_GrowthInput1",
                             "type": "ListPicker",
                             "properties": {
-                            "Text": "Select", 
+                            "Text": "Select [code 11]", 
+                            "Title": "Select [code 11]", 
                             "Width": -2, 
-                            "ElementsFromString": "1=Livestock penning (quintals), 2=Crop residue leaf on the field (quintals), 3=Amrutajalam (Ltrs), 4=Azola (Kgs), 5=Neem cake (Kg), 6=Mulching (quintals), 7=Green Manure (quintals), 8=Tank silt (quintals), 9=Castor Cake (kg), 10=Others (specify)"
+                            "ElementsFromString": "30=Ammonium Nitrate, 31=Ammonium Sulfate, 32=Calcium Nitrate, 33=Monoammonium phosphate, 34=Triple Super Phosphate, 35=Potassium Nitrate, 36=Potassium Chloride, 37=Sodium Nitrate, 38=Potassium Sulphate Powder, 39=N P Complexes, 40=Others (specify)"
                             }
                         },
                         {
@@ -470,22 +459,6 @@
                             "type": "TextBox",
                             "properties": {
                             "Width": -2
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew18_GrowthInput1OwnQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "18_GrowthInput1OwnQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew18_GrowthInput1OwnQty",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
                             }
                         },
                         {
@@ -549,9 +522,10 @@
                             "id": "KNCListPickerQ0303AddNew21_GrowthInput2",
                             "type": "ListPicker",
                             "properties": {
-                            "Text": "Select", 
+                            "Text": "Select [code 11]", 
+                            "Title": "Select [code 11]", 
                             "Width": -2, 
-                            "ElementsFromString": "1=Livestock penning (quintals), 2=Crop residue leaf on the field (quintals), 3=Amrutajalam (Ltrs), 4=Azola (Kgs), 5=Neem cake (Kg), 6=Mulching (quintals), 7=Green Manure (quintals), 8=Tank silt (quintals), 9=Castor Cake (kg), 10=Others (specify)"
+                            "ElementsFromString": "30=Ammonium Nitrate, 31=Ammonium Sulfate, 32=Calcium Nitrate, 33=Monoammonium phosphate, 34=Triple Super Phosphate, 35=Potassium Nitrate, 36=Potassium Chloride, 37=Sodium Nitrate, 38=Potassium Sulphate Powder, 39=N P Complexes, 40=Others (specify)"
                             }
                         },
                         {
@@ -578,22 +552,7 @@
                             "Width": -2
                             }
                         },
-                        {
-                            "id": "Label_Q0303AddNew22_GrowthInput2OwnQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "22_GrowthInput2OwnQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew22_GrowthInput2OwnQty",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
+        
                         {
                             "id": "Label_Q0303AddNew23_GrowthInput2PurchaseQty",
                             "type": "Label",
@@ -655,9 +614,10 @@
                             "id": "KNCListPickerQ0303AddNew25_GrowthInput3",
                             "type": "ListPicker",
                             "properties": {
-                            "Text": "Select", 
+                            "Text": "Select [code 11]", 
+                            "Title": "Select [code 11]", 
                             "Width": -2, 
-                            "ElementsFromString": "1=Livestock penning (quintals), 2=Crop residue leaf on the field (quintals), 3=Amrutajalam (Ltrs), 4=Azola (Kgs), 5=Neem cake (Kg), 6=Mulching (quintals), 7=Green Manure (quintals), 8=Tank silt (quintals), 9=Castor Cake (kg), 10=Others (specify)"
+                            "ElementsFromString": "30=Ammonium Nitrate, 31=Ammonium Sulfate, 32=Calcium Nitrate, 33=Monoammonium phosphate, 34=Triple Super Phosphate, 35=Potassium Nitrate, 36=Potassium Chloride, 37=Sodium Nitrate, 38=Potassium Sulphate Powder, 39=N P Complexes, 40=Others (specify)"
                             }
                         },
                         {
@@ -684,22 +644,7 @@
                             "Width": -2
                             }
                         },
-                        {
-                            "id": "Label_Q0303AddNew26_GrowthInput3OwnQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "26_GrowthInput3OwnQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew26_GrowthInput3OwnQty",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
+        
                         {
                             "id": "Label_Q0303AddNew27_GrowthInput3PurchaseQty",
                             "type": "Label",
@@ -733,18 +678,110 @@
                             }
                         },
                         {
-                            "id":"CardQ0303AddNew_ProtectionInputs1",
+                            "id":"CardQ0303AddNew_GrowthInputs4",
                             "type":"MakeroidCardView",
                             "properties":{
                                 "Width":-2
                             },
                             "components":[
                                 {
-                                    "id":"LabelQ0303AddNew_ProtectionInputs1",
+                                    "id":"LabelQ0303AddNew_GrowthInputs4",
                                     "type":"Label",
                                     "properties":{
                                         "Width":-2,
-                                        "Text":"Protection Input 1"
+                                        "Text":"Other Growth Input 4"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Label_Q0303AddNew28_GrowthInput4",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "28_GrowthInput4"
+                            }
+                        },
+                        {
+                            "id": "KNCListPickerQ0303AddNew28_GrowthInput4",
+                            "type": "ListPicker",
+                            "properties": {
+                            "Text": "Select [code 11]", 
+                            "Title": "Select [code 11]", 
+                            "Width": -2, 
+                            "ElementsFromString": "30=Ammonium Nitrate, 31=Ammonium Sulfate, 32=Calcium Nitrate, 33=Monoammonium phosphate, 34=Triple Super Phosphate, 35=Potassium Nitrate, 36=Potassium Chloride, 37=Sodium Nitrate, 38=Potassium Sulphate Powder, 39=N P Complexes, 40=Others (specify)"
+                            }
+                        },
+                        {
+                            "id": "Q0303AddNew28_GrowthInput4",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5,
+                            "ReadOnly": true
+                            }
+                        },
+                        {
+                            "id": "Label_Q0303AddNew28_GrowthInput4Others",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "28_GrowthInput4Others"
+                            }
+                        },
+                        {
+                            "id": "Q0303AddNew28_GrowthInput4Others",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2
+                            }
+                        },
+                        
+                        {
+                            "id": "Label_Q0303AddNew29_GrowthInput4PurchaseQty",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "29_GrowthInput4PurchaseQty"
+                            }
+                        },
+                        {
+                            "id": "Q0303AddNew29_GrowthInput4PurchaseQty",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0303AddNew29_GrowthInput4TotalCostRs",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "29_GrowthInput4TotalCostRs"
+                            }
+                        },
+                        {
+                            "id": "Q0303AddNew29_GrowthInput4TotalCostRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },                
+                        {
+                            "id":"CardQ0303AddNew_GrowthProtectionInputs1",
+                            "type":"MakeroidCardView",
+                            "properties":{
+                                "Width":-2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0303AddNew_GrowthProtectionInputs1",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Growth and Protection Input 1 [code 11]"
                                     }
                                 }
                             ]
@@ -754,16 +791,17 @@
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "29_ProtectionInput1"
+                            "Text": "29 Input Name [code 11]"
                             }
                         },
                         {
                             "id": "KNCListPickerQ0303AddNew29_ProtectionInput1",
                             "type": "ListPicker",
                             "properties": {
-                            "Text": "Select", 
-                            "Width": -2, 
-                            "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
+                                "Text": "Select [code 11]", 
+                                "Title": "Select [code 11]", 
+                                "Width": -2, 
+                                "ElementsFromString": "30=Ammonium Nitrate, 31=Ammonium Sulfate, 32=Calcium Nitrate, 33=Monoammonium phosphate, 34=Triple Super Phosphate, 35=Potassium Nitrate, 36=Potassium Chloride, 37=Sodium Nitrate, 38=Potassium Sulphate Powder, 39=N P Complexes, 40=Others (specify)"
                             }
                         },
                         {
@@ -780,7 +818,7 @@
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "29_ProtectionInput1Others"
+                            "Text": "29 Input name Others"
                             }
                         },
                         {
@@ -795,7 +833,7 @@
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "30_ProtectionInput1OwnQty"
+                            "Text": "30 Own Qty"
                             }
                         },
                         {
@@ -811,7 +849,7 @@
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "31_ProtectionInput1PurchaseQty"
+                            "Text": "31 Purchased Qty"
                             }
                         },
                         {
@@ -827,7 +865,7 @@
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "32_ProtectionInput1TotalCostRs"
+                            "Text": "32 Total Cost Rs"
                             }
                         },
                         {
@@ -850,7 +888,7 @@
                                     "type":"Label",
                                     "properties":{
                                         "Width":-2,
-                                        "Text":"Protection Input 2"
+                                        "Text":"Growth and Protection Input 2"
                                     }
                                 }
                             ]
@@ -860,16 +898,17 @@
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "33_ProtectionInput2"
+                            "Text": "33 Input Name Code 11"
                             }
                         },
                         {
                             "id": "KNCListPickerQ0303AddNew33_ProtectionInput2",
                             "type": "ListPicker",
                             "properties": {
-                            "Text": "Select", 
-                            "Width": -2, 
-                            "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
+                                "Text": "Select [code 11]", 
+                                "Title": "Select [code 11]", 
+                                "Width": -2, 
+                                "ElementsFromString": "30=Ammonium Nitrate, 31=Ammonium Sulfate, 32=Calcium Nitrate, 33=Monoammonium phosphate, 34=Triple Super Phosphate, 35=Potassium Nitrate, 36=Potassium Chloride, 37=Sodium Nitrate, 38=Potassium Sulphate Powder, 39=N P Complexes, 40=Others (specify)"
                             }
                         },
                         {
@@ -886,7 +925,7 @@
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "33_ProtectionInput2Others"
+                            "Text": "33 Input Name others"
                             }
                         },
                         {
@@ -901,7 +940,7 @@
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "34_ProtectionInput2OwnQty"
+                            "Text": "34 Own Qty"
                             }
                         },
                         {
@@ -917,7 +956,7 @@
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "35_ProtectionInput2PurchaseQty"
+                            "Text": "35 Purchased Qty"
                             }
                         },
                         {
@@ -933,7 +972,7 @@
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "36_ProtectionInput2TotalCostRs"
+                            "Text": "36 Total Cost Rs"
                             }
                         },
                         {
@@ -956,7 +995,7 @@
                                     "type":"Label",
                                     "properties":{
                                         "Width":-2,
-                                        "Text":"Protection Input 3"
+                                        "Text":"Growth and Protection Input 3"
                                     }
                                 }
                             ]
@@ -966,16 +1005,17 @@
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "37_ProtectionInput3"
+                            "Text": "37 Input Name [Code 11A]"
                             }
                         },
                         {
                             "id": "KNCListPickerQ0303AddNew37_ProtectionInput3",
                             "type": "ListPicker",
                             "properties": {
-                            "Text": "Select", 
-                            "Width": -2, 
-                            "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
+                                "Text": "Select [Code 11A]", 
+                                "Title": "Select [Code 11A]",
+                                "Width": -2, 
+                                "ElementsFromString": "42=Butachlor (herbicide), 43=Mancozeb (fungicide), 44=Carbendazim (fungicide), 45=Endosulfan (insecticide), 46=Phorate (insecticide), 47=Methyl Parathion (insecticide), 48=Monocrotophos (insecticide), 49=Cypermethrin (insecticide), 50=Chlorpyrifos (insecticide), 51=Malathion (insecticide), 52=Quinalphos (insecticide), 53=Dichlorvos (insecticide), 54=Copper oxychloride, 55=Isoproturon (herbicide), 63=Others (specify)"
                             }
                         },
                         {
@@ -992,7 +1032,7 @@
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "37_ProtectionInput3Others"
+                            "Text": "37 Input Name others"
                             }
                         },
                         {
@@ -1007,7 +1047,7 @@
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "38_ProtectionInput3OwnQty"
+                            "Text": "38 Own Qty"
                             }
                         },
                         {
@@ -1023,7 +1063,7 @@
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "39_ProtectionInput3PurchaseQty"
+                            "Text": "39 Purchased Qty"
                             }
                         },
                         {
@@ -1039,7 +1079,7 @@
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "40_ProtectionInput3TotalCostRs"
+                            "Text": "40 Total Cost Rs"
                             }
                         },
                         {
@@ -1051,41 +1091,42 @@
                             }
                         },
                         {
-                            "id":"CardQ0303AddNew_ProtectionInputs4",
+                            "id":"CardQ0303AddNew_PlantProtectionInputs1",
                             "type":"MakeroidCardView",
                             "properties":{
                                 "Width":-2
                             },
                             "components":[
                                 {
-                                    "id":"LabelQ0303AddNew_ProtectionInputs4",
+                                    "id":"LabelQ0303AddNew_PlantProtectionInputs1",
                                     "type":"Label",
                                     "properties":{
                                         "Width":-2,
-                                        "Text":"Protection Input 4"
+                                        "Text":"Protection Input 1"
                                     }
                                 }
                             ]
                         },
                         {
-                            "id": "Label_Q0303AddNew41_ProtectionInput4",
+                            "id": "Label_Q0303AddNew41_PlantProtectionInput1",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "41_ProtectionInput4"
+                            "Text": "41 Input name [Code 11A]"
                             }
                         },
                         {
-                            "id": "KNCListPickerQ0303AddNew41_ProtectionInput4",
+                            "id": "KNCListPickerQ0303AddNew41_PlantProtectionInput1",
                             "type": "ListPicker",
                             "properties": {
-                            "Text": "Select", 
-                            "Width": -2, 
-                            "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
+                                "Text": "Select [code 11A]", 
+                                "Title": "Select [code 11A]",
+                                "Width": -2, 
+                                "ElementsFromString": "42=Butachlor (herbicide), 43=Mancozeb (fungicide), 44=Carbendazim (fungicide), 45=Endosulfan (insecticide), 46=Phorate (insecticide), 47=Methyl Parathion (insecticide), 48=Monocrotophos (insecticide), 49=Cypermethrin (insecticide), 50=Chlorpyrifos (insecticide), 51=Malathion (insecticide), 52=Quinalphos (insecticide), 53=Dichlorvos (insecticide), 54=Copper oxychloride, 55=Isoproturon (herbicide), 63=Others (specify)"
                             }
                         },
                         {
-                            "id": "Q0303AddNew41_ProtectionInput4",
+                            "id": "Q0303AddNew41_PlantProtectionInput1",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1094,30 +1135,30 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew41_ProtectionInput4Others",
+                            "id": "Label_Q0303AddNew41_PlantProtectionInput1Others",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "41_ProtectionInput4Others"
+                            "Text": "41 Input Name others"
                             }
                         },
                         {
-                            "id": "Q0303AddNew41_ProtectionInput4Others",
+                            "id": "Q0303AddNew41_ProtectionInput1Others",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew42_ProtectionInput4OwnQty",
+                            "id": "Label_Q0303AddNew42_ProtectionInput1PurchaseQty",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "42_ProtectionInput4OwnQty"
+                            "Text": "42 Purchased Qty"
                             }
                         },
                         {
-                            "id": "Q0303AddNew42_ProtectionInput4OwnQty",
+                            "id": "Q0303AddNew42_ProtectionInput1PurchaseQty",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1125,31 +1166,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew43_ProtectionInput4PurchaseQty",
+                            "id": "Label_Q0303AddNew43_ProtectionInput1TotalCostRs",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "43_ProtectionInput4PurchaseQty"
+                            "Text": "43 Total Cost Rs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew43_ProtectionInput4PurchaseQty",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew44_ProtectionInput4TotalCostRs",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "44_ProtectionInput4TotalCostRs"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew44_ProtectionInput4TotalCostRs",
+                            "id": "Q0303AddNew43_ProtectionInput1TotalCostRs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1168,30 +1193,31 @@
                                     "type":"Label",
                                     "properties":{
                                         "Width":-2,
-                                        "Text":"Protection Input 5"
+                                        "Text":"Protection Input 2"
                                     }
                                 }
                             ]
                         },
                         {
-                            "id": "Label_Q0303AddNew45_ProtectionInput5",
+                            "id": "Label_Q0303AddNew44_ProtectionInput5",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "45_ProtectionInput5"
+                            "Text": "44 Input Name [Code 11A]"
                             }
                         },
                         {
-                            "id": "KNCListPickerQ0303AddNew45_ProtectionInput5",
+                            "id": "KNCListPickerQ0303AddNew44_ProtectionInput5",
                             "type": "ListPicker",
                             "properties": {
-                            "Text": "Select", 
+                            "Text": "Select [Code 11A]",
+                            "Title":"Select [Code 11A]", 
                             "Width": -2, 
-                            "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
+                            "ElementsFromString": "42=Butachlor (herbicide), 43=Mancozeb (fungicide), 44=Carbendazim (fungicide), 45=Endosulfan (insecticide), 46=Phorate (insecticide), 47=Methyl Parathion (insecticide), 48=Monocrotophos (insecticide), 49=Cypermethrin (insecticide), 50=Chlorpyrifos (insecticide), 51=Malathion (insecticide), 52=Quinalphos (insecticide), 53=Dichlorvos (insecticide), 54=Copper oxychloride, 55=Isoproturon (herbicide), 63=Others (specify)"
                             }
                         },
                         {
-                            "id": "Q0303AddNew45_ProtectionInput5",
+                            "id": "Q0303AddNew44_ProtectionInput5",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1200,30 +1226,30 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew45_ProtectionInput5Others",
+                            "id": "Label_Q0303AddNew44_ProtectionInput5Others",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "45_ProtectionInput5Others"
+                            "Text": "44 Input Name Others"
                             }
                         },
                         {
-                            "id": "Q0303AddNew45_ProtectionInput5Others",
+                            "id": "Q0303AddNew44_ProtectionInput5Others",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew46_ProtectionInput5OwnQty",
+                            "id": "Label_Q0303AddNew45_ProtectionInput5PurchaseQty",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "46_ProtectionInput5OwnQty"
+                            "Text": "45 Purchase Qty "
                             }
                         },
                         {
-                            "id": "Q0303AddNew46_ProtectionInput5OwnQty",
+                            "id": "Q0303AddNew45_ProtectionInput5PurchaseQty",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1231,31 +1257,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew47_ProtectionInput5PurchaseQty",
+                            "id": "Label_Q0303AddNew46_ProtectionInput5TotalCostRs",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "47_ProtectionInput5PurchaseQty"
+                            "Text": "46 Total Cost Rs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew47_ProtectionInput5PurchaseQty",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew48_ProtectionInput5TotalCostRs",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "48_ProtectionInput5TotalCostRs"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew48_ProtectionInput5TotalCostRs",
+                            "id": "Q0303AddNew46_ProtectionInput5TotalCostRs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1274,30 +1284,31 @@
                                     "type":"Label",
                                     "properties":{
                                         "Width":-2,
-                                        "Text":"Protection Input 6"
+                                        "Text":"Protection Input 3"
                                     }
                                 }
                             ]
                         },
                         {
-                            "id": "Label_Q0303AddNew49_ProtectionInput6",
+                            "id": "Label_Q0303AddNew47_ProtectionInput6",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "49_ProtectionInput6"
+                            "Text": "47 Input Name [Code 11A]"
                             }
                         },
                         {
-                            "id": "KNCListPickerQ0303AddNew49_ProtectionInput6",
+                            "id": "KNCListPickerQ0303AddNew47_ProtectionInput6",
                             "type": "ListPicker",
                             "properties": {
-                            "Text": "Select", 
+                            "Text": "Select [Code 11A]", 
+                            "Title": "Select [Code 11A]",
                             "Width": -2, 
-                            "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
+                            "ElementsFromString": "42=Butachlor (herbicide), 43=Mancozeb (fungicide), 44=Carbendazim (fungicide), 45=Endosulfan (insecticide), 46=Phorate (insecticide), 47=Methyl Parathion (insecticide), 48=Monocrotophos (insecticide), 49=Cypermethrin (insecticide), 50=Chlorpyrifos (insecticide), 51=Malathion (insecticide), 52=Quinalphos (insecticide), 53=Dichlorvos (insecticide), 54=Copper oxychloride, 55=Isoproturon (herbicide), 63=Others (specify)"
                             }
                         },
                         {
-                            "id": "Q0303AddNew49_ProtectionInput6",
+                            "id": "Q0303AddNew47_ProtectionInput6",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1306,30 +1317,30 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew49_ProtectionInput6Others",
+                            "id": "Label_Q0303AddNew47_ProtectionInput6Others",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "49_ProtectionInput6Others"
+                            "Text": "47 Input Name Others"
                             }
                         },
                         {
-                            "id": "Q0303AddNew49_ProtectionInput6Others",
+                            "id": "Q0303AddNew47_ProtectionInput6Others",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew50_ProtectionInput6OwnQty",
+                            "id": "Label_Q0303AddNew48_ProtectionInput6PurchaseQty",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "50_ProtectionInput6OwnQty"
+                            "Text": "48 Purchase Qty"
                             }
                         },
                         {
-                            "id": "Q0303AddNew50_ProtectionInput6OwnQty",
+                            "id": "Q0303AddNew48_ProtectionInput6PurchaseQty",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1337,31 +1348,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew51_ProtectionInput6PurchaseQty",
+                            "id": "Label_Q0303AddNew49_ProtectionInput6TotalCostRs",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "51_ProtectionInput6PurchaseQty"
+                            "Text": "49 Total Cost Rs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew51_ProtectionInput6PurchaseQty",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew52_ProtectionInput6TotalCostRs",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "52_ProtectionInput6TotalCostRs"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew52_ProtectionInput6TotalCostRs",
+                            "id": "Q0303AddNew49_ProtectionInput6TotalCostRs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1380,30 +1375,31 @@
                                     "type":"Label",
                                     "properties":{
                                         "Width":-2,
-                                        "Text":"Protection Input 7"
+                                        "Text":"Protection Input 4"
                                     }
                                 }
                             ]
                         },
                         {
-                            "id": "Label_Q0303AddNew53_ProtectionInput7",
+                            "id": "Label_Q0303AddNew50_ProtectionInput7",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "53_ProtectionInput7"
+                            "Text": "50 Input Name [Code 11A]"
                             }
                         },
                         {
-                            "id": "KNCListPickerQ0303AddNew53_ProtectionInput7",
+                            "id": "KNCListPickerQ0303AddNew50_ProtectionInput7",
                             "type": "ListPicker",
                             "properties": {
-                            "Text": "Select", 
+                            "Text": "Select [Code 11A]", 
+                            "Title": "Select [Code 11A]", 
                             "Width": -2, 
-                            "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
+                            "ElementsFromString": "42=Butachlor (herbicide), 43=Mancozeb (fungicide), 44=Carbendazim (fungicide), 45=Endosulfan (insecticide), 46=Phorate (insecticide), 47=Methyl Parathion (insecticide), 48=Monocrotophos (insecticide), 49=Cypermethrin (insecticide), 50=Chlorpyrifos (insecticide), 51=Malathion (insecticide), 52=Quinalphos (insecticide), 53=Dichlorvos (insecticide), 54=Copper oxychloride, 55=Isoproturon (herbicide), 63=Others (specify)"
                             }
                         },
                         {
-                            "id": "Q0303AddNew53_ProtectionInput7",
+                            "id": "Q0303AddNew50_ProtectionInput7",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1412,30 +1408,30 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew53_ProtectionInput7Others",
+                            "id": "Label_Q0303AddNew50_ProtectionInput7Others",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "53_ProtectionInput7Others"
+                            "Text": "50 Input Name Others"
                             }
                         },
                         {
-                            "id": "Q0303AddNew53_ProtectionInput7Others",
+                            "id": "Q0303AddNew50_ProtectionInput7Others",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew54_ProtectionInput7OwnQty",
+                            "id": "Label_Q0303AddNew51_ProtectionInput7PurchaseQty",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "54_ProtectionInput7OwnQty"
+                            "Text": "51 Purchase Qty"
                             }
                         },
                         {
-                            "id": "Q0303AddNew54_ProtectionInput7OwnQty",
+                            "id": "Q0303AddNew51_ProtectionInput7PurchaseQty",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1443,31 +1439,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew55_ProtectionInput7PurchaseQty",
+                            "id": "Label_Q0303AddNew52_ProtectionInput7TotalCostRs",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "55_ProtectionInput7PurchaseQty"
+                            "Text": "52 Total Cost Rs."
                             }
                         },
                         {
-                            "id": "Q0303AddNew55_ProtectionInput7PurchaseQty",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew56_ProtectionInput7TotalCostRs",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "56_ProtectionInput7TotalCostRs"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew56_ProtectionInput7TotalCostRs",
+                            "id": "Q0303AddNew52_ProtectionInput7TotalCostRs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1486,30 +1466,31 @@
                                     "type":"Label",
                                     "properties":{
                                         "Width":-2,
-                                        "Text":"Protection Input 8"
+                                        "Text":"Protection Input 5"
                                     }
                                 }
                             ]
                         },
                         {
-                            "id": "Label_Q0303AddNew57_ProtectionInput8",
+                            "id": "Label_Q0303AddNew53_ProtectionInput8",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "57_ProtectionInput8"
+                            "Text": "53 Input Name [Code 11A]"
                             }
                         },
                         {
-                            "id": "KNCListPickerQ0303AddNew57_ProtectionInput8",
+                            "id": "KNCListPickerQ0303AddNew53_ProtectionInput8",
                             "type": "ListPicker",
                             "properties": {
-                            "Text": "Select", 
+                            "Text": "Select [Code 11A]",
+                            "Title":"Select [Code 11A]", 
                             "Width": -2, 
-                            "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
+                            "ElementsFromString": "42=Butachlor (herbicide), 43=Mancozeb (fungicide), 44=Carbendazim (fungicide), 45=Endosulfan (insecticide), 46=Phorate (insecticide), 47=Methyl Parathion (insecticide), 48=Monocrotophos (insecticide), 49=Cypermethrin (insecticide), 50=Chlorpyrifos (insecticide), 51=Malathion (insecticide), 52=Quinalphos (insecticide), 53=Dichlorvos (insecticide), 54=Copper oxychloride, 55=Isoproturon (herbicide), 63=Others (specify)"
                             }
                         },
                         {
-                            "id": "Q0303AddNew57_ProtectionInput8",
+                            "id": "Q0303AddNew53_ProtectionInput8",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1518,30 +1499,30 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew57_ProtectionInput8Others",
+                            "id": "Label_Q0303AddNew53_ProtectionInput8Others",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "57_ProtectionInput8Others"
+                            "Text": "53 Input Name Others "
                             }
                         },
                         {
-                            "id": "Q0303AddNew57_ProtectionInput8Others",
+                            "id": "Q0303AddNew53_ProtectionInput8Others",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew58_ProtectionInput8OwnQty",
+                            "id": "Label_Q0303AddNew54_ProtectionInput8PurchaseQty",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "58_ProtectionInput8OwnQty"
+                            "Text": "54 Purchase Qty"
                             }
                         },
                         {
-                            "id": "Q0303AddNew58_ProtectionInput8OwnQty",
+                            "id": "Q0303AddNew54_ProtectionInput8PurchaseQty",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1549,31 +1530,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew59_ProtectionInput8PurchaseQty",
+                            "id": "Label_Q0303AddNew55_ProtectionInput8TotalCostRs",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "59_ProtectionInput8PurchaseQty"
+                            "Text": "55 Total Cost Rs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew59_ProtectionInput8PurchaseQty",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew60_ProtectionInput8TotalCostRs",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "60_ProtectionInput8TotalCostRs"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew60_ProtectionInput8TotalCostRs",
+                            "id": "Q0303AddNew55_ProtectionInput8TotalCostRs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1592,30 +1557,31 @@
                                     "type":"Label",
                                     "properties":{
                                         "Width":-2,
-                                        "Text":"Protection Input 9"
+                                        "Text":"Protection Input 6"
                                     }
                                 }
                             ]
                         },
                         {
-                            "id": "Label_Q0303AddNew61_ProtectionInput9",
+                            "id": "Label_Q0303AddNew56_ProtectionInput9",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "61_ProtectionInput9"
+                            "Text": "56 Input Name [Code 11A]"
                             }
                         },
                         {
-                            "id": "KNCListPickerQ0303AddNew61_ProtectionInput9",
+                            "id": "KNCListPickerQ0303AddNew56_ProtectionInput9",
                             "type": "ListPicker",
                             "properties": {
-                            "Text": "Select", 
+                            "Text": "Select [Code 11A]",
+                            "Title":"Select [Code 11A]", 
                             "Width": -2, 
-                            "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
+                            "ElementsFromString": "42=Butachlor (herbicide), 43=Mancozeb (fungicide), 44=Carbendazim (fungicide), 45=Endosulfan (insecticide), 46=Phorate (insecticide), 47=Methyl Parathion (insecticide), 48=Monocrotophos (insecticide), 49=Cypermethrin (insecticide), 50=Chlorpyrifos (insecticide), 51=Malathion (insecticide), 52=Quinalphos (insecticide), 53=Dichlorvos (insecticide), 54=Copper oxychloride, 55=Isoproturon (herbicide), 63=Others (specify)"
                             }
                         },
                         {
-                            "id": "Q0303AddNew61_ProtectionInput9",
+                            "id": "Q0303AddNew56_ProtectionInput9",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1624,30 +1590,30 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew61_ProtectionInput9Others",
+                            "id": "Label_Q0303AddNew56_ProtectionInput9Others",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "61_ProtectionInput9Others"
+                            "Text": "56 Input Name Others"
                             }
                         },
                         {
-                            "id": "Q0303AddNew61_ProtectionInput9Others",
+                            "id": "Q0303AddNew56_ProtectionInput9Others",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew62_ProtectionInput9OwnQty",
+                            "id": "Label_Q0303AddNew57_ProtectionInput9PurchaseQty",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "62_ProtectionInput9OwnQty"
+                            "Text": "57 Purchase Qty"
                             }
                         },
                         {
-                            "id": "Q0303AddNew62_ProtectionInput9OwnQty",
+                            "id": "Q0303AddNew57_ProtectionInput9PurchaseQty",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1655,15 +1621,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew63_ProtectionInput9PurchaseQty",
+                            "id": "Label_Q0303AddNew58_ProtectionInput9TotalCostRs",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "63_ProtectionInput9PurchaseQty"
+                            "Text": "58 Total Cost Rs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew63_ProtectionInput9PurchaseQty",
+                            "id": "Q0303AddNew58_ProtectionInput9TotalCostRs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1671,15 +1637,180 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew64_ProtectionInput9TotalCostRs",
+                            "id":"CardQ0303AddNew_ProtectionInputs10",
+                            "type":"MakeroidCardView",
+                            "properties":{
+                                "Width":-2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0303AddNew_ProtectionInputs10",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Protection Input 7"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Label_Q0303AddNew59_ProtectionInput10",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "64_ProtectionInput9TotalCostRs"
+                            "Text": "59 Input Name [Code 11A]"
                             }
                         },
                         {
-                            "id": "Q0303AddNew64_ProtectionInput9TotalCostRs",
+                            "id": "KNCListPickerQ0303AddNew59_ProtectionInput10",
+                            "type": "ListPicker",
+                            "properties": {
+                            "Text": "Select", 
+                            "Width": -2, 
+                            "ElementsFromString": "42=Butachlor (herbicide), 43=Mancozeb (fungicide), 44=Carbendazim (fungicide), 45=Endosulfan (insecticide), 46=Phorate (insecticide), 47=Methyl Parathion (insecticide), 48=Monocrotophos (insecticide), 49=Cypermethrin (insecticide), 50=Chlorpyrifos (insecticide), 51=Malathion (insecticide), 52=Quinalphos (insecticide), 53=Dichlorvos (insecticide), 54=Copper oxychloride, 55=Isoproturon (herbicide), 67=Others (specify)"
+                            }
+                        },
+                        {
+                            "id": "Q0303AddNew59_ProtectionInput10",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5,
+                            "ReadOnly": true
+                            }
+                        },
+                        {
+                            "id": "Label_Q0303AddNew59_ProtectionInput10Others",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "59 Input Name Others"
+                            }
+                        },
+                        {
+                            "id": "Q0303AddNew59_ProtectionInput10Others",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2
+                            }
+                        },
+                        {
+                            "id": "Label_Q0303AddNew60_ProtectionInput10PurchaseQty",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "60 Purchase Qty"
+                            }
+                        },
+                        {
+                            "id": "Q0303AddNew60_ProtectionInput10PurchaseQty",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0303AddNew61_ProtectionInput10TotalCostRs",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "61 Total Cost Rs"
+                            }
+                        },
+                        {
+                            "id": "Q0303AddNew61_ProtectionInput10TotalCostRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"CardQ0303AddNew_ProtectionInputs11",
+                            "type":"MakeroidCardView",
+                            "properties":{
+                                "Width":-2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0303AddNew_ProtectionInputs11",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Protection Input 8"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Label_Q0303AddNew62_ProtectionInput11",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "62 Input Name [Code 11A]"
+                            }
+                        },
+                        {
+                            "id": "KNCListPickerQ0303AddNew62_ProtectionInput11",
+                            "type": "ListPicker",
+                            "properties": {
+                            "Text": "Select [Code 11A]",
+                            "Title":"Select [Code 11A]", 
+                            "Width": -2, 
+                            "ElementsFromString": "42=Butachlor (herbicide), 43=Mancozeb (fungicide), 44=Carbendazim (fungicide), 45=Endosulfan (insecticide), 46=Phorate (insecticide), 47=Methyl Parathion (insecticide), 48=Monocrotophos (insecticide), 49=Cypermethrin (insecticide), 50=Chlorpyrifos (insecticide), 51=Malathion (insecticide), 52=Quinalphos (insecticide), 53=Dichlorvos (insecticide), 54=Copper oxychloride, 55=Isoproturon (herbicide), 67=Others (specify)"
+                            }
+                        },
+                        {
+                            "id": "Q0303AddNew62_ProtectionInput11",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5,
+                            "ReadOnly": true
+                            }
+                        },
+                        {
+                            "id": "Label_Q0303AddNew62_ProtectionInput11Others",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "62 Input Name Others"
+                            }
+                        },
+                        {
+                            "id": "Q0303AddNew62_ProtectionInput11Others",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2
+                            }
+                        },
+                        {
+                            "id": "Label_Q0303AddNew63_ProtectionInput11PurchaseQty",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "63 Purchase Qty"
+                            }
+                        },
+                        {
+                            "id": "Q0303AddNew63_ProtectionInput11PurchaseQty",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0303AddNew64_ProtectionInput11TotalCostRs",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "64 Total Cost Rs"
+                            }
+                        },
+                        {
+                            "id": "Q0303AddNew64_ProtectionInput11TotalCostRs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1718,8 +1849,8 @@
                             }
                         }
                     ]
-                }  
+                }
             ]
-        }      
+        }
     ]
 }

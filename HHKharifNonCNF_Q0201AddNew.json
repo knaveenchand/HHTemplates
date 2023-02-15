@@ -1,5 +1,5 @@
 {
-    "name": "HHKharifCNF_Q0202AddNew",
+    "name": "HHKharifNonCNF_Q0201AddNew",
     "metadata-version": 1,
     "extension_version": 5,
     "author": "Naveen",
@@ -10,7 +10,7 @@
     "keys": [],
     "components": [
         {
-            "id": "PageVA_Q0202AddNew",
+            "id": "PageVA_Q0201AddNew",
             "type": "VerticalArrangement",
             "properties": {
                 "Width": -2,
@@ -18,18 +18,18 @@
             },
             "components": [
                 {
-                    "id":"PageTitleCard_Q0202AddNew",
+                    "id":"PageTitleCard_Q0201AddNew",
                     "type":"MakeroidCardView",
                     "properties":{
                         "Width":-2
                     },
                     "components": [
                         {
-                            "id":"PageTitleLabel_Q0202AddNew",
+                            "id":"PageTitleLabel_Q0201AddNew",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Q0202. Plot wise land details, as on 1st June 2022 (including the leased in and leased-out lands)",
+                                "Text":"Q0201. Parcel wise own (including leased out lands) and leased-in lands details as on 1st June 2022",
                                 "TextAlignment": 1,
                                 "FontBold": true,
                                 "FontSize": 16
@@ -39,7 +39,7 @@
                     ]
                 },
                 {
-                    "id":"VAScroll_Q0202AddNew",
+                    "id":"VAScroll_Q0201AddNew",
                     "type":"VerticalScrollArrangement",
                     "properties":{
                         "WidthPercent": 75,
@@ -47,7 +47,7 @@
                     },
                     "components":[
                         {
-                            "id": "LabelKeys_Q0202AddNew00",
+                            "id": "LabelKeys_Q0201AddNew00",
                             "type": "Label",
                             "properties":{
                                 "Width": -2,
@@ -55,7 +55,7 @@
                             }
                         },
                         {
-                            "id": "Q0202AddNew00_ID",
+                            "id": "Q0201AddNew00_ID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -64,62 +64,22 @@
                             }
                         },
                         {
-                            "id":"Label_Q0202AddNew00_ParcelID",
+                            "id":"Label_Q0201AddNew01",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"S.No and ID Of Parcel"
+                                "Text":"S.No Of Parcel"
                             }
                         },
                         {
-                            "id":"ListPicker_Q0202AddNew00_ParcelID",
-                            "type":"ListPicker",
-                            "properties":{
-                                "Text":"Select Parcel ID",
-                                "Title": "Select Parcel ID",
-                                "Width":-2
-                            }
-                        },
-                        {
-                            "id":"HA_ParcelID",
+                            "id":"HAforIncrementBtns_Q0201AddNew",
                             "type":"HorizontalArrangement",
                             "properties":{
                                 "Width":-2
                             },
                             "components":[
                                 {
-                                    "id":"Q0202AddNew01_SNoParcel",
-                                    "type":"TextBox",
-                                    "properties":{
-                                        "ReadOnly":true
-                                    }
-                                },
-                                {
-                                    "id":"Q0202AddNew01_ParcelID",
-                                    "type":"TextBox",
-                                    "properties":{
-                                        "ReadOnly":true
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "id":"Label_Q0202AddNew02",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Plot Number"
-                            }
-                        },
-                        {
-                            "id":"HAforIncrementBtns_Q0202AddNew",
-                            "type":"HorizontalArrangement",
-                            "properties":{
-                                "Width":-2
-                            },
-                            "components":[
-                                {
-                                    "id": "Q0202AddNew02_PlotNumber",
+                                    "id": "Q0201AddNew02_SNoParcel",
                                     "type": "TextBox",
                                     "properties": {
                                         "InputType": 5,
@@ -128,14 +88,14 @@
                                     }
                                 },
                                 {
-                                  "id":"BtnMinusXQ0202AddNew02_PlotNumber",
+                                  "id":"BtnMinusXQ0201AddNew02_SNoParcel",
                                   "type":"Button",
                                   "properties":{
                                     "Text": " - "
                                   }
                                 },
                                 {
-                                    "id":"BtnPlusXQ0202AddNew02_PlotNumber",
+                                    "id":"BtnPlusXQ0201AddNew02_SNoParcel",
                                     "type":"Button",
                                     "properties":{
                                       "Text": " + "
@@ -144,7 +104,7 @@
                             ]
                         },
                         {
-                            "id":"LabelErr_Q0202AddNew02_PlotNumber",
+                            "id":"LabelErr_Q0201AddNew02_SNoParcel",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -154,15 +114,30 @@
                             }
                         },
                         {
-                            "id":"Label_Q0202AddNew03",
+                            "id":"Label_Q0201AddNew03",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Plot Area (Acres.Cents)"
+                                "Text":"Name Of the Parcel"
                             }
                         },
                         {
-                            "id": "Q0202AddNew03_PlotArea",
+                            "id": "Q0201AddNew03_ParcelName",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2
+                            }
+                        },
+                        {
+                            "id":"Label_Q0201AddNew04",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Parcel Area (Acres.Cents)"
+                            }
+                        },
+                        {
+                            "id": "Q0201AddNew04_ParcelArea",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -170,40 +145,15 @@
                             }
                         },
                         {
-                            "id":"Label_Q0202AddNew04",
+                            "id":"Label_Q0201AddNew05",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Tenurial Status"
+                                "Text":"Number of Plots in Parcel"
                             }
                         },
                         {
-                            "id": "KNCListPickerQ0202AddNew04_TenurialStatus",
-                            "type": "ListPicker",
-                            "properties": {
-                                "ElementsFromString": "1=Own land, 2=Leased in land, 3=Leased out land",
-                                "Text": "Select",
-                                "Title": "Select"
-                            }
-                        },
-                        {
-                            "id": "Q0202AddNew04_TenurialStatus",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "ReadOnly":true
-                            }
-                        },
-                        {
-                            "id":"Label_Q0202AddNew05",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"If leased- in/leased-out, rent paid/received per acre/per annum in Rs."
-                            }
-                        },
-                        {
-                            "id": "Q0202AddNew05_IfLeaseRentPaidOrRecd",
+                            "id": "Q0201AddNew05_NoOfPlotsInParcel",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -213,7 +163,7 @@
                     ]
                 },
                 {
-                    "id": "HAforBtns_Q0202AddNew",
+                    "id": "HAforBtns_Q0201AddNew",
                     "type":"HorizontalArrangement",
                     "properties":{
                         "Width":-2,
@@ -221,21 +171,21 @@
                     },
                     "components":[
                         {
-                            "id":"PopUpBtnCancel_Q0202AddNew",
+                            "id":"PopUpBtnCancel_Q0201AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Cancel"
                             }
                         },
                         {
-                            "id":"PopUpBtnDelete_Q0202AddNew",
+                            "id":"PopUpBtnDelete_Q0201AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Delete"
                             }
                         },
                         {
-                            "id":"PopUpBtnSave_Q0202AddNew",
+                            "id":"PopUpBtnSave_Q0201AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Save"
@@ -245,6 +195,5 @@
                 }
             ]
         }
-
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "name": "HHKharifCNF_Q0308AddNew",
+    "name": "HHKharifNonCNF_Q0305AddNew",
     "metadata-version": 1,
     "extension_version": 5,
     "author": "Naveen",
@@ -10,7 +10,7 @@
     "keys": [],
     "components": [
         {
-            "id": "PageVA_Q0308AddNew",
+            "id": "PageVA_Q0305AddNew",
             "type": "VerticalArrangement",
             "properties": {
                 "Width": -2,
@@ -18,18 +18,18 @@
             },
             "components": [
                 {
-                    "id":"PageTitleCard_Q0308AddNew",
+                    "id":"PageTitleCard_Q0305AddNew",
                     "type":"MakeroidCardView",
                     "properties":{
                         "Width":-2
                     },
                     "components": [
                         {
-                            "id":"PageTitleLabel_Q0308AddNew",
+                            "id":"PageTitleLabel_Q0305AddNew",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Q0308. Details of other than 12 selected APCNF seasonal crops + all non-APCNF seasonal crops (including 12 selected crops)",
+                                "Text":"Q0305. Crop wise output during Kharif- 2022-2023",
                                 "TextAlignment": 1,
                                 "FontBold": true,
                                 "FontSize": 16
@@ -39,7 +39,7 @@
                     ]
                 },
                 {
-                    "id":"VAScroll_Q0308AddNew",
+                    "id":"VAScroll_Q0305AddNew",
                     "type":"VerticalScrollArrangement",
                     "properties":{
                         "WidthPercent": 75,
@@ -47,7 +47,7 @@
                     },
                     "components":[
                         {
-                            "id": "LabelKeys_Q0308AddNew00",
+                            "id": "LabelKeys_Q0305AddNew00",
                             "type": "Label",
                             "properties":{
                                 "Width": -2,
@@ -55,7 +55,7 @@
                             }
                         },
                         {
-                            "id": "Q0308AddNew00_ID",
+                            "id": "Q0305AddNew00_ID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -64,7 +64,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0308AddNew00_ParcelPlotCombo",
+                            "id":"Label_Q0305AddNew00_ParcelPlotCombo",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -72,7 +72,7 @@
                             }
                         },
                         {
-                            "id":"ListPickerPPFrom0203_Q0308AddNew",
+                            "id":"ListPickerPPFrom0203_Q0305AddNew",
                             "type":"ListPicker",
                             "properties":{
                                 "Text":"Select Parcel-Plot Combination",
@@ -81,7 +81,7 @@
                             }
                         },
                         {
-                            "id": "Q0308AddNew00_ParcelPlotCombo",
+                            "id": "Q0305AddNew00_ParcelPlotCombo",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -90,7 +90,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0308AddNew00_ParcelID",
+                            "id":"Label_Q0305AddNew00_ParcelID",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -98,7 +98,7 @@
                             }
                         },
                         {
-                            "id": "Q0308AddNew00_ParcelID",
+                            "id": "Q0305AddNew00_ParcelID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -107,7 +107,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0308AddNew01_SNoParcel",
+                            "id":"Label_Q0305AddNew01_SNoParcel",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -115,7 +115,7 @@
                             }
                         },
                         {
-                            "id": "Q0308AddNew01_SNoParcel",
+                            "id": "Q0305AddNew01_SNoParcel",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -124,7 +124,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0308AddNew00_PlotID",
+                            "id":"Label_Q0305AddNew00_PlotID",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -132,7 +132,7 @@
                             }
                         },
                         {
-                            "id": "Q0308AddNew00_PlotID",
+                            "id": "Q0305AddNew00_PlotID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -141,7 +141,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0308AddNew02_PlotNumber",
+                            "id":"Label_Q0305AddNew02_PlotNumber",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -149,7 +149,7 @@
                             }
                         },
                         {
-                            "id": "Q0308AddNew02_PlotNumber",
+                            "id": "Q0305AddNew02_PlotNumber",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -158,7 +158,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0308AddNew03",
+                            "id":"Label_Q0305AddNew03",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -166,7 +166,7 @@
                             }
                         },
                         {
-                            "id": "Q0308AddNew03_AreaInKharif",
+                            "id": "Q0305AddNew03_AreaInKharif",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -174,7 +174,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0308AddNew06",
+                            "id":"Label_Q0305AddNew06",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -182,7 +182,7 @@
                             }
                         },
                         {
-                            "id": "Q0308AddNew06_TypeOfFarming",
+                            "id": "Q0305AddNew06_TypeOfFarming",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -190,7 +190,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0308AddNew10",
+                            "id":"Label_Q0305AddNew10",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -198,7 +198,7 @@
                             }
                         },
                         {
-                            "id": "Q0308AddNew10_SingleCrop",
+                            "id": "Q0305AddNew10_SingleCrop",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -206,15 +206,15 @@
                             }
                         },
                         {
-                            "id":"Label_Q0308AddNew07Output",
+                            "id":"Label_Q0305AddNew07Output",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Total Output (Qtls.)"
+                                "Text":"Output obtained (Qtls.)"
                             }
                         },
                         {
-                            "id": "Q0308AddNew07_OutputObtainedQtl",
+                            "id": "Q0305AddNew07_OutputObtainedQtl",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -222,15 +222,15 @@
                             }
                         },
                         {
-                            "id":"Label_Q0308AddNew08_TotalOutputValueRs",
+                            "id":"Label_Q0305AddNew08_AvgPricePerQtl",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Total Output Value (Rs.)"
+                                "Text":"Average price per Quintal (Rs.)"
                             }
                         },
                         {
-                            "id": "Q0308AddNew08_TotalOutputValueRs",
+                            "id": "Q0305AddNew08_AveragePricePerQunitalRs",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -238,47 +238,15 @@
                             }
                         },
                         {
-                            "id":"Label_Q0308AddNew09_ByProduct",
+                            "id":"Label_Q0305AddNew09_ByProduct",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Approximate total value of by- products (Rs)"
+                                "Text":"Total value of by-products"
                             }
                         },
                         {
-                            "id": "Q0308AddNew09_TotalValueOfByProductsRs",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "InputType": 5
-                            }
-                        },
-                        {
-                            "id":"Label_Q0308AddNew10_PaidoutCostRs",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Approximate paid out cost of cultivation Rs."
-                            }
-                        },
-                        {
-                            "id": "Q0308AddNew10_PaidoutCostRs",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "InputType": 5
-                            }
-                        },
-                        {
-                            "id":"Label_Q0308AddNew11_OwnLaborDays",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Approximate Number of Own Labor Days Used"
-                            }
-                        },
-                        {
-                            "id": "Q0308AddNew11_OwnLaborDays",
+                            "id": "Q0305AddNew09_TotalValueOfByProductsRs",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -288,7 +256,7 @@
                     ]
                 },
                 {
-                    "id": "HAforBtns_Q0308AddNew",
+                    "id": "HAforBtns_Q0305AddNew",
                     "type":"HorizontalArrangement",
                     "properties":{
                         "Width":-2,
@@ -296,21 +264,21 @@
                     },
                     "components":[
                         {
-                            "id":"PopUpBtnCancel_Q0308AddNew",
+                            "id":"PopUpBtnCancel_Q0305AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Cancel"
                             }
                         },
                         {
-                            "id":"PopUpBtnDelete_Q0308AddNew",
+                            "id":"PopUpBtnDelete_Q0305AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Delete"
                             }
                         },
                         {
-                            "id":"PopUpBtnSave_Q0308AddNew",
+                            "id":"PopUpBtnSave_Q0305AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Save"

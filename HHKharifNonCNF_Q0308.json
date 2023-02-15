@@ -1,0 +1,66 @@
+{
+    "name": "HHKharifNonCNF_Q0308",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q0308",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q0308",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q0308",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q0308. Details of other than 12 selected non-APCNF seasonal crops + all natural farming or organic seasonal crops (including 12 selected crops)",                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "VAforBtn_Q0308",
+                    "type":"VerticalArrangement",
+                    "properties":{
+                        "Width":-2,
+                        "AlignHorizontal":2
+                    },
+                    "components":[
+                        {
+                            "id":"BtnAddNew_Q0308",
+                            "type":"Button",
+                            "properties":{
+                                "Text": "+ Add New"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAforHoldingCards_Q0308AddNew",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    }
+                }
+            ]
+        }
+    ]
+}

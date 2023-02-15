@@ -348,6 +348,23 @@
                             ]
                         },
                         {
+                            "id":"Card_ViewQ08Note1",
+                            "type":"MakeroidCardView",
+                            "properties":{
+                                "Width":-2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ08Note1",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":" [If the farmer allocated his entire operational area to PMDS+CNF in Kharif 2022-23, go to Q. No. 8.6]." 
+                                    }
+                                }
+                            ]
+                        },
+                        {
                             "id": "Card_ViewQ0804",
                             "type": "MakeroidCardView",
                             "properties": {
@@ -359,7 +376,7 @@
                                     "type":"Label",
                                     "properties":{
                                         "Width":-2,
-                                        "Text": " 8.4 [If the farmer allocated his entire operational area to PMDS+CNF in Kharif 2022-23, go to Q. No. 8.6]. If not, reasons for not cultivating PMDS+CNF in the entire cultivated area (Give multiple answers code numbers in the below boxes from Code 20)",
+                                        "Text": " 8.4 If not, reasons for not cultivating PMDS+CNF in the entire cultivated area (Give multiple answers code numbers in the below boxes from Code 20)",
                                         "FontBold":true
                                     }
                                 },
@@ -481,22 +498,22 @@
                                         "Width":-2,
                                         "ReadOnly":true
                                     }
-                                },
+                                }
+                            ]
+                        },
+                        {
+                            "id":"Card_ViewQ08Note2",
+                            "type":"MakeroidCardView",
+                            "properties":{
+                                "Width":-2
+                            },
+                            "components":[
                                 {
-                                    "id":"KNCListPickerQ0804_Reason8",
-                                    "type":"ListPicker",
+                                    "id":"LabelQ08Note2",
+                                    "type":"Label",
                                     "properties":{
                                         "Width":-2,
-                                        "Text": "Select Reason8",
-                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
-                                    }
-                                },
-                                {
-                                    "id":"Q0804_Reason8",
-                                    "type":"TextBox",
-                                    "properties":{
-                                        "Width":-2,
-                                        "ReadOnly":true
+                                        "Text":"[If the farmer allocated his entire operational area to PMDS+CNF and Only CNF in Kharif 2022-23, go to Q. No. 8.6]." 
                                     }
                                 }
                             ]
@@ -513,7 +530,7 @@
                                     "type":"Label",
                                     "properties":{
                                         "Width":-2,
-                                        "Text": " 8.5  [If the farmer allocated his entire operational area to PMDS+CNF and Only CNF in Kharif 2022-23, go to Q. No. 8.6]. If not, reasons for not cultivating CNF in the entire cultivated area (Give multiple answers code numbers in the below boxes from Code 20)",
+                                        "Text": " 8.5 If not, reasons for not cultivating CNF in the entire cultivated area (Give multiple answers code numbers in the below boxes from Code 20)",
                                         "FontBold":true
                                     }
                                 },
@@ -643,7 +660,7 @@
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Q8.5 Are you using any CNF inputs and-or practices in any non-CNF plot?"
+                                "Text":"Q8.6 Are you using any CNF inputs and-or practices in any non-CNF plot?"
                             }
                         },
                         {
@@ -668,7 +685,7 @@
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Q8.6 If Yes, what are the inputs/practices? (Multiple answers possible)?"
+                                "Text":"Q8.7 If Yes, what are the inputs/practices? (Multiple answers possible)?"
                             }
                         },
                         {

@@ -1,5 +1,5 @@
 {
-    "name": "HHKharifCNF_Q0203AddNew",
+    "name": "HHKharifNonCNF_Q0203AddNew",
     "metadata-version": 1,
     "extension_version": 5,
     "author": "Naveen",
@@ -651,8 +651,7 @@
                         }
                     ]
                 }
-         
             ]
         }
-   ]
+    ]
 }

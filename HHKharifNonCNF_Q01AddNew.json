@@ -1,5 +1,5 @@
 {
-    "name": "HHKharifCNF_Q0202AddNew",
+    "name": "HHKharifNonCNF_Q01AddNew",
     "metadata-version": 1,
     "extension_version": 5,
     "author": "Naveen",
@@ -10,7 +10,7 @@
     "keys": [],
     "components": [
         {
-            "id": "PageVA_Q0202AddNew",
+            "id": "PageVA_Q01AddNew",
             "type": "VerticalArrangement",
             "properties": {
                 "Width": -2,
@@ -18,18 +18,18 @@
             },
             "components": [
                 {
-                    "id":"PageTitleCard_Q0202AddNew",
+                    "id":"PageTitleCard_Q01AddNew",
                     "type":"MakeroidCardView",
                     "properties":{
                         "Width":-2
                     },
                     "components": [
                         {
-                            "id":"PageTitleLabel_Q0202AddNew",
+                            "id":"PageTitleLabel_Q01AddNew",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Q0202. Plot wise land details, as on 1st June 2022 (including the leased in and leased-out lands)",
+                                "Text":"Q01. Demographic particulars of the sample household (start with cultivators of the household)",
                                 "TextAlignment": 1,
                                 "FontBold": true,
                                 "FontSize": 16
@@ -39,7 +39,7 @@
                     ]
                 },
                 {
-                    "id":"VAScroll_Q0202AddNew",
+                    "id":"VAScroll_Q01AddNew",
                     "type":"VerticalScrollArrangement",
                     "properties":{
                         "WidthPercent": 75,
@@ -47,7 +47,7 @@
                     },
                     "components":[
                         {
-                            "id": "LabelKeys_Q0202AddNew00",
+                            "id": "LabelKeys_Q01AddNew00",
                             "type": "Label",
                             "properties":{
                                 "Width": -2,
@@ -55,7 +55,7 @@
                             }
                         },
                         {
-                            "id": "Q0202AddNew00_ID",
+                            "id": "Q01AddNew00_ID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -64,130 +64,39 @@
                             }
                         },
                         {
-                            "id":"Label_Q0202AddNew00_ParcelID",
+                            "id":"Label_Q01AddNew01",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"S.No and ID Of Parcel"
+                                "Text":"Name of the household member"
                             }
                         },
                         {
-                            "id":"ListPicker_Q0202AddNew00_ParcelID",
-                            "type":"ListPicker",
-                            "properties":{
-                                "Text":"Select Parcel ID",
-                                "Title": "Select Parcel ID",
-                                "Width":-2
-                            }
-                        },
-                        {
-                            "id":"HA_ParcelID",
-                            "type":"HorizontalArrangement",
-                            "properties":{
-                                "Width":-2
-                            },
-                            "components":[
-                                {
-                                    "id":"Q0202AddNew01_SNoParcel",
-                                    "type":"TextBox",
-                                    "properties":{
-                                        "ReadOnly":true
-                                    }
-                                },
-                                {
-                                    "id":"Q0202AddNew01_ParcelID",
-                                    "type":"TextBox",
-                                    "properties":{
-                                        "ReadOnly":true
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "id":"Label_Q0202AddNew02",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Plot Number"
-                            }
-                        },
-                        {
-                            "id":"HAforIncrementBtns_Q0202AddNew",
-                            "type":"HorizontalArrangement",
-                            "properties":{
-                                "Width":-2
-                            },
-                            "components":[
-                                {
-                                    "id": "Q0202AddNew02_PlotNumber",
-                                    "type": "TextBox",
-                                    "properties": {
-                                        "InputType": 5,
-                                        "BackgroundColor": -3355444,
-                                        "ReadOnly":true
-                                    }
-                                },
-                                {
-                                  "id":"BtnMinusXQ0202AddNew02_PlotNumber",
-                                  "type":"Button",
-                                  "properties":{
-                                    "Text": " - "
-                                  }
-                                },
-                                {
-                                    "id":"BtnPlusXQ0202AddNew02_PlotNumber",
-                                    "type":"Button",
-                                    "properties":{
-                                      "Text": " + "
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "id":"LabelErr_Q0202AddNew02_PlotNumber",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Error: Duplicate Value",
-                                "Visible": false,
-                                "TextColor": -834762
-                            }
-                        },
-                        {
-                            "id":"Label_Q0202AddNew03",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Plot Area (Acres.Cents)"
-                            }
-                        },
-                        {
-                            "id": "Q0202AddNew03_PlotArea",
+                            "id": "Q01AddNew01_FamilyMemberName",
                             "type": "TextBox",
                             "properties": {
-                                "Width": -2,
-                                "InputType": 5
+                                "Width": -2
                             }
                         },
                         {
-                            "id":"Label_Q0202AddNew04",
+                            "id":"Label_Q01AddNew02",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Tenurial Status"
+                                "Text":"Gender"
                             }
                         },
                         {
-                            "id": "KNCListPickerQ0202AddNew04_TenurialStatus",
+                            "id": "KNCListPickerQ01AddNew02_FamilyMemberGender",
                             "type": "ListPicker",
                             "properties": {
-                                "ElementsFromString": "1=Own land, 2=Leased in land, 3=Leased out land",
+                                "ElementsFromString": "1=Male, 2=Female",
                                 "Text": "Select",
                                 "Title": "Select"
                             }
                         },
                         {
-                            "id": "Q0202AddNew04_TenurialStatus",
+                            "id": "Q01AddNew02_FamilyMemberGender",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -195,25 +104,81 @@
                             }
                         },
                         {
-                            "id":"Label_Q0202AddNew05",
+                            "id":"Label_Q01AddNew03",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"If leased- in/leased-out, rent paid/received per acre/per annum in Rs."
+                                "Text":"Age (completed years)"
                             }
                         },
                         {
-                            "id": "Q0202AddNew05_IfLeaseRentPaidOrRecd",
+                            "id": "Q01AddNew03_FamilyMemberAge",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
                                 "InputType": 5
                             }
+                        },
+                        {
+                            "id":"Label_Q01AddNew04",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Education (Number of years of formal education)"
+                            }
+                        },
+                        {
+                            "id": "Q01AddNew04_FamilyMemberEdu",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"Label_Q01AddNew05",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Primary occupation (as per time criteria)"
+                            }
+                        },
+                        {
+                            "id": "KNCListPickerQ01AddNew05_FamilyMemberOccup",
+                            "type": "ListPicker",
+                            "properties": {
+                                "ElementsFromString": "1=Cultivator, 2=Agriculture labor, 3=Self-employed in allied agriculture, 4=Wage employed in allied agriculture, 5= Self–employed in non-agriculture, 6= Non-agriculture labor, 7=Salaried employment, 8=Household chores, 9=Pensioners or rentiers, 10=Dependents (children and old), 11=Student, 12=Unemployed, 13=Others (specify)",
+                                "Text": "Select",
+                                "Title": "Select"
+                            }
+                        },
+                        {
+                            "id": "Q01AddNew05_FamilyMemberOccup",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "ReadOnly":true
+                            }
+                        },
+                        {
+                            "id":"Label_Q01AddNew06",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Occupation, Others Specify"
+                            }
+                        },
+                        {
+                            "id": "Q01AddNew06_FamilyMemberOccupOthersSpecify",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2
+                            }
                         }
                     ]
                 },
                 {
-                    "id": "HAforBtns_Q0202AddNew",
+                    "id": "HAforBtns_Q01AddNew",
                     "type":"HorizontalArrangement",
                     "properties":{
                         "Width":-2,
@@ -221,21 +186,21 @@
                     },
                     "components":[
                         {
-                            "id":"PopUpBtnCancel_Q0202AddNew",
+                            "id":"PopUpBtnCancel_Q01AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Cancel"
                             }
                         },
                         {
-                            "id":"PopUpBtnDelete_Q0202AddNew",
+                            "id":"PopUpBtnDelete_Q01AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Delete"
                             }
                         },
                         {
-                            "id":"PopUpBtnSave_Q0202AddNew",
+                            "id":"PopUpBtnSave_Q01AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Save"
@@ -245,6 +210,5 @@
                 }
             ]
         }
-
     ]
 }

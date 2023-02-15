@@ -1,5 +1,5 @@
 {
-    "name": "HHKharifCNF_Q0303AddNew",
+    "name": "HHKharifNonCNF_Q0304AddNew",
     "metadata-version": 1,
     "extension_version": 5,
     "author": "Naveen",
@@ -10,7 +10,7 @@
     "keys": [],
     "components": [
         {
-            "id": "PageVA_Q0303AddNew",
+            "id": "PageVA_Q0304AddNew",
             "type": "VerticalArrangement",
             "properties": {
                 "Width": -2,
@@ -18,18 +18,18 @@
             },
             "components": [
                 {
-                    "id":"PageTitleCard_Q0303AddNew",
+                    "id":"PageTitleCard_Q0304AddNew",
                     "type":"MakeroidCardView",
                     "properties":{
                         "Width":-2
                     },
                     "components": [
                         {
-                            "id":"PageTitleLabel_Q0303AddNew",
+                            "id":"PageTitleLabel_Q0304AddNew",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Q0303. Crop wise Material Input used during Kharif 2022-23",                                
+                                "Text":"Q0304. Details on labour and implements used in Crop Production (Weeding, Irrigation, Harvesting, Threshing, Emergencies",                                
                                 "TextAlignment": 1,
                                 "FontBold": true,
                                 "FontSize": 16
@@ -39,7 +39,7 @@
                     ]
                 },
                 {
-                    "id":"VAScroll_Q0303AddNew",
+                    "id":"VAScroll_Q0304AddNew",
                     "type":"VerticalScrollArrangement",
                     "properties":{
                         "WidthPercent": 75,
@@ -47,7 +47,7 @@
                     },
                     "components":[
                         {
-                            "id": "LabelKeys_Q0303AddNew00",
+                            "id": "LabelKeys_Q0304AddNew00",
                             "type": "Label",
                             "properties":{
                                 "Width": -2,
@@ -55,7 +55,7 @@
                             }
                         },
                         {
-                            "id": "Q0303AddNew00_ID",
+                            "id": "Q0304AddNew00_ID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -64,7 +64,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0303AddNew00_ParcelPlotCombo",
+                            "id":"Label_Q0304AddNew00_ParcelPlotCombo",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -72,7 +72,7 @@
                             }
                         },
                         {
-                            "id":"ListPickerPPFrom0203_Q0303AddNew",
+                            "id":"ListPickerPPFrom0203_Q0304AddNew",
                             "type":"ListPicker",
                             "properties":{
                                 "Text":"Select Parcel-Plot Combination",
@@ -81,7 +81,7 @@
                             }
                         },
                         {
-                            "id": "Q0303AddNew00_ParcelPlotCombo",
+                            "id": "Q0304AddNew00_ParcelPlotCombo",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -90,7 +90,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0303AddNew00_ParcelID",
+                            "id":"Label_Q0304AddNew00_ParcelID",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -98,7 +98,7 @@
                             }
                         },
                         {
-                            "id": "Q0303AddNew00_ParcelID",
+                            "id": "Q0304AddNew00_ParcelID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -107,7 +107,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0303AddNew01_SNoParcel",
+                            "id":"Label_Q0304AddNew01_SNoParcel",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -115,7 +115,7 @@
                             }
                         },
                         {
-                            "id": "Q0303AddNew01_SNoParcel",
+                            "id": "Q0304AddNew01_SNoParcel",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -124,7 +124,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0303AddNew00_PlotID",
+                            "id":"Label_Q0304AddNew00_PlotID",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -132,7 +132,7 @@
                             }
                         },
                         {
-                            "id": "Q0303AddNew00_PlotID",
+                            "id": "Q0304AddNew00_PlotID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -141,7 +141,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0303AddNew02_PlotNumber",
+                            "id":"Label_Q0304AddNew02_PlotNumber",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -149,7 +149,7 @@
                             }
                         },
                         {
-                            "id": "Q0303AddNew02_PlotNumber",
+                            "id": "Q0304AddNew02_PlotNumber",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -158,23 +158,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0303AddNew03",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Area Sown in Kharif (Acres.Cents)"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew03_AreaInKharif",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "InputType": 5
-                            }
-                        },
-                        {
-                            "id":"Label_Q0303AddNew06",
+                            "id":"Label_Q0304AddNew06",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -182,7 +166,7 @@
                             }
                         },
                         {
-                            "id": "Q0303AddNew06_TypeOfFarming",
+                            "id": "Q0304AddNew06_TypeOfFarming",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -190,7 +174,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0303AddNew10",
+                            "id":"Label_Q0304AddNew10",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -198,7 +182,7 @@
                             }
                         },
                         {
-                            "id": "Q0303AddNew10_SingleCrop",
+                            "id": "Q0304AddNew10_SingleCrop",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -206,32 +190,32 @@
                             }
                         },
                         {
-                            "id":"CardQ0303AddNew_BioInputs",
+                            "id":"CardQ0304AddNew_Weed",
                             "type":"MakeroidCardView",
                             "properties":{
                                 "Width":-2
                             },
                             "components":[
                                 {
-                                    "id":"LabelQ0303AddNew_BioInputs",
+                                    "id":"LabelQ0304AddNew_Weed",
                                     "type":"Label",
                                     "properties":{
                                         "Width":-2,
-                                        "Text":"Biological inputs for plant growth– Quantity and value (If home produced, write approximate market value) [FYM: Farm Yard Manure, BJM: Beejamrutham, GJM: Ghanajeevamrutham, DJM: Dravajeevamrutham]"
+                                        "Text":"Labour use and other expenditure on Weeding / Inter-cultivation in the plot, including input application"
                                     }
                                 }
                             ]
                         },
                         {
-                            "id": "Label_Q0303AddNew05_FYMOwnQtyQt",
+                            "id": "Label_Q0304AddNew05_Weed",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "5_FYMOwnQtyQt"
+                            "Text": "LaborOwnMaleHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew05_FYMOwnQtyQt",
+                            "id": "Q0304AddNew05_WeedLaborOwnMaleHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -239,15 +223,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew06_FYMPurchasedQtyQt",
+                            "id": "Label_Q0304AddNew06_Weed",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "6_FYMPurchasedQtyQt"
+                            "Text": "LaborOwnFemaleHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew06_FYMPurchasedQtyQt",
+                            "id": "Q0304AddNew06_WeedLaborOwnFemaleHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -255,15 +239,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew07_FYMTotalCostRs",
+                            "id": "Label_Q0304AddNew07_Weed",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "7_FYMTotalCostRs"
+                            "Text": "LaborHiredMaleHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew07_FYMTotalCostRs",
+                            "id": "Q0304AddNew07_WeedLaborHiredMaleHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -271,15 +255,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew08_BJMOwnQtyLt",
+                            "id": "Label_Q0304AddNew08_Weed",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "8_BJMOwnQtyLt"
+                            "Text": "LaborHiredMaleRs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew08_BJMOwnQtyLt",
+                            "id": "Q0304AddNew08_WeedLaborHiredMaleRs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -287,15 +271,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew09_BJMPurchasedQtyLt",
+                            "id": "Label_Q0304AddNew09_Weed",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "9_BJMPurchasedQtyLt"
+                            "Text": "LaborHiredFemaleHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew09_BJMPurchasedQtyLt",
+                            "id": "Q0304AddNew09_WeedLaborHiredFemaleHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -303,15 +287,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew10_BJMTotalCostRs",
+                            "id": "Label_Q0304AddNew10_Weed",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "10_BJMTotalCostRs"
+                            "Text": "LaborHiredFemaleRs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew10_BJMTotalCostRs",
+                            "id": "Q0304AddNew10_WeedLaborHiredFemaleRs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -319,15 +303,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew11_GJMOwnQtyLt",
+                            "id": "Label_Q0304AddNew11_Weed",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "11_GJMOwnQtyLt"
+                            "Text": "BullockOwnHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew11_GJMOwnQtyLt",
+                            "id": "Q0304AddNew11_WeedBullockOwnHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -335,15 +319,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew12_GJMPurchasedQtyLt",
+                            "id": "Label_Q0304AddNew12_Weed",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "12_GJMPurchasedQtyLt"
+                            "Text": "BullockHiredHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew12_GJMPurchasedQtyLt",
+                            "id": "Q0304AddNew12_WeedBullockHiredHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -351,15 +335,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew13_GJMTotalCostRs",
+                            "id": "Label_Q0304AddNew13_Weed",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "13_GJMTotalCostRs"
+                            "Text": "BullockHiredRs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew13_GJMTotalCostRs",
+                            "id": "Q0304AddNew13_WeedBullockHiredRs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -367,15 +351,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew14_DJMOwnQtyLt",
+                            "id": "Label_Q0304AddNew14_Weed",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "14_DJMOwnQtyLt"
+                            "Text": "MachineOwnHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew14_DJMOwnQtyLt",
+                            "id": "Q0304AddNew14_WeedMachineOwnHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -383,15 +367,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew15_DJMPurchasedQtyLt",
+                            "id": "Label_Q0304AddNew16_Weed",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "15_DJMPurchasedQtyLt"
+                            "Text": "MachineHiredHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew15_DJMPurchasedQtyLt",
+                            "id": "Q0304AddNew16_WeedMachineHiredHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -399,15 +383,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew16_DJMTotalCostRs",
+                            "id": "Label_Q0304AddNew18_Weed",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "16_DJMTotalCostRs"
+                            "Text": "MachineHiredRs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew16_DJMTotalCostRs",
+                            "id": "Q0304AddNew18_WeedMachineHiredRs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -415,73 +399,80 @@
                             }
                         },
                         {
-                            "id":"CardQ0303AddNew_GrowthInputs1",
+                            "id": "Label_Q0304AddNew19_Weed",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "ImplementsOwnHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew19_WeedImplementsOwnHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew21_Weed",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "ImplementsHiredHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew21_WeedImplementsHiredHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew23_Weed",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "ImplementsHiredRs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew23_WeedImplementsHiredRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"CardQ0304AddNew_Irri",
                             "type":"MakeroidCardView",
                             "properties":{
                                 "Width":-2
                             },
                             "components":[
                                 {
-                                    "id":"LabelQ0303AddNew_GrowthInputs1",
+                                    "id":"LabelQ0304AddNew_Irri",
                                     "type":"Label",
                                     "properties":{
                                         "Width":-2,
-                                        "Text":"Other Growth Input 1"
+                                        "Text":"Labour use and other expenditure on Irrigation in the plot, including input application"
                                     }
                                 }
                             ]
                         },
                         {
-                            "id": "Label_Q0303AddNew17_GrowthInput1",
+                            "id": "Label_Q0304AddNew05_Irri",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "17_GrowthInput1"
+                            "Text": "LaborOwnMaleHrs"
                             }
                         },
                         {
-                            "id": "KNCListPickerQ0303AddNew17_GrowthInput1",
-                            "type": "ListPicker",
-                            "properties": {
-                            "Text": "Select", 
-                            "Width": -2, 
-                            "ElementsFromString": "1=Livestock penning (quintals), 2=Crop residue leaf on the field (quintals), 3=Amrutajalam (Ltrs), 4=Azola (Kgs), 5=Neem cake (Kg), 6=Mulching (quintals), 7=Green Manure (quintals), 8=Tank silt (quintals), 9=Castor Cake (kg), 10=Others (specify)"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew17_GrowthInput1",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5,
-                            "ReadOnly": true
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew17_GrowthInput1Others",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "17_GrowthInput1Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew17_GrowthInput1Others",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew18_GrowthInput1OwnQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "18_GrowthInput1OwnQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew18_GrowthInput1OwnQty",
+                            "id": "Q0304AddNew05_IrriLaborOwnMaleHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -489,15 +480,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew19_GrowthInput1PurchaseQty",
+                            "id": "Label_Q0304AddNew06_Irri",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "19_GrowthInput1PurchaseQty"
+                            "Text": "LaborOwnFemaleHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew19_GrowthInput1PurchaseQty",
+                            "id": "Q0304AddNew06_IrriLaborOwnFemaleHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -505,15 +496,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew20_GrowthInput1TotalCostRs",
+                            "id": "Label_Q0304AddNew07_Irri",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "20_GrowthInput1TotalCostRs"
+                            "Text": "LaborHiredMaleHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew20_GrowthInput1TotalCostRs",
+                            "id": "Q0304AddNew07_IrriLaborHiredMaleHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -521,73 +512,224 @@
                             }
                         },
                         {
-                            "id":"CardQ0303AddNew_GrowthInputs2",
+                            "id": "Label_Q0304AddNew08_Irri",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "LaborHiredMaleRs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew08_IrriLaborHiredMaleRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew09_Irri",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "LaborHiredFemaleHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew09_IrriLaborHiredFemaleHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew10_Irri",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "LaborHiredFemaleRs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew10_IrriLaborHiredFemaleRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew11_Irri",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "BullockOwnHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew11_IrriBullockOwnHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew12_Irri",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "BullockHiredHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew12_IrriBullockHiredHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew13_Irri",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "BullockHiredRs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew13_IrriBullockHiredRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew14_Irri",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "MachineOwnHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew14_IrriMachineOwnHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew16_Irri",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "MachineHiredHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew16_IrriMachineHiredHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew18_Irri",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "MachineHiredRs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew18_IrriMachineHiredRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew19_Irri",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "ImplementsOwnHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew19_IrriImplementsOwnHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew21_Irri",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "ImplementsHiredHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew21_IrriImplementsHiredHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew23_Irri",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "ImplementsHiredRs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew23_IrriImplementsHiredRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"CardQ0304AddNew_Harv",
                             "type":"MakeroidCardView",
                             "properties":{
                                 "Width":-2
                             },
                             "components":[
                                 {
-                                    "id":"LabelQ0303AddNew_GrowthInputs2",
+                                    "id":"LabelQ0304AddNew_Harv",
                                     "type":"Label",
                                     "properties":{
                                         "Width":-2,
-                                        "Text":"Other Growth Input 2"
+                                        "Text":"Labour use and other expenditure on Harvesting in the plot"
                                     }
                                 }
                             ]
                         },
                         {
-                            "id": "Label_Q0303AddNew21_GrowthInput2",
+                            "id": "Label_Q0304AddNew05_Harv",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "21_GrowthInput2"
+                            "Text": "LaborOwnMaleHrs"
                             }
                         },
                         {
-                            "id": "KNCListPickerQ0303AddNew21_GrowthInput2",
-                            "type": "ListPicker",
-                            "properties": {
-                            "Text": "Select", 
-                            "Width": -2, 
-                            "ElementsFromString": "1=Livestock penning (quintals), 2=Crop residue leaf on the field (quintals), 3=Amrutajalam (Ltrs), 4=Azola (Kgs), 5=Neem cake (Kg), 6=Mulching (quintals), 7=Green Manure (quintals), 8=Tank silt (quintals), 9=Castor Cake (kg), 10=Others (specify)"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew21_GrowthInput2",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5,
-                            "ReadOnly": true
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew21_GrowthInput2Others",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "21_GrowthInput2Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew21_GrowthInput2Others",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew22_GrowthInput2OwnQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "22_GrowthInput2OwnQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew22_GrowthInput2OwnQty",
+                            "id": "Q0304AddNew05_HarvLaborOwnMaleHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -595,15 +737,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew23_GrowthInput2PurchaseQty",
+                            "id": "Label_Q0304AddNew06_Harv",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "23_GrowthInput2PurchaseQty"
+                            "Text": "LaborOwnFemaleHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew23_GrowthInput2PurchaseQty",
+                            "id": "Q0304AddNew06_HarvLaborOwnFemaleHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -611,15 +753,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew24_GrowthInput2TotalCostRs",
+                            "id": "Label_Q0304AddNew07_Harv",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "24_GrowthInput2TotalCostRs"
+                            "Text": "LaborHiredMaleHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew24_GrowthInput2TotalCostRs",
+                            "id": "Q0304AddNew07_HarvLaborHiredMaleHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -627,73 +769,224 @@
                             }
                         },
                         {
-                            "id":"CardQ0303AddNew_GrowthInputs3",
+                            "id": "Label_Q0304AddNew08_Harv",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "LaborHiredMaleRs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew08_HarvLaborHiredMaleRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew09_Harv",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "LaborHiredFemaleHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew09_HarvLaborHiredFemaleHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew10_Harv",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "LaborHiredFemaleRs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew10_HarvLaborHiredFemaleRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew11_Harv",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "BullockOwnHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew11_HarvBullockOwnHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew12_Harv",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "BullockHiredHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew12_HarvBullockHiredHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew13_Harv",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "BullockHiredRs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew13_HarvBullockHiredRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew14_Harv",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "MachineOwnHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew14_HarvMachineOwnHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew16_Harv",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "MachineHiredHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew16_HarvMachineHiredHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew18_Harv",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "MachineHiredRs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew18_HarvMachineHiredRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew19_Harv",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "ImplementsOwnHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew19_HarvImplementsOwnHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew21_Harv",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "ImplementsHiredHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew21_HarvImplementsHiredHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew23_Harv",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "ImplementsHiredRs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew23_HarvImplementsHiredRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"CardQ0304AddNew_Thres",
                             "type":"MakeroidCardView",
                             "properties":{
                                 "Width":-2
                             },
                             "components":[
                                 {
-                                    "id":"LabelQ0303AddNew_GrowthInputs3",
+                                    "id":"LabelQ0304AddNew_Thres",
                                     "type":"Label",
                                     "properties":{
                                         "Width":-2,
-                                        "Text":"Other Growth Input 3"
+                                        "Text":"Labour use and other expenditure on Threshing and Transport"
                                     }
                                 }
                             ]
                         },
                         {
-                            "id": "Label_Q0303AddNew25_GrowthInput3",
+                            "id": "Label_Q0304AddNew05_Thres",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "25_GrowthInput3"
+                            "Text": "LaborOwnMaleHrs"
                             }
                         },
                         {
-                            "id": "KNCListPickerQ0303AddNew25_GrowthInput3",
-                            "type": "ListPicker",
-                            "properties": {
-                            "Text": "Select", 
-                            "Width": -2, 
-                            "ElementsFromString": "1=Livestock penning (quintals), 2=Crop residue leaf on the field (quintals), 3=Amrutajalam (Ltrs), 4=Azola (Kgs), 5=Neem cake (Kg), 6=Mulching (quintals), 7=Green Manure (quintals), 8=Tank silt (quintals), 9=Castor Cake (kg), 10=Others (specify)"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew25_GrowthInput3",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5,
-                            "ReadOnly": true
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew25_GrowthInput3Others",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "25_GrowthInput3Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew25_GrowthInput3Others",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew26_GrowthInput3OwnQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "26_GrowthInput3OwnQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew26_GrowthInput3OwnQty",
+                            "id": "Q0304AddNew05_ThresLaborOwnMaleHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -701,15 +994,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew27_GrowthInput3PurchaseQty",
+                            "id": "Label_Q0304AddNew06_Thres",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "27_GrowthInput3PurchaseQty"
+                            "Text": "LaborOwnFemaleHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew27_GrowthInput3PurchaseQty",
+                            "id": "Q0304AddNew06_ThresLaborOwnFemaleHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -717,15 +1010,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew28_GrowthInput3TotalCostRs",
+                            "id": "Label_Q0304AddNew07_Thres",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "28_GrowthInput3TotalCostRs"
+                            "Text": "LaborHiredMaleHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew28_GrowthInput3TotalCostRs",
+                            "id": "Q0304AddNew07_ThresLaborHiredMaleHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -733,73 +1026,224 @@
                             }
                         },
                         {
-                            "id":"CardQ0303AddNew_ProtectionInputs1",
+                            "id": "Label_Q0304AddNew08_Thres",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "LaborHiredMaleRs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew08_ThresLaborHiredMaleRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew09_Thres",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "LaborHiredFemaleHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew09_ThresLaborHiredFemaleHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew10_Thres",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "LaborHiredFemaleRs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew10_ThresLaborHiredFemaleRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew11_Thres",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "BullockOwnHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew11_ThresBullockOwnHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew12_Thres",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "BullockHiredHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew12_ThresBullockHiredHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew13_Thres",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "BullockHiredRs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew13_ThresBullockHiredRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew14_Thres",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "MachineOwnHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew14_ThresMachineOwnHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew16_Thres",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "MachineHiredHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew16_ThresMachineHiredHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew18_Thres",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "MachineHiredRs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew18_ThresMachineHiredRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew19_Thres",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "ImplementsOwnHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew19_ThresImplementsOwnHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew21_Thres",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "ImplementsHiredHrs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew21_ThresImplementsHiredHrs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id": "Label_Q0304AddNew23_Thres",
+                            "type": "Label",
+                            "properties": {
+                            "Width": -2,
+                            "Text": "ImplementsHiredRs"
+                            }
+                        },
+                        {
+                            "id": "Q0304AddNew23_ThresImplementsHiredRs",
+                            "type": "TextBox",
+                            "properties": {
+                            "Width": -2,
+                            "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"CardQ0304AddNew_Emergency",
                             "type":"MakeroidCardView",
                             "properties":{
                                 "Width":-2
                             },
                             "components":[
                                 {
-                                    "id":"LabelQ0303AddNew_ProtectionInputs1",
+                                    "id":"LabelQ0304AddNew_Emergency",
                                     "type":"Label",
                                     "properties":{
                                         "Width":-2,
-                                        "Text":"Protection Input 1"
+                                        "Text":"Labour use and other expenditure on Supervision (of plots or crop), emergencies and other activities, which are not covered preceding cost items"
                                     }
                                 }
                             ]
                         },
                         {
-                            "id": "Label_Q0303AddNew29_ProtectionInput1",
+                            "id": "Label_Q0304AddNew05_Emergency",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "29_ProtectionInput1"
+                            "Text": "LaborOwnMaleHrs"
                             }
                         },
                         {
-                            "id": "KNCListPickerQ0303AddNew29_ProtectionInput1",
-                            "type": "ListPicker",
-                            "properties": {
-                            "Text": "Select", 
-                            "Width": -2, 
-                            "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew29_ProtectionInput1",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5,
-                            "ReadOnly": true
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew29_ProtectionInput1Others",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "29_ProtectionInput1Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew29_ProtectionInput1Others",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew30_ProtectionInput1OwnQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "30_ProtectionInput1OwnQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew30_ProtectionInput1OwnQty",
+                            "id": "Q0304AddNew05_EmergencyLaborOwnMaleHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -807,15 +1251,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew31_ProtectionInput1PurchaseQty",
+                            "id": "Label_Q0304AddNew06_Emergency",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "31_ProtectionInput1PurchaseQty"
+                            "Text": "LaborOwnFemaleHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew31_ProtectionInput1PurchaseQty",
+                            "id": "Q0304AddNew06_EmergencyLaborOwnFemaleHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -823,15 +1267,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew32_ProtectionInput1TotalCostRs",
+                            "id": "Label_Q0304AddNew07_Emergency",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "32_ProtectionInput1TotalCostRs"
+                            "Text": "LaborHiredMaleHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew32_ProtectionInput1TotalCostRs",
+                            "id": "Q0304AddNew07_EmergencyLaborHiredMaleHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -839,73 +1283,15 @@
                             }
                         },
                         {
-                            "id":"CardQ0303AddNew_ProtectionInputs2",
-                            "type":"MakeroidCardView",
-                            "properties":{
-                                "Width":-2
-                            },
-                            "components":[
-                                {
-                                    "id":"LabelQ0303AddNew_ProtectionInputs2",
-                                    "type":"Label",
-                                    "properties":{
-                                        "Width":-2,
-                                        "Text":"Protection Input 2"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "id": "Label_Q0303AddNew33_ProtectionInput2",
+                            "id": "Label_Q0304AddNew08_Emergency",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "33_ProtectionInput2"
+                            "Text": "LaborHiredMaleRs"
                             }
                         },
                         {
-                            "id": "KNCListPickerQ0303AddNew33_ProtectionInput2",
-                            "type": "ListPicker",
-                            "properties": {
-                            "Text": "Select", 
-                            "Width": -2, 
-                            "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew33_ProtectionInput2",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5,
-                            "ReadOnly": true
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew33_ProtectionInput2Others",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "33_ProtectionInput2Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew33_ProtectionInput2Others",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew34_ProtectionInput2OwnQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "34_ProtectionInput2OwnQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew34_ProtectionInput2OwnQty",
+                            "id": "Q0304AddNew08_EmergencyLaborHiredMaleRs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -913,15 +1299,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew35_ProtectionInput2PurchaseQty",
+                            "id": "Label_Q0304AddNew09_Emergency",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "35_ProtectionInput2PurchaseQty"
+                            "Text": "LaborHiredFemaleHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew35_ProtectionInput2PurchaseQty",
+                            "id": "Q0304AddNew09_EmergencyLaborHiredFemaleHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -929,15 +1315,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew36_ProtectionInput2TotalCostRs",
+                            "id": "Label_Q0304AddNew10_Emergency",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "36_ProtectionInput2TotalCostRs"
+                            "Text": "LaborHiredFemaleRs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew36_ProtectionInput2TotalCostRs",
+                            "id": "Q0304AddNew10_EmergencyLaborHiredFemaleRs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -945,73 +1331,15 @@
                             }
                         },
                         {
-                            "id":"CardQ0303AddNew_ProtectionInputs3",
-                            "type":"MakeroidCardView",
-                            "properties":{
-                                "Width":-2
-                            },
-                            "components":[
-                                {
-                                    "id":"LabelQ0303AddNew_ProtectionInputs3",
-                                    "type":"Label",
-                                    "properties":{
-                                        "Width":-2,
-                                        "Text":"Protection Input 3"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "id": "Label_Q0303AddNew37_ProtectionInput3",
+                            "id": "Label_Q0304AddNew11_Emergency",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "37_ProtectionInput3"
+                            "Text": "BullockOwnHrs"
                             }
                         },
                         {
-                            "id": "KNCListPickerQ0303AddNew37_ProtectionInput3",
-                            "type": "ListPicker",
-                            "properties": {
-                            "Text": "Select", 
-                            "Width": -2, 
-                            "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew37_ProtectionInput3",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5,
-                            "ReadOnly": true
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew37_ProtectionInput3Others",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "37_ProtectionInput3Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew37_ProtectionInput3Others",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew38_ProtectionInput3OwnQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "38_ProtectionInput3OwnQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew38_ProtectionInput3OwnQty",
+                            "id": "Q0304AddNew11_EmergencyBullockOwnHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1019,15 +1347,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew39_ProtectionInput3PurchaseQty",
+                            "id": "Label_Q0304AddNew12_Emergency",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "39_ProtectionInput3PurchaseQty"
+                            "Text": "BullockHiredHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew39_ProtectionInput3PurchaseQty",
+                            "id": "Q0304AddNew12_EmergencyBullockHiredHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1035,15 +1363,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew40_ProtectionInput3TotalCostRs",
+                            "id": "Label_Q0304AddNew13_Emergency",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "40_ProtectionInput3TotalCostRs"
+                            "Text": "BullockHiredRs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew40_ProtectionInput3TotalCostRs",
+                            "id": "Q0304AddNew13_EmergencyBullockHiredRs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1051,73 +1379,15 @@
                             }
                         },
                         {
-                            "id":"CardQ0303AddNew_ProtectionInputs4",
-                            "type":"MakeroidCardView",
-                            "properties":{
-                                "Width":-2
-                            },
-                            "components":[
-                                {
-                                    "id":"LabelQ0303AddNew_ProtectionInputs4",
-                                    "type":"Label",
-                                    "properties":{
-                                        "Width":-2,
-                                        "Text":"Protection Input 4"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "id": "Label_Q0303AddNew41_ProtectionInput4",
+                            "id": "Label_Q0304AddNew14_Emergency",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "41_ProtectionInput4"
+                            "Text": "MachineOwnHrs"
                             }
                         },
                         {
-                            "id": "KNCListPickerQ0303AddNew41_ProtectionInput4",
-                            "type": "ListPicker",
-                            "properties": {
-                            "Text": "Select", 
-                            "Width": -2, 
-                            "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew41_ProtectionInput4",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5,
-                            "ReadOnly": true
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew41_ProtectionInput4Others",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "41_ProtectionInput4Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew41_ProtectionInput4Others",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew42_ProtectionInput4OwnQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "42_ProtectionInput4OwnQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew42_ProtectionInput4OwnQty",
+                            "id": "Q0304AddNew14_EmergencyMachineOwnHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1125,15 +1395,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew43_ProtectionInput4PurchaseQty",
+                            "id": "Label_Q0304AddNew16_Emergency",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "43_ProtectionInput4PurchaseQty"
+                            "Text": "MachineHiredHrs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew43_ProtectionInput4PurchaseQty",
+                            "id": "Q0304AddNew16_EmergencyMachineHiredHrs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1141,15 +1411,15 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew44_ProtectionInput4TotalCostRs",
+                            "id": "Label_Q0304AddNew18_Emergency",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "44_ProtectionInput4TotalCostRs"
+                            "Text": "MachineHiredRs"
                             }
                         },
                         {
-                            "id": "Q0303AddNew44_ProtectionInput4TotalCostRs",
+                            "id": "Q0304AddNew18_EmergencyMachineHiredRs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1157,73 +1427,15 @@
                             }
                         },
                         {
-                            "id":"CardQ0303AddNew_ProtectionInputs5",
-                            "type":"MakeroidCardView",
-                            "properties":{
-                                "Width":-2
-                            },
-                            "components":[
-                                {
-                                    "id":"LabelQ0303AddNew_ProtectionInputs5",
-                                    "type":"Label",
-                                    "properties":{
-                                        "Width":-2,
-                                        "Text":"Protection Input 5"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "id": "Label_Q0303AddNew45_ProtectionInput5",
+                            "id": "Label_Q0304AddNew19_EmergencyCess",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "45_ProtectionInput5"
+                            "Text": "Irrigation Cess cost (not covered inpreceding items)"
                             }
                         },
                         {
-                            "id": "KNCListPickerQ0303AddNew45_ProtectionInput5",
-                            "type": "ListPicker",
-                            "properties": {
-                            "Text": "Select", 
-                            "Width": -2, 
-                            "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew45_ProtectionInput5",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5,
-                            "ReadOnly": true
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew45_ProtectionInput5Others",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "45_ProtectionInput5Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew45_ProtectionInput5Others",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew46_ProtectionInput5OwnQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "46_ProtectionInput5OwnQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew46_ProtectionInput5OwnQty",
+                            "id": "Q0304AddNew19_EmergencyCessRs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
@@ -1231,465 +1443,26 @@
                             }
                         },
                         {
-                            "id": "Label_Q0303AddNew47_ProtectionInput5PurchaseQty",
+                            "id": "Label_Q0304AddNew21_EmergencyMisc",
                             "type": "Label",
                             "properties": {
                             "Width": -2,
-                            "Text": "47_ProtectionInput5PurchaseQty"
+                            "Text": "Miscellaneous (not covered in preceding items)"
                             }
                         },
                         {
-                            "id": "Q0303AddNew47_ProtectionInput5PurchaseQty",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew48_ProtectionInput5TotalCostRs",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "48_ProtectionInput5TotalCostRs"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew48_ProtectionInput5TotalCostRs",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id":"CardQ0303AddNew_ProtectionInputs6",
-                            "type":"MakeroidCardView",
-                            "properties":{
-                                "Width":-2
-                            },
-                            "components":[
-                                {
-                                    "id":"LabelQ0303AddNew_ProtectionInputs6",
-                                    "type":"Label",
-                                    "properties":{
-                                        "Width":-2,
-                                        "Text":"Protection Input 6"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "id": "Label_Q0303AddNew49_ProtectionInput6",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "49_ProtectionInput6"
-                            }
-                        },
-                        {
-                            "id": "KNCListPickerQ0303AddNew49_ProtectionInput6",
-                            "type": "ListPicker",
-                            "properties": {
-                            "Text": "Select", 
-                            "Width": -2, 
-                            "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew49_ProtectionInput6",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5,
-                            "ReadOnly": true
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew49_ProtectionInput6Others",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "49_ProtectionInput6Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew49_ProtectionInput6Others",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew50_ProtectionInput6OwnQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "50_ProtectionInput6OwnQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew50_ProtectionInput6OwnQty",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew51_ProtectionInput6PurchaseQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "51_ProtectionInput6PurchaseQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew51_ProtectionInput6PurchaseQty",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew52_ProtectionInput6TotalCostRs",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "52_ProtectionInput6TotalCostRs"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew52_ProtectionInput6TotalCostRs",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id":"CardQ0303AddNew_ProtectionInputs7",
-                            "type":"MakeroidCardView",
-                            "properties":{
-                                "Width":-2
-                            },
-                            "components":[
-                                {
-                                    "id":"LabelQ0303AddNew_ProtectionInputs7",
-                                    "type":"Label",
-                                    "properties":{
-                                        "Width":-2,
-                                        "Text":"Protection Input 7"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "id": "Label_Q0303AddNew53_ProtectionInput7",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "53_ProtectionInput7"
-                            }
-                        },
-                        {
-                            "id": "KNCListPickerQ0303AddNew53_ProtectionInput7",
-                            "type": "ListPicker",
-                            "properties": {
-                            "Text": "Select", 
-                            "Width": -2, 
-                            "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew53_ProtectionInput7",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5,
-                            "ReadOnly": true
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew53_ProtectionInput7Others",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "53_ProtectionInput7Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew53_ProtectionInput7Others",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew54_ProtectionInput7OwnQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "54_ProtectionInput7OwnQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew54_ProtectionInput7OwnQty",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew55_ProtectionInput7PurchaseQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "55_ProtectionInput7PurchaseQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew55_ProtectionInput7PurchaseQty",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew56_ProtectionInput7TotalCostRs",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "56_ProtectionInput7TotalCostRs"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew56_ProtectionInput7TotalCostRs",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id":"CardQ0303AddNew_ProtectionInputs8",
-                            "type":"MakeroidCardView",
-                            "properties":{
-                                "Width":-2
-                            },
-                            "components":[
-                                {
-                                    "id":"LabelQ0303AddNew_ProtectionInputs8",
-                                    "type":"Label",
-                                    "properties":{
-                                        "Width":-2,
-                                        "Text":"Protection Input 8"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "id": "Label_Q0303AddNew57_ProtectionInput8",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "57_ProtectionInput8"
-                            }
-                        },
-                        {
-                            "id": "KNCListPickerQ0303AddNew57_ProtectionInput8",
-                            "type": "ListPicker",
-                            "properties": {
-                            "Text": "Select", 
-                            "Width": -2, 
-                            "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew57_ProtectionInput8",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5,
-                            "ReadOnly": true
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew57_ProtectionInput8Others",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "57_ProtectionInput8Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew57_ProtectionInput8Others",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew58_ProtectionInput8OwnQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "58_ProtectionInput8OwnQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew58_ProtectionInput8OwnQty",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew59_ProtectionInput8PurchaseQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "59_ProtectionInput8PurchaseQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew59_ProtectionInput8PurchaseQty",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew60_ProtectionInput8TotalCostRs",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "60_ProtectionInput8TotalCostRs"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew60_ProtectionInput8TotalCostRs",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id":"CardQ0303AddNew_ProtectionInputs9",
-                            "type":"MakeroidCardView",
-                            "properties":{
-                                "Width":-2
-                            },
-                            "components":[
-                                {
-                                    "id":"LabelQ0303AddNew_ProtectionInputs9",
-                                    "type":"Label",
-                                    "properties":{
-                                        "Width":-2,
-                                        "Text":"Protection Input 9"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "id": "Label_Q0303AddNew61_ProtectionInput9",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "61_ProtectionInput9"
-                            }
-                        },
-                        {
-                            "id": "KNCListPickerQ0303AddNew61_ProtectionInput9",
-                            "type": "ListPicker",
-                            "properties": {
-                            "Text": "Select", 
-                            "Width": -2, 
-                            "ElementsFromString": "11=Brahmasthram(Ltrs), 12=Agnitasthram(Ltrs), 13=Neemasthram(Ltrs), 14=Gobanam (Ltrs), 15=Dasapannikasayam(Ltrs), 16=Panchagavva (Ltrs), 17=Lingakarshana butta (numbers), 18=Pheramone traps, 19=Beejaraksha (Ltrs), 20=Tootikadakashayam (Ltrs),21=Sour-buttermilk (PullatiMajjiga) (Ltrs), 22=Vavilakukashayam (Ltrs), 23=MaaredupatraKashyam (Ltrs), 24=Sonthi-Paalakashayam (Ltrs), 25=Purugu Vikarshana Dravanam (Ltrs), 26=Pachcimirchi-Vepa-Vellulli-Pogakudravanam (Ltrs), 27=Ummetta Ganuga kashayam (ltrs), 28=Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew61_ProtectionInput9",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5,
-                            "ReadOnly": true
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew61_ProtectionInput9Others",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "61_ProtectionInput9Others"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew61_ProtectionInput9Others",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew62_ProtectionInput9OwnQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "62_ProtectionInput9OwnQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew62_ProtectionInput9OwnQty",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew63_ProtectionInput9PurchaseQty",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "63_ProtectionInput9PurchaseQty"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew63_ProtectionInput9PurchaseQty",
-                            "type": "TextBox",
-                            "properties": {
-                            "Width": -2,
-                            "InputType": 5
-                            }
-                        },
-                        {
-                            "id": "Label_Q0303AddNew64_ProtectionInput9TotalCostRs",
-                            "type": "Label",
-                            "properties": {
-                            "Width": -2,
-                            "Text": "64_ProtectionInput9TotalCostRs"
-                            }
-                        },
-                        {
-                            "id": "Q0303AddNew64_ProtectionInput9TotalCostRs",
+                            "id": "Q0304AddNew21_EmergencyMiscRs",
                             "type": "TextBox",
                             "properties": {
                             "Width": -2,
                             "InputType": 5
                             }
                         }
+        
                     ]
                 },
                 {
-                    "id": "HAforBtns_Q0303AddNew",
+                    "id": "HAforBtns_Q0304AddNew",
                     "type":"HorizontalArrangement",
                     "properties":{
                         "Width":-2,
@@ -1697,29 +1470,29 @@
                     },
                     "components":[
                         {
-                            "id":"PopUpBtnCancel_Q0303AddNew",
+                            "id":"PopUpBtnCancel_Q0304AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Cancel"
                             }
                         },
                         {
-                            "id":"PopUpBtnDelete_Q0303AddNew",
+                            "id":"PopUpBtnDelete_Q0304AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Delete"
                             }
                         },
                         {
-                            "id":"PopUpBtnSave_Q0303AddNew",
+                            "id":"PopUpBtnSave_Q0304AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Save"
                             }
                         }
                     ]
-                }  
+                }
             ]
-        }      
+        }
     ]
 }

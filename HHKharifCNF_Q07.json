@@ -383,7 +383,7 @@
                                     "type": "Label",
                                     "properties": {
                                         "Width": -2,
-                                        "Text": "7.3 Do you consume APCNF produce?",
+                                        "Text": "7.3.1 Do you consume APCNF produce?",
                                         "FontSize": 16
                                     }
                                 },
@@ -421,7 +421,7 @@
                                     "type": "Label",
                                     "properties": {
                                         "Width": -2,
-                                        "Text": "7.3 Do you consume APCNF produce?",
+                                        "Text": "7.3.2 Taste of APCNF food crops compared to non-APCNF crops?",
                                         "FontSize": 16
                                     }
                                 },
@@ -431,7 +431,7 @@
                                     "properties": {
                                         "Width": -2,
                                         "ShowFilterBar": true,
-                                        "ElementsFromString": "1=Yes, 2=No, 3=Cannot say",
+                                        "ElementsFromString": "1=APCNF product is tastier, 2=APCNF product is less tasty, 3=Both are same",
                                         "Text": "Select",
                                         "Title":"Select"
                                     }
@@ -733,22 +733,22 @@
                             ]
                         },
                         {
-                            "id": "Card_ViewQ075_changefinancial",
+                            "id": "Card_ViewQ0705_changefinancial",
                             "type": "MakeroidCardView",
                             "properties": {
                                 "Width": -2
                             },
                             "components": [
                                 {
-                                    "id": "LabelQ075_changefinancial",
+                                    "id": "LabelQ0705_changefinancial",
                                     "type": "Label",
                                     "properties": {
                                         "Width": -2,
-                                        "Text": "7.4.5 Changes in your financial situation after APCNF"
+                                        "Text": "7.5 Changes in your financial situation after APCNF"
                                     }
                                 },
                                 {
-                                    "id": "KNCListPickerQ075_changefinancial",
+                                    "id": "KNCListPickerQ0705_changefinancial",
                                     "type": "ListPicker",
                                     "properties": {
                                         "Width": -2,
@@ -759,7 +759,7 @@
                                     }
                                 },
                                 {
-                                    "id": "Q075_changefinancial",
+                                    "id": "Q0705_changefinancial",
                                     "type": "TextBox",
                                     "properties": {
                                         "BackgroundColor": 4293848814,
@@ -781,7 +781,7 @@
                                     "type": "Label",
                                     "properties": {
                                         "Width": -2,
-                                        "Text": "7.4.6 Changes in the health status of your family, after APCNF"
+                                        "Text": "7.6 Changes in the health status of your family, after APCNF"
                                     }
                                 },
                                 {
@@ -818,7 +818,7 @@
                                     "type": "Label",
                                     "properties": {
                                         "Width": -2,
-                                        "Text": "7.4.7 Changes in your expenditure on family health after APCNF"
+                                        "Text": "7.7 Changes in your expenditure on family health after APCNF"
                                     }
                                 },
                                 {
@@ -855,7 +855,7 @@
                                     "type": "Label",
                                     "properties": {
                                         "Width": -2,
-                                        "Text": "7.4.8 Changes in farming related stress due to APCNF"
+                                        "Text": "7.8 Changes in farming related stress due to APCNF"
                                     }
                                 },
                                 {
