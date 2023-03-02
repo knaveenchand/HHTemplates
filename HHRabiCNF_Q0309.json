@@ -1,5 +1,5 @@
 {
-    "name": "HHKharifCNF_Q0302",
+    "name": "HHRabiCNF_Q0309",
     "metadata-version": 1,
     "extension_version": 5,
     "author": "Naveen",
@@ -10,25 +10,25 @@
     "keys": [],
     "components": [
         {
-            "id": "PageVA_Q0302",
+            "id": "PageVA_Q0309",
             "type": "VerticalArrangement",
             "properties": {
                 "Width": -2
             },
             "components": [
                 {
-                    "id":"PageTitleCard_Q0302",
+                    "id":"PageTitleCard_Q0309",
                     "type":"MakeroidCardView",
                     "properties":{
                         "Width":-2
                     },
                     "components": [
                         {
-                            "id":"PageTitleLabel_Q0302",
+                            "id":"PageTitleLabel_Q0309",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Q0302. Details on labour, machinery and implements used in Crop Production during Kharif 2022-23",
+                                "Text":"Q0309. Costs and Returns in Model and Horticulture crop plots",
                                 "TextAlignment": 1,
                                 "FontBold": true,
                                 "FontSize": 16
@@ -37,7 +37,7 @@
                     ]
                 },
                 {
-                    "id": "VAforBtn_Q0302",
+                    "id": "VAforBtn_Q0309",
                     "type":"VerticalArrangement",
                     "properties":{
                         "Width":-2,
@@ -45,7 +45,7 @@
                     },
                     "components":[
                         {
-                            "id":"BtnAddNew_Q0302",
+                            "id":"BtnAddNew_Q0309",
                             "type":"Button",
                             "properties":{
                                 "Text": "+ Add New"
@@ -54,7 +54,7 @@
                     ]
                 },
                 {
-                    "id":"VAforHoldingCards_Q0302AddNew",
+                    "id":"VAforHoldingCards_Q0309AddNew",
                     "type":"VerticalScrollArrangement",
                     "properties":{
                         "Width":-2

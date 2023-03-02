@@ -1,5 +1,5 @@
 {
-    "name": "HHKharifCNF_Q0309AddNew",
+    "name": "HHRabiCNF_Q0301AddNew",
     "metadata-version": 1,
     "extension_version": 5,
     "author": "Naveen",
@@ -10,7 +10,7 @@
     "keys": [],
     "components": [
         {
-            "id": "PageVA_Q0309AddNew",
+            "id": "PageVA_Q0301AddNew",
             "type": "VerticalArrangement",
             "properties": {
                 "Width": -2,
@@ -18,27 +18,29 @@
             },
             "components": [
                 {
-                    "id":"PageTitleCard_Q0309AddNew",
+                    "id":"PageTitleCard_Q0301AddNew",
                     "type":"MakeroidCardView",
                     "properties":{
-                        "Width":-2
+                        "Width":-2,
+                        "AlignHorizontal":3
                     },
                     "components": [
                         {
-                            "id":"PageTitleLabel_Q0309AddNew",
+                            "id":"PageTitleLabel_Q0301AddNew",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Q0309. Costs and Returns in Model and Horticulture crop plots",
+                                "Text":"Q0301. Crop wise seed, seedlings and baby plants used during Rabi 2022-23",
                                 "TextAlignment": 1,
                                 "FontBold": true,
                                 "FontSize": 16
+
                             }
                         }
                     ]
                 },
                 {
-                    "id":"VAScroll_Q0309AddNew",
+                    "id":"VAScroll_Q0301AddNew",
                     "type":"VerticalScrollArrangement",
                     "properties":{
                         "WidthPercent": 75,
@@ -46,7 +48,7 @@
                     },
                     "components":[
                         {
-                            "id": "LabelKeys_Q0309AddNew00",
+                            "id": "LabelKeys_Q0301AddNew00",
                             "type": "Label",
                             "properties":{
                                 "Width": -2,
@@ -54,7 +56,7 @@
                             }
                         },
                         {
-                            "id": "Q0309AddNew00_ID",
+                            "id": "Q0301AddNew00_ID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -63,7 +65,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0309AddNew00_ParcelPlotCombo",
+                            "id":"Label_Q0301AddNew00_ParcelPlotCombo",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -71,16 +73,16 @@
                             }
                         },
                         {
-                            "id":"ListPickerPPFrom0203_Q0309AddNew",
+                            "id":"ListPickerPPFrom0203_Q0301AddNew",
                             "type":"ListPicker",
                             "properties":{
-                                "Text":"Select Parcel-Plot Combination from Mixed Crop Plots",
+                                "Text":"Select Parcel-Plot Combination",
                                 "Title": "Select Parcel-Plot Combination",
                                 "Width":-2
                             }
                         },
                         {
-                            "id": "Q0309AddNew00_ParcelPlotCombo",
+                            "id": "Q0301AddNew00_ParcelPlotCombo",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -89,7 +91,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0309AddNew00_ParcelID",
+                            "id":"Label_Q0301AddNew00_ParcelID",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -97,7 +99,7 @@
                             }
                         },
                         {
-                            "id": "Q0309AddNew00_ParcelID",
+                            "id": "Q0301AddNew00_ParcelID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -106,7 +108,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0309AddNew01_SNoParcel",
+                            "id":"Label_Q0301AddNew01_SNoParcel",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -114,7 +116,7 @@
                             }
                         },
                         {
-                            "id": "Q0309AddNew01_SNoParcel",
+                            "id": "Q0301AddNew01_SNoParcel",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -123,7 +125,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0309AddNew00_PlotID",
+                            "id":"Label_Q0301AddNew00_PlotID",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -131,7 +133,7 @@
                             }
                         },
                         {
-                            "id": "Q0309AddNew00_PlotID",
+                            "id": "Q0301AddNew00_PlotID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -140,7 +142,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0309AddNew02_PlotNumber",
+                            "id":"Label_Q0301AddNew02_PlotNumber",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -148,7 +150,7 @@
                             }
                         },
                         {
-                            "id": "Q0309AddNew02_PlotNumber",
+                            "id": "Q0301AddNew02_PlotNumber",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -157,7 +159,23 @@
                             }
                         },
                         {
-                            "id":"Label_Q0309AddNew06",
+                            "id":"Label_Q0301AddNew03",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Area Sown in Rabi (Acres.Cents)"
+                            }
+                        },
+                        {
+                            "id": "Q0301AddNew03_AreaInRabi",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"Label_Q0301AddNew06",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -165,7 +183,7 @@
                             }
                         },
                         {
-                            "id": "Q0309AddNew06_TypeOfFarming",
+                            "id": "Q0301AddNew06_TypeOfFarming",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -173,32 +191,15 @@
                             }
                         },
                         {
-                            "id":"CardQ0309AddNew_Crops",
-                            "type":"MakeroidCardView",
-                            "properties":{
-                                "Width":-2
-                            },
-                            "components":[
-                                {
-                                    "id":"LabelQ0309AddNew_Crops",
-                                    "type":"Label",
-                                    "properties":{
-                                        "Width":-2,
-                                        "Text":"Crops"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "id":"Label_Q0309AddNew09_ModelCrop",
+                            "id":"Label_Q0301AddNew10",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Model Name"
+                                "Text":"Single Crop Name"
                             }
                         },
                         {
-                            "id": "Q0309AddNew09_ModelCrop",
+                            "id": "Q0301AddNew10_SingleCrop",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -206,15 +207,15 @@
                             }
                         },
                         {
-                            "id":"Label_Q0309AddNew04_NumberOfCrops",
+                            "id":"Label_Q0301AddNew06OwnSeed",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Number Of Crops"
+                                "Text":"Own Seed Kgs"
                             }
                         },
                         {
-                            "id": "Q0309AddNew04_NumberOfCrops",
+                            "id": "Q0301AddNew06_SeedsOwnKg",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -222,15 +223,24 @@
                             }
                         },
                         {
-                            "id":"Label_Q0309AddNew03_AreaInKharif",
+                            "id":"Label_Q0301AddNew07",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Area (Acres.Cents)"
+                                "Text":"In case of Seeds Purchased, Source"
                             }
                         },
                         {
-                            "id": "Q0309AddNew03_AreaInKharif",
+                            "id": "KNCListPickerQ0301AddNew07_SeedsPurchaseSource",
+                            "type": "ListPicker",
+                            "properties": {
+                                "ElementsFromString": "1=NPM (Input shop), 2=Purchased from fellow farmers, 3=Local Seedbank, 4=Supplied by the Government or Rythu Bharosa Kendram, 5=Facilitated by RySS, 6=Purchased from market, 7=Others",
+                                "Text": "Select",
+                                "Title": "Select"
+                            }
+                        },
+                        {
+                            "id": "Q0301AddNew07_SeedsPurchaseSource",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -238,15 +248,30 @@
                             }
                         },
                         {
-                            "id":"Label_Q0309AddNew8_TotalOutputRs",
+                            "id":"Label_Q0301AddNew07Others",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Total Output Value Rs."
+                                "Text":"If Others above, specify:"
                             }
                         },
                         {
-                            "id": "Q0309AddNew8_TotalOutputRs",
+                            "id": "Q0301AddNew07_SeedsPurchaseSourceOthers",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2
+                            }
+                        },
+                        {
+                            "id":"Label_Q0301AddNew08",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Purchased Seed Kgs"
+                            }
+                        },
+                        {
+                            "id": "Q0301AddNew08_SeedsPurchaseKg",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -254,57 +279,25 @@
                             }
                         },
                         {
-                            "id":"Label_Q0309AddNew9_ByProductValueRs",
+                            "id":"Label_Q0301AddNew09",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Approximate total value of by-products Rs."
+                                "Text":"Total cost of seeds in Rs"
                             }
                         },
                         {
-                            "id": "Q0309AddNew9_ByProductValueRs",
+                            "id": "Q0301AddNew09_SeedsTotalCostRs",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
                                 "InputType": 5
                             }
-                        },
-                        {
-                            "id":"Label_Q0309AddNew10_PaidoutCostRs",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Approximate paid out cost of cultivation Rs."
-                            }
-                        },
-                        {
-                            "id": "Q0309AddNew10_PaidoutCostRs",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "InputType": 5
-                            }
-                        },
-                        {
-                            "id":"Label_Q0309AddNew11_OwnLaborDays",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Approximate Number of Own Labor Days Used"
-                            }
-                        },
-                        {
-                            "id": "Q0309AddNew11_OwnLaborDays",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "InputType": 5
-                            }
-                        }       
+                        }
                     ]
                 },
                 {
-                    "id": "HAforBtns_Q0309AddNew",
+                    "id": "HAforBtns_Q0301AddNew",
                     "type":"HorizontalArrangement",
                     "properties":{
                         "Width":-2,
@@ -312,28 +305,28 @@
                     },
                     "components":[
                         {
-                            "id":"PopUpBtnCancel_Q0309AddNew",
+                            "id":"PopUpBtnCancel_Q0301AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Cancel"
                             }
                         },
                         {
-                            "id":"PopUpBtnDelete_Q0309AddNew",
+                            "id":"PopUpBtnDelete_Q0301AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Delete"
                             }
                         },
                         {
-                            "id":"PopUpBtnSave_Q0309AddNew",
+                            "id":"PopUpBtnSave_Q0301AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Save"
                             }
                         }
                     ]
-                }
+                }       
             ]
         } 
     ]

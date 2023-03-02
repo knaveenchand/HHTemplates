@@ -1,5 +1,5 @@
 {
-    "name": "HHKharifCNF_Q0302",
+    "name": "HHRabiCNF_Q0301",
     "metadata-version": 1,
     "extension_version": 5,
     "author": "Naveen",
@@ -10,34 +10,35 @@
     "keys": [],
     "components": [
         {
-            "id": "PageVA_Q0302",
+            "id": "PageVA_Q0301",
             "type": "VerticalArrangement",
             "properties": {
                 "Width": -2
             },
             "components": [
                 {
-                    "id":"PageTitleCard_Q0302",
+                    "id":"PageTitleCard_Q0301",
                     "type":"MakeroidCardView",
                     "properties":{
                         "Width":-2
                     },
                     "components": [
                         {
-                            "id":"PageTitleLabel_Q0302",
+                            "id":"PageTitleLabel_Q0301",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Q0302. Details on labour, machinery and implements used in Crop Production during Kharif 2022-23",
+                                "Text":"Q0301. Crop wise seed, seedlings and baby plants used during Rabi 2022-23",
                                 "TextAlignment": 1,
                                 "FontBold": true,
                                 "FontSize": 16
+
                             }
                         }
                     ]
                 },
                 {
-                    "id": "VAforBtn_Q0302",
+                    "id": "VAforBtn_Q0301",
                     "type":"VerticalArrangement",
                     "properties":{
                         "Width":-2,
@@ -45,7 +46,7 @@
                     },
                     "components":[
                         {
-                            "id":"BtnAddNew_Q0302",
+                            "id":"BtnAddNew_Q0301",
                             "type":"Button",
                             "properties":{
                                 "Text": "+ Add New"
@@ -54,7 +55,7 @@
                     ]
                 },
                 {
-                    "id":"VAforHoldingCards_Q0302AddNew",
+                    "id":"VAforHoldingCards_Q0301AddNew",
                     "type":"VerticalScrollArrangement",
                     "properties":{
                         "Width":-2

@@ -1,0 +1,660 @@
+{
+    "name": "HHRabiCNF_Q11",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q11",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q11",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q11",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q11.  Extension services received during Rabi 2022-23",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAScroll_Q11",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id": "Card_ViewQ1101",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ1101",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q1101 Fellow Farmers",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ1101_interactions",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Number of Interactions"
+                                    }
+                                },
+                                {
+                                    "id": "Q1101_interactions",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ1101_satisfaction",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": false,
+                                        "ElementsFromString": "5=Highly satisfied, 4=More satisfied, 3=satisfied, 2=less satisfied, 1=no use",
+                                        "Text": "Select Satisifaction Level",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q1101_satisfaction",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1102",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ1102",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q1102 Master Farmer or ICRP",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ1102_interactions",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Number of Interactions"
+                                    }
+                                },
+                                {
+                                    "id": "Q1102_interactions",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ1102_satisfaction",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": false,
+                                        "ElementsFromString": "5=Highly satisfied, 4=More satisfied, 3=satisfied, 2=less satisfied, 1=no use",
+                                        "Text": "Select Satisifaction Level",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q1102_satisfaction",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1103",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ1103",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q1103 Ryss Staff - CRP CA MA",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ1103_interactions",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Number of Interactions"
+                                    }
+                                },
+                                {
+                                    "id": "Q1103_interactions",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ1103_satisfaction",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": false,
+                                        "ElementsFromString": "5=Highly satisfied, 4=More satisfied, 3=satisfied, 2=less satisfied, 1=no use",
+                                        "Text": "Select Satisifaction Level",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q1103_satisfaction",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1104",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ1104",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q1104 SHG or VO members or Leaders",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ1104_interactions",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Number of Interactions"
+                                    }
+                                },
+                                {
+                                    "id": "Q1104_interactions",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ1104_satisfaction",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": false,
+                                        "ElementsFromString": "5=Highly satisfied, 4=More satisfied, 3=satisfied, 2=less satisfied, 1=no use",
+                                        "Text": "Select Satisifaction Level",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q1104_satisfaction",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1105",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ1105",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q1105 Got formal training from RySS",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ1105_interactions",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Number of Interactions"
+                                    }
+                                },
+                                {
+                                    "id": "Q1105_interactions",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ1105_satisfaction",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": false,
+                                        "ElementsFromString": "5=Highly satisfied, 4=More satisfied, 3=satisfied, 2=less satisfied, 1=no use",
+                                        "Text": "Select Satisifaction Level",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q1105_satisfaction",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1106",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ1106",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q1106 Went for exposure visits",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ1106_interactions",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Number of Interactions"
+                                    }
+                                },
+                                {
+                                    "id": "Q1106_interactions",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ1106_satisfaction",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": false,
+                                        "ElementsFromString": "5=Highly satisfied, 4=More satisfied, 3=satisfied, 2=less satisfied, 1=no use",
+                                        "Text": "Select Satisifaction Level",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q1106_satisfaction",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1107",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ1107",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q1107 NGO (specify name below)",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id":"Q1107_ngoname",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ1107_interactions",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Number of Interactions"
+                                    }
+                                },
+                                {
+                                    "id": "Q1107_interactions",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ1107_satisfaction",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": false,
+                                        "ElementsFromString": "5=Highly satisfied, 4=More satisfied, 3=satisfied, 2=less satisfied, 1=no use",
+                                        "Text": "Select Satisifaction Level",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q1107_satisfaction",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1108",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ1108",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q1108 Electronic media TV or Videos",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ1108_interactions",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Number of Interactions"
+                                    }
+                                },
+                                {
+                                    "id": "Q1108_interactions",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ1108_satisfaction",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": false,
+                                        "ElementsFromString": "5=Highly satisfied, 4=More satisfied, 3=satisfied, 2=less satisfied, 1=no use",
+                                        "Text": "Select Satisifaction Level",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q1108_satisfaction",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1109",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ1109",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q1109 Newspapers and magazines",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ1109_interactions",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Number of Interactions"
+                                    }
+                                },
+                                {
+                                    "id": "Q1109_interactions",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ1109_satisfaction",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": false,
+                                        "ElementsFromString": "5=Highly satisfied, 4=More satisfied, 3=satisfied, 2=less satisfied, 1=no use",
+                                        "Text": "Select Satisifaction Level",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q1109_satisfaction",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1110",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ1110",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q1110 Booklets given by RySS and others",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ1110_interactions",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Number of Interactions"
+                                    }
+                                },
+                                {
+                                    "id": "Q1110_interactions",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ1110_satisfaction",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": false,
+                                        "ElementsFromString": "5=Highly satisfied, 4=More satisfied, 3=satisfied, 2=less satisfied, 1=no use",
+                                        "Text": "Select Satisifaction Level",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q1110_satisfaction",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ1111",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ1111",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q1111 Others (specify below)",
+                                        "FontSize": 16
+                                    }
+                                },
+                                {
+                                    "id":"Q1111_others",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2
+                                    }
+                                },
+                                {
+                                    "id": "LabelQ1111_interactions",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Number of Interactions"
+                                    }
+                                },
+                                {
+                                    "id": "Q1111_interactions",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ1111_satisfaction",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "Width": -2,
+                                        "ShowFilterBar": false,
+                                        "ElementsFromString": "5=Highly satisfied, 4=More satisfied, 3=satisfied, 2=less satisfied, 1=no use",
+                                        "Text": "Select Satisifaction Level",
+                                        "Title":"Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q1111_satisfaction",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "BackgroundColor": 4293848814,
+                                        "Width": -2,
+                                        "ReadOnly": true
+                                    }
+                                }
+                            ]
+                        }
+
+                    ]
+                }
+            ]
+        }
+    ]
+}

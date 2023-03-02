@@ -1,5 +1,5 @@
 {
-    "name": "HHKharifCNF_Q0302",
+    "name": "HHRabiCNF_Finish",
     "metadata-version": 1,
     "extension_version": 5,
     "author": "Naveen",
@@ -10,25 +10,25 @@
     "keys": [],
     "components": [
         {
-            "id": "PageVA_Q0302",
+            "id": "PageVA_Finish",
             "type": "VerticalArrangement",
             "properties": {
                 "Width": -2
             },
             "components": [
                 {
-                    "id":"PageTitleCard_Q0302",
+                    "id":"PageTitleCard_Finish",
                     "type":"MakeroidCardView",
                     "properties":{
                         "Width":-2
                     },
                     "components": [
                         {
-                            "id":"PageTitleLabel_Q0302",
+                            "id":"PageTitleLabel_Finish",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Q0302. Details on labour, machinery and implements used in Crop Production during Kharif 2022-23",
+                                "Text":"Verify and Save",
                                 "TextAlignment": 1,
                                 "FontBold": true,
                                 "FontSize": 16
@@ -37,28 +37,40 @@
                     ]
                 },
                 {
-                    "id": "VAforBtn_Q0302",
+                    "id": "VAforBtn_Finish",
                     "type":"VerticalArrangement",
                     "properties":{
                         "Width":-2,
-                        "AlignHorizontal":2
+                        "AlignVertical": 2
                     },
                     "components":[
                         {
-                            "id":"BtnAddNew_Q0302",
+                            "id":"BtnFinish_SaveOnline",
                             "type":"Button",
                             "properties":{
-                                "Text": "+ Add New"
+                                "Width":-2,
+                                "Text": "Save Online"
+                            }
+                        },
+                        {
+                            "id":"BtnFinish_SaveOffline",
+                            "type":"Button",
+                            "properties":{
+                                "Width":-2,
+                                "Text": "Save Offline"
+                            }
+                        },
+                        {
+                            "id":"BtnFinish_Delete",
+                            "type":"Button",
+                            "properties":{
+                                "Width":-2,
+                                "Visible": false,
+                                "Text": "Delete Entry"
                             }
                         }
+
                     ]
-                },
-                {
-                    "id":"VAforHoldingCards_Q0302AddNew",
-                    "type":"VerticalScrollArrangement",
-                    "properties":{
-                        "Width":-2
-                    }
                 }
             ]
         }

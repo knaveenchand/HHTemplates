@@ -1,0 +1,2404 @@
+{
+    "name": "HHRabiCNF_Q08",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q08",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q08",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q08",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q08.  Yearly Data",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAScroll_Q08",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id":"LabelQ0801",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text": "8.1. Your starting year of APCNF:"
+                            }
+                        },
+                        {
+                            "id":"Q0801_StartYearCNF",
+                            "type":"TextBox",
+                            "properties":{
+                                "Width":-2,
+                                "InputType":5
+                            }
+                        },
+                        {
+                            "id":"LabelQ0802",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text": "8.2. Your starting year of PMDS:"
+                            }
+                        },
+                        {
+                            "id":"Q0802_StartYearPMDS",
+                            "type":"TextBox",
+                            "properties":{
+                                "Width":-2,
+                                "InputType":5
+                            }
+                        },
+                        {
+                            "id":"LabelQ0803",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text": "8.3. Please give details of your allocation of operational area to PMDS+CNF, CNF and Non-CNF during last four Rabi seasons (acres and cents)"
+                            }
+                        },
+                        {
+                            "id": "Card_ViewQ080301",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ080301",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Year 2019-2020",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ080301_PMDSCNF",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Under PMDS + CNF"
+                                    }
+                                },
+                                {
+                                    "id":"Q080301_PMDSCNF",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ080301_OnlyCNF",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Under Only CNF"
+                                    }
+                                },
+                                {
+                                    "id":"Q080301_OnlyCNF",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ080301_NonCNF",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Under Non-CNF"
+                                    }
+                                },
+                                {
+                                    "id":"Q080301_NonCNF",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ080302",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ080302",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Year 2020-2021",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ080302_PMDSCNF",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Under PMDS + CNF"
+                                    }
+                                },
+                                {
+                                    "id":"Q080302_PMDSCNF",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ080302_OnlyCNF",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Under Only CNF"
+                                    }
+                                },
+                                {
+                                    "id":"Q080302_OnlyCNF",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ080302_NonCNF",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Under Non-CNF"
+                                    }
+                                },
+                                {
+                                    "id":"Q080302_NonCNF",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ080303",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ080303",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Year 2021-2022",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ080303_PMDSCNF",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Under PMDS + CNF"
+                                    }
+                                },
+                                {
+                                    "id":"Q080303_PMDSCNF",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ080303_OnlyCNF",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Under Only CNF"
+                                    }
+                                },
+                                {
+                                    "id":"Q080303_OnlyCNF",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ080303_NonCNF",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Under Non-CNF"
+                                    }
+                                },
+                                {
+                                    "id":"Q080303_NonCNF",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ080304",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ080304",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Year 2022-2023",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ080304_PMDSCNF",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Under PMDS + CNF"
+                                    }
+                                },
+                                {
+                                    "id":"Q080304_PMDSCNF",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ080304_OnlyCNF",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Under Only CNF"
+                                    }
+                                },
+                                {
+                                    "id":"Q080304_OnlyCNF",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ080304_NonCNF",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"Under Non-CNF"
+                                    }
+                                },
+                                {
+                                    "id":"Q080304_NonCNF",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType":5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id":"Card_ViewQ08Note1",
+                            "type":"MakeroidCardView",
+                            "properties":{
+                                "Width":-2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ08Note1",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":" [If the farmer allocated his entire operational area to PMDS+CNF in Rabi 2022-23, go to Q. No. 8.6]." 
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0804",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0804",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": " 8.4 If not, reasons for not cultivating PMDS+CNF in the entire cultivated area (Give multiple answers code numbers in the below boxes from Code 20)",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0804_Reason1",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason1",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0804_Reason1",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0804_Reason2",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason2",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0804_Reason2",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0804_Reason3",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason3",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0804_Reason3",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0804_Reason4",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason4",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0804_Reason4",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0804_Reason5",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason5",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0804_Reason5",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0804_Reason6",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason6",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0804_Reason6",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0804_Reason7",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason7",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0804_Reason7",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id":"Card_ViewQ08Note2",
+                            "type":"MakeroidCardView",
+                            "properties":{
+                                "Width":-2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ08Note2",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text":"[If the farmer allocated his entire operational area to PMDS+CNF and Only CNF in Rabi 2022-23, go to Q. No. 8.6]." 
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0805",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0805",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": " 8.5 If not, reasons for not cultivating CNF in the entire cultivated area (Give multiple answers code numbers in the below boxes from Code 20)",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0805_Reason1",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason1",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason1",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0805_Reason2",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason2",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason2",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0805_Reason3",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason3",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason3",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0805_Reason4",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason4",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason4",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0805_Reason5",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason5",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason5",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0805_Reason6",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason6",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason6",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0805_Reason7",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason7",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason7",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id":"LabelQ0806",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q8.6 Are you using any CNF inputs and-or practices in any non-CNF plot?"
+                            }
+                        },
+                        {
+                            "id":"KNCListPickerQ0806_usingCNFInputs",
+                            "type":"ListPicker",
+                            "properties":{
+                                "Width":-2,
+                                "Text": "Select",
+                                "ElementsFromString":"1=Yes, 2=No, 3=Cannot Say"
+                            }
+                        },
+                        {
+                            "id":"Q0806_usingCNFInputs",
+                            "type":"TextBox",
+                            "properties":{
+                                "Width":-2,
+                                "ReadOnly":true
+                            }
+                        },
+                        {
+                            "id":"LabelQ0806IfYes",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q8.7 If Yes, what are the inputs/practices? (Multiple answers possible)?"
+                            }
+                        },
+                        {
+                            "id": "Card_ViewQ0807",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"KNCListPickerQ0807_Practice1",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Practice1",
+                                        "ElementsFromString":"1=practicing PMDS, 2=using Beejamrutham, 3=using Ghanajeevamrutham, 4=using Dravajeevamrutham, 5=Using Kashayams or Asthrams, 6=Mulching, 7=Inter cropping, 8=Border cropping, 9=Bund cropping, 10=Model crops, 11=Integrated farming, 12=System of Root Intensification (SRI) cultivation, 13=Others"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice1",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_Practice2",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Practice2",
+                                        "ElementsFromString":"1=practicing PMDS, 2=using Beejamrutham, 3=using Ghanajeevamrutham, 4=using Dravajeevamrutham, 5=Using Kashayams or Asthrams, 6=Mulching, 7=Inter cropping, 8=Border cropping, 9=Bund cropping, 10=Model crops, 11=Integrated farming, 12=System of Root Intensification (SRI) cultivation, 13=Others"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice2",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_Practice3",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Practice3",
+                                        "ElementsFromString":"1=practicing PMDS, 2=using Beejamrutham, 3=using Ghanajeevamrutham, 4=using Dravajeevamrutham, 5=Using Kashayams or Asthrams, 6=Mulching, 7=Inter cropping, 8=Border cropping, 9=Bund cropping, 10=Model crops, 11=Integrated farming, 12=System of Root Intensification (SRI) cultivation, 13=Others"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice3",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_Practice4",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Practice4",
+                                        "ElementsFromString":"1=practicing PMDS, 2=using Beejamrutham, 3=using Ghanajeevamrutham, 4=using Dravajeevamrutham, 5=Using Kashayams or Asthrams, 6=Mulching, 7=Inter cropping, 8=Border cropping, 9=Bund cropping, 10=Model crops, 11=Integrated farming, 12=System of Root Intensification (SRI) cultivation, 13=Others"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice4",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_Practice5",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Practice5",
+                                        "ElementsFromString":"1=practicing PMDS, 2=using Beejamrutham, 3=using Ghanajeevamrutham, 4=using Dravajeevamrutham, 5=Using Kashayams or Asthrams, 6=Mulching, 7=Inter cropping, 8=Border cropping, 9=Bund cropping, 10=Model crops, 11=Integrated farming, 12=System of Root Intensification (SRI) cultivation, 13=Others"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice5",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_Practice6",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Practice6",
+                                        "ElementsFromString":"1=practicing PMDS, 2=using Beejamrutham, 3=using Ghanajeevamrutham, 4=using Dravajeevamrutham, 5=Using Kashayams or Asthrams, 6=Mulching, 7=Inter cropping, 8=Border cropping, 9=Bund cropping, 10=Model crops, 11=Integrated farming, 12=System of Root Intensification (SRI) cultivation, 13=Others"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice6",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_Practice7",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Practice7",
+                                        "ElementsFromString":"1=practicing PMDS, 2=using Beejamrutham, 3=using Ghanajeevamrutham, 4=using Dravajeevamrutham, 5=Using Kashayams or Asthrams, 6=Mulching, 7=Inter cropping, 8=Border cropping, 9=Bund cropping, 10=Model crops, 11=Integrated farming, 12=System of Root Intensification (SRI) cultivation, 13=Others"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice7",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807Years",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807Years",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": " 8.7 Please give the details of APCNF inputs and/ or practices adopted in CNF plots during last four Rabi seasons (Last Four Years). [Select Yes under the years, in which a particular input or practice was applied]",
+                                        "FontBold":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807_pmds",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807_pmds",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "PMDS",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_pmds201920",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2019-20",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_pmds201920",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_pmds202021",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2020-21",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_pmds202021",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_pmds202122",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2021-22",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_pmds202122",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_pmds202223",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2022-23",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_pmds202223",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807_bjm",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807_bjm",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Beejamrutham",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_bjm201920",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2019-20",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_bjm201920",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_bjm202021",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2020-21",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_bjm202021",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_bjm202122",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2021-22",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_bjm202122",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_bjm202223",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2022-23",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_bjm202223",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807_gjm",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807_gjm",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Ghanajeevamrutham",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_gjm201920",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2019-20",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_gjm201920",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_gjm202021",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2020-21",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_gjm202021",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_gjm202122",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2021-22",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_gjm202122",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_gjm202223",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2022-23",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_gjm202223",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807_djm",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807_djm",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Dravajeevamrutham",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_djm201920",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2019-20",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_djm201920",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_djm202021",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2020-21",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_djm202021",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_djm202122",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2021-22",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_djm202122",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_djm202223",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2022-23",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_djm202223",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807_kashaya",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807_kashaya",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Kashayams",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_kashaya201920",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2019-20",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_kashaya201920",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_kashaya202021",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2020-21",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_kashaya202021",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_kashaya202122",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2021-22",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_kashaya202122",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_kashaya202223",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2022-23",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_kashaya202223",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807_asthra",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807_asthra",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Asthrams",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_asthra201920",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2019-20",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_asthra201920",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_asthra202021",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2020-21",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_asthra202021",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_asthra202122",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2021-22",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_asthra202122",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_asthra202223",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2022-23",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_asthra202223",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807_mulch",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807_mulch",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "mulching",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_mulch201920",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2019-20",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_mulch201920",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_mulch202021",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2020-21",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_mulch202021",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_mulch202122",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2021-22",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_mulch202122",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_mulch202223",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2022-23",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_mulch202223",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807_inter",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807_inter",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Inter Cropping",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_inter201920",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2019-20",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_inter201920",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_inter202021",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2020-21",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_inter202021",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_inter202122",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2021-22",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_inter202122",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_inter202223",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2022-23",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_inter202223",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807_border",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807_border",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "border Cropping",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_border201920",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2019-20",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_border201920",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_border202021",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2020-21",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_border202021",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_border202122",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2021-22",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_border202122",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_border202223",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2022-23",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_border202223",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807_bund",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807_bund",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "bund Cropping",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_bund201920",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2019-20",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_bund201920",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_bund202021",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2020-21",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_bund202021",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_bund202122",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2021-22",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_bund202122",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_bund202223",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2022-23",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_bund202223",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807_multilayer",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807_multilayer",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "multilayer Cropping",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_multilayer201920",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2019-20",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_multilayer201920",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_multilayer202021",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2020-21",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_multilayer202021",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_multilayer202122",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2021-22",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_multilayer202122",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_multilayer202223",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2022-23",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_multilayer202223",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807_thirtysix",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807_thirtysix",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "36 x 36",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_thirtysix201920",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2019-20",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_thirtysix201920",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_thirtysix202021",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2020-21",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_thirtysix202021",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_thirtysix202122",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2021-22",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_thirtysix202122",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_thirtysix202223",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2022-23",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_thirtysix202223",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807_annapurna",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807_annapurna",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Annapurna",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_annapurna201920",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2019-20",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_annapurna201920",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_annapurna202021",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2020-21",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_annapurna202021",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_annapurna202122",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2021-22",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_annapurna202122",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_annapurna202223",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2022-23",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_annapurna202223",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807_integrated",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807_integrated",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "integrated",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_integrated201920",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2019-20",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_integrated201920",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_integrated202021",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2020-21",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_integrated202021",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_integrated202122",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2021-22",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_integrated202122",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_integrated202223",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2022-23",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_integrated202223",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807_kitchen",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807_kitchen",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "kitchen",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_kitchen201920",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2019-20",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_kitchen201920",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_kitchen202021",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2020-21",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_kitchen202021",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_kitchen202122",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2021-22",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_kitchen202122",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_kitchen202223",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2022-23",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_kitchen202223",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807_sri",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807_sri",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "SRI",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_sri201920",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2019-20",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_sri201920",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_sri202021",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2020-21",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_sri202021",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_sri202122",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2021-22",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_sri202122",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_sri202223",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2022-23",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_sri202223",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807_others1",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807_others1",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "others1",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_others1specify",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2
+                                    }
+                                },        
+                                {
+                                    "id":"KNCListPickerQ0807_others1201920",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2019-20",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_others1201920",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_others1202021",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2020-21",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_others1202021",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_others1202122",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2021-22",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_others1202122",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_others1202223",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2022-23",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_others1202223",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0807_others2",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0807_others2",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "others2",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_others2specify",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2
+                                    }
+                                },        
+                                {
+                                    "id":"KNCListPickerQ0807_others2201920",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2019-20",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_others2201920",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_others2202021",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2020-21",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_others2202021",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_others2202122",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2021-22",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_others2202122",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_others2202223",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Practiced in 2022-23",
+                                        "ElementsFromString":"1=Yes, 2=No"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_others2202223",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

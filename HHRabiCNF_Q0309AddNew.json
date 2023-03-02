@@ -1,5 +1,5 @@
 {
-    "name": "HHKharifCNF_Q0309AddNew",
+    "name": "HHRabiCNF_Q0309AddNew",
     "metadata-version": 1,
     "extension_version": 5,
     "author": "Naveen",
@@ -33,6 +33,7 @@
                                 "TextAlignment": 1,
                                 "FontBold": true,
                                 "FontSize": 16
+
                             }
                         }
                     ]
@@ -222,7 +223,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0309AddNew03_AreaInKharif",
+                            "id":"Label_Q0309AddNew03_AreaInRabi",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -230,7 +231,7 @@
                             }
                         },
                         {
-                            "id": "Q0309AddNew03_AreaInKharif",
+                            "id": "Q0309AddNew03_AreaInRabi",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,

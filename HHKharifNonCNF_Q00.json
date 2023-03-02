@@ -109,7 +109,7 @@
                                         "BackgroundColor": -3355444,
                                         "ReadOnly": true
                                     }
-                                },
+                                },                              
                                 {
                                     "id": "Label_Q0002",
                                     "type": "Label",
@@ -138,6 +138,42 @@
                                 }
                             ]
                         },
+                        {
+                            "id": "CardViewQ0001a",
+                            "type": "MakeroidCardView",
+                            "properties":{
+                                "Width":-2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ0001a_KharifPlusRabi",
+                                    "type": "Label",
+                                    "properties":{
+                                        "Width": -2,
+                                        "Text": "1a. Is this entry Kharif+Rabi?"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0001a_KharifPlusRabi",
+                                    "type": "ListPicker",
+                                    "properties":{
+                                        "ElementsFromString": "Yes, No",
+                                        "Text": "Select Yes or No",
+                                        "Title": "Select",
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "Q0001a_KharifPlusRabi",
+                                    "type": "TextBox",
+                                    "properties":{
+                                        "BackgroundColor": -3355444,
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },                        
                         {
                             "id": "Card_View0003",
                             "type": "MakeroidCardView",

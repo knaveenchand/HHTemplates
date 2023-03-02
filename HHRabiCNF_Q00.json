@@ -1,5 +1,5 @@
 {
-    "name": "HHKharifCNF_Q00",
+    "name": "HHRabiCNF_Q00",
     "metadata-version": 1,
     "extension_version": 5,
     "author": "Naveen",
@@ -173,7 +173,7 @@
                                     }
                                 }
                             ]
-                        },
+                        },                        
                         {
                             "id": "Card_View0003",
                             "type": "MakeroidCardView",

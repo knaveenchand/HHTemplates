@@ -1,5 +1,5 @@
 {
-    "name": "HHKharifCNF_Q0302",
+    "name": "HHRabiCNF_Q0302",
     "metadata-version": 1,
     "extension_version": 5,
     "author": "Naveen",
@@ -28,7 +28,7 @@
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Q0302. Details on labour, machinery and implements used in Crop Production during Kharif 2022-23",
+                                "Text":"Q0302. Details on labour, machinery and implements used in Crop Production during Rabi 2022-23",
                                 "TextAlignment": 1,
                                 "FontBold": true,
                                 "FontSize": 16
