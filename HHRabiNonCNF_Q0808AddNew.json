@@ -1,5 +1,5 @@
 {
-    "name": "HHRabiCNF_Q0307AddNew",
+    "name": "HHRabiNonCNF_Q0808AddNew",
     "metadata-version": 1,
     "extension_version": 5,
     "author": "Naveen",
@@ -10,7 +10,7 @@
     "keys": [],
     "components": [
         {
-            "id": "PageVA_Q0307AddNew",
+            "id": "PageVA_Q0808AddNew",
             "type": "VerticalArrangement",
             "properties": {
                 "Width": -2,
@@ -18,18 +18,18 @@
             },
             "components": [
                 {
-                    "id":"PageTitleCard_Q0307AddNew",
+                    "id":"PageTitleCard_Q0808AddNew",
                     "type":"MakeroidCardView",
                     "properties":{
                         "Width":-2
                     },
                     "components": [
                         {
-                            "id":"PageTitleLabel_Q0307AddNew",
+                            "id":"PageTitleLabel_Q0808AddNew",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Q0307. Costs and Returns in mixed crops plots",
+                                "Text":"Q0808. Month wise number of days crops were standing on each plot (Check Kharif schedule and fill the remaining months)",
                                 "TextAlignment": 1,
                                 "FontBold": true,
                                 "FontSize": 16
@@ -38,7 +38,7 @@
                     ]
                 },
                 {
-                    "id":"VAScroll_Q0307AddNew",
+                    "id":"VAScroll_Q0808AddNew",
                     "type":"VerticalScrollArrangement",
                     "properties":{
                         "WidthPercent": 75,
@@ -46,7 +46,7 @@
                     },
                     "components":[
                         {
-                            "id": "LabelKeys_Q0307AddNew00",
+                            "id": "LabelKeys_Q0808AddNew00",
                             "type": "Label",
                             "properties":{
                                 "Width": -2,
@@ -54,7 +54,7 @@
                             }
                         },
                         {
-                            "id": "Q0307AddNew00_ID",
+                            "id": "Q0808AddNew00_ID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -63,7 +63,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew00_ParcelPlotCombo",
+                            "id":"Label_Q0808AddNew00_ParcelPlotCombo",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -71,16 +71,16 @@
                             }
                         },
                         {
-                            "id":"ListPickerPPFrom0203_Q0307AddNew",
+                            "id":"ListPickerPPFrom0203_Q0808AddNew",
                             "type":"ListPicker",
                             "properties":{
-                                "Text":"Select Parcel-Plot Combination from Mixed Crop Plots",
+                                "Text":"Select Parcel-Plot Combination",
                                 "Title": "Select Parcel-Plot Combination",
                                 "Width":-2
                             }
                         },
                         {
-                            "id": "Q0307AddNew00_ParcelPlotCombo",
+                            "id": "Q0808AddNew00_ParcelPlotCombo",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -89,7 +89,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew00_ParcelID",
+                            "id":"Label_Q0808AddNew00_ParcelID",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -97,7 +97,7 @@
                             }
                         },
                         {
-                            "id": "Q0307AddNew00_ParcelID",
+                            "id": "Q0808AddNew00_ParcelID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -106,7 +106,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew01_SNoParcel",
+                            "id":"Label_Q0808AddNew01_SNoParcel",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -114,7 +114,7 @@
                             }
                         },
                         {
-                            "id": "Q0307AddNew01_SNoParcel",
+                            "id": "Q0808AddNew01_SNoParcel",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -123,7 +123,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew00_PlotID",
+                            "id":"Label_Q0808AddNew00_PlotID",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -131,7 +131,7 @@
                             }
                         },
                         {
-                            "id": "Q0307AddNew00_PlotID",
+                            "id": "Q0808AddNew00_PlotID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -140,7 +140,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew02_PlotNumber",
+                            "id":"Label_Q0808AddNew02_PlotNumber",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -148,7 +148,7 @@
                             }
                         },
                         {
-                            "id": "Q0307AddNew02_PlotNumber",
+                            "id": "Q0808AddNew02_PlotNumber",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -157,7 +157,23 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew06",
+                            "id":"Label_Q0808AddNew03",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Area Sown in Rabi (Acres.Cents)"
+                            }
+                        },
+                        {
+                            "id": "Q0808AddNew03_AreaInRabi",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"Label_Q0808AddNew06",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -165,7 +181,7 @@
                             }
                         },
                         {
-                            "id": "Q0307AddNew06_TypeOfFarming",
+                            "id": "Q0808AddNew06_TypeOfFarming",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -173,112 +189,15 @@
                             }
                         },
                         {
-                            "id":"CardQ0307AddNew_Crops",
-                            "type":"MakeroidCardView",
-                            "properties":{
-                                "Width":-2
-                            },
-                            "components":[
-                                {
-                                    "id":"LabelQ0307AddNew_Crops",
-                                    "type":"Label",
-                                    "properties":{
-                                        "Width":-2,
-                                        "Text":"Crops"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "id":"Label_Q0307AddNew10_MixedCrop",
+                            "id":"Label_Q0808AddNew_Mar22",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Crop 1"
+                                "Text":"Mar 2022"
                             }
                         },
                         {
-                            "id": "Q0307AddNew10_MixedCrop",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "ReadOnly":true
-                            }
-                        },
-                        {
-                            "id":"Label_Q0307AddNew11_MixedCrop",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Crop 2"
-                            }
-                        },
-                        {
-                            "id": "Q0307AddNew11_MixedCrop",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "ReadOnly":true
-                            }
-                        },
-                        {
-                            "id":"Label_Q0307AddNew12_MixedCrop",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Crop 3"
-                            }
-                        },
-                        {
-                            "id": "Q0307AddNew12_MixedCrop",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "ReadOnly":true
-                            }
-                        },
-                        {
-                            "id":"Label_Q0307AddNew13_MixedCrop",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Crop 4"
-                            }
-                        },
-                        {
-                            "id": "Q0307AddNew13_MixedCrop",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "ReadOnly":true
-                            }
-                        },
-                        {
-                            "id":"Label_Q0307AddNew03_AreaInRabi",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Area (Acres.Cents)"
-                            }
-                        },
-                        {
-                            "id": "Q0307AddNew03_AreaInRabi",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "ReadOnly":true
-                            }
-                        },
-                        {
-                            "id":"Label_Q0307AddNew8_TotalOutputRs",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Total Output Value Rs."
-                            }
-                        },
-                        {
-                            "id": "Q0307AddNew8_TotalOutputRs",
+                            "id": "Q0808AddNew_Mar22",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -286,15 +205,15 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew9_ByProductValueRs",
+                            "id":"Label_Q0808AddNew_Apr22",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Approximate total value of by-products Rs."
+                                "Text":"Apr 2022"
                             }
                         },
                         {
-                            "id": "Q0307AddNew9_ByProductValueRs",
+                            "id": "Q0808AddNew_Apr22",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -302,15 +221,15 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew10_PaidoutCostRs",
+                            "id":"Label_Q0808AddNew_May22",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Approximate paid out cost of cultivation Rs."
+                                "Text":"May 2022"
                             }
                         },
                         {
-                            "id": "Q0307AddNew10_PaidoutCostRs",
+                            "id": "Q0808AddNew_May22",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -318,25 +237,201 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew11_OwnLaborDays",
+                            "id":"Label_Q0808AddNew_Jun22",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Approximate Number of Own Labor Days Used"
+                                "Text":"Jun 2022"
                             }
                         },
                         {
-                            "id": "Q0307AddNew11_OwnLaborDays",
+                            "id": "Q0808AddNew_Jun22",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
                                 "InputType": 5
                             }
-                        }       
+                        },
+                        {
+                            "id":"Label_Q0808AddNew_Julr22",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Jul 2022"
+                            }
+                        },
+                        {
+                            "id": "Q0808AddNew_Jul22",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"Label_Q0808AddNew_Aug22",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Aug 2022"
+                            }
+                        },
+                        {
+                            "id": "Q0808AddNew_Aug22",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"Label_Q0808AddNew_Sep22",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Sep 2022"
+                            }
+                        },
+                        {
+                            "id": "Q0808AddNew_Sep22",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"Label_Q0808AddNew_Oct22",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Oct 2022"
+                            }
+                        },
+                        {
+                            "id": "Q0808AddNew_Oct22",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"Label_Q0808AddNew_Nov22",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Nov 2022"
+                            }
+                        },
+                        {
+                            "id": "Q0808AddNew_Nov22",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"Label_Q0808AddNew_Dec22",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Dec 2022"
+                            }
+                        },
+                        {
+                            "id": "Q0808AddNew_Dec22",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"Label_Q0808AddNew_Jan23",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Jan 2023"
+                            }
+                        },
+                        {
+                            "id": "Q0808AddNew_Jan23",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"Label_Q0808AddNew_Feb23",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Feb 2023"
+                            }
+                        },
+                        {
+                            "id": "Q0808AddNew_Feb23",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"Label_Q0808AddNew_Mar23",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Mar 2023"
+                            }
+                        },
+                        {
+                            "id": "Q0808AddNew_Mar23",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"Label_Q0808AddNew_Apr23",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Apr 2023"
+                            }
+                        },
+                        {
+                            "id": "Q0808AddNew_Apr23",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"Label_Q0808AddNew_May23",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"May 2023"
+                            }
+                        },
+                        {
+                            "id": "Q0808AddNew_May23",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "InputType": 5
+                            }
+                        }
                     ]
                 },
                 {
-                    "id": "HAforBtns_Q0307AddNew",
+                    "id": "HAforBtns_Q0808AddNew",
                     "type":"HorizontalArrangement",
                     "properties":{
                         "Width":-2,
@@ -344,28 +439,28 @@
                     },
                     "components":[
                         {
-                            "id":"PopUpBtnCancel_Q0307AddNew",
+                            "id":"PopUpBtnCancel_Q0808AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Cancel"
                             }
                         },
                         {
-                            "id":"PopUpBtnDelete_Q0307AddNew",
+                            "id":"PopUpBtnDelete_Q0808AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Delete"
                             }
                         },
                         {
-                            "id":"PopUpBtnSave_Q0307AddNew",
+                            "id":"PopUpBtnSave_Q0808AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Save"
                             }
                         }
                     ]
-                }
+                }        
             ]
         }
     ]

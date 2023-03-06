@@ -1,0 +1,66 @@
+{
+    "name": "HHRabiNonCNF_Q0310",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q0310",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q0310",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q0310",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q0310. Costs and returns from any other farming activity, which are not covered in the previous blocks, during Rabi 2022-23, including left over PMDS and summer crops from March-May 2022 season",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "VAforBtn_Q0310",
+                    "type":"VerticalArrangement",
+                    "properties":{
+                        "Width":-2,
+                        "AlignHorizontal":2
+                    },
+                    "components":[
+                        {
+                            "id":"BtnAddNew_Q0310",
+                            "type":"Button",
+                            "properties":{
+                                "Text": "+ Add New"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAforHoldingCards_Q0310AddNew",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    }
+                }
+            ]
+        }
+    ]
+}

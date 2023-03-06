@@ -1,0 +1,392 @@
+{
+    "name": "HHRabiNonCNF_Q08",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q08",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q08",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q08",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q08.  APCNF Awareness",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAScroll_Q08",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id":"LabelQ0806",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q8.1 Are you aware of APCNF?"
+                            }
+                        },
+                        {
+                            "id":"KNCListPickerQ0801_AwareOfAPCNF",
+                            "type":"ListPicker",
+                            "properties":{
+                                "Width":-2,
+                                "Text": "Select",
+                                "ElementsFromString":"1=Yes, 2=No, 3=Cannot Say"
+                            }
+                        },
+                        {
+                            "id":"Q0801_AwareOfAPCNF",
+                            "type":"TextBox",
+                            "properties":{
+                                "Width":-2,
+                                "ReadOnly":true
+                            }
+                        },
+                        {
+                            "id":"LabelQ0801IfNo",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "FontBold":true,
+                                "Text":"[If No, go to Q. No. 8.8]"
+                            }
+                        },
+                        {
+                            "id":"LabelQ0802",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q8.2 If yes, are you applying any of the APCNF inputs or practices?"
+                            }
+                        },
+                        {
+                            "id":"KNCListPickerQ0802_PracticingAPCNF",
+                            "type":"ListPicker",
+                            "properties":{
+                                "Width":-2,
+                                "Text": "Select",
+                                "ElementsFromString":"1=Yes, 2=No, 3=Cannot Say"
+                            }
+                        },
+                        {
+                            "id":"Q0802_PracticingAPCNF",
+                            "type":"TextBox",
+                            "properties":{
+                                "Width":-2,
+                                "ReadOnly":true
+                            }
+                        },
+                        {
+                            "id":"LabelQ0802IfNo",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "FontBold":true,
+                                "Text":"[If No, go to Q. No. 8.8]"
+                            }
+                        },
+                        {
+                            "id":"LabelQ0803IfYes",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q8.3 what are the inputs/ practices used so far? (Multiple answers possible)"
+                            }
+                        },
+                        {
+                            "id": "Card_ViewQ0807",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"KNCListPickerQ0807_Practice1",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Practice1",
+                                        "ElementsFromString":"1=practicing PMDS, 2=using Beejamrutham, 3=using Ghanajeevamrutham, 4=using Dravajeevamrutham, 5=Using Kashayams or Asthrams, 6=Mulching, 7=Inter cropping, 8=Border cropping, 9=Bund cropping, 10=Model crops, 11=Integrated farming, 12=System of Root Intensification (SRI) cultivation, 13=Others"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice1",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_Practice2",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Practice2",
+                                        "ElementsFromString":"1=practicing PMDS, 2=using Beejamrutham, 3=using Ghanajeevamrutham, 4=using Dravajeevamrutham, 5=Using Kashayams or Asthrams, 6=Mulching, 7=Inter cropping, 8=Border cropping, 9=Bund cropping, 10=Model crops, 11=Integrated farming, 12=System of Root Intensification (SRI) cultivation, 13=Others"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice2",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_Practice3",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Practice3",
+                                        "ElementsFromString":"1=practicing PMDS, 2=using Beejamrutham, 3=using Ghanajeevamrutham, 4=using Dravajeevamrutham, 5=Using Kashayams or Asthrams, 6=Mulching, 7=Inter cropping, 8=Border cropping, 9=Bund cropping, 10=Model crops, 11=Integrated farming, 12=System of Root Intensification (SRI) cultivation, 13=Others"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice3",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_Practice4",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Practice4",
+                                        "ElementsFromString":"1=practicing PMDS, 2=using Beejamrutham, 3=using Ghanajeevamrutham, 4=using Dravajeevamrutham, 5=Using Kashayams or Asthrams, 6=Mulching, 7=Inter cropping, 8=Border cropping, 9=Bund cropping, 10=Model crops, 11=Integrated farming, 12=System of Root Intensification (SRI) cultivation, 13=Others"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice4",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_Practice5",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Practice5",
+                                        "ElementsFromString":"1=practicing PMDS, 2=using Beejamrutham, 3=using Ghanajeevamrutham, 4=using Dravajeevamrutham, 5=Using Kashayams or Asthrams, 6=Mulching, 7=Inter cropping, 8=Border cropping, 9=Bund cropping, 10=Model crops, 11=Integrated farming, 12=System of Root Intensification (SRI) cultivation, 13=Others"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice5",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_Practice6",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Practice6",
+                                        "ElementsFromString":"1=practicing PMDS, 2=using Beejamrutham, 3=using Ghanajeevamrutham, 4=using Dravajeevamrutham, 5=Using Kashayams or Asthrams, 6=Mulching, 7=Inter cropping, 8=Border cropping, 9=Bund cropping, 10=Model crops, 11=Integrated farming, 12=System of Root Intensification (SRI) cultivation, 13=Others"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice6",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0807_Practice7",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Practice7",
+                                        "ElementsFromString":"1=practicing PMDS, 2=using Beejamrutham, 3=using Ghanajeevamrutham, 4=using Dravajeevamrutham, 5=Using Kashayams or Asthrams, 6=Mulching, 7=Inter cropping, 8=Border cropping, 9=Bund cropping, 10=Model crops, 11=Integrated farming, 12=System of Root Intensification (SRI) cultivation, 13=Others"
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice7",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0805",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0805",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": " 8.4  What are the issues and challenges you are facing in the adoption or replication of APCNF inputs and practices (Multiple answers possible) Code 20",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0805_Reason1",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason1",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason1",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0805_Reason2",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason2",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason2",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0805_Reason3",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason3",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason3",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0805_Reason4",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason4",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason4",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0805_Reason5",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason5",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason5",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0805_Reason6",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason6",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason6",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"KNCListPickerQ0805_Reason7",
+                                    "type":"ListPicker",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Select Reason7",
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason7",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,426 @@
+{
+    "name": "HHRabiNonCNF_Q0001",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q0001",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q0001",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q0001",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q0001. Rabi Qualifier Questions",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAScroll_Q0001",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id": "CardViewKeys_Q0001020",
+                            "type": "MakeroidCardView",
+                            "properties":{
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "Label_Q0001020",
+                                    "type": "Label",
+                                    "properties":{
+                                        "Width": -2,
+                                        "Text": "2.0 Are you cultivating any of selected 12 crops during Rabi 2022-23?"
+                                    }
+                                },
+                                {
+                                    "id": "HA_Q0001020",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0001020_CultivatingSelected12Rabi",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0001020_CultivatingSelected12Rabi",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "1=Yes, 2=No, 3=Cannot Say",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "CardViewKeys_Q00010200",
+                            "type": "MakeroidCardView",
+                            "properties":{
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "Label_Q00010200",
+                                    "type": "Label",
+                                    "properties":{
+                                        "Width": -2,
+                                        "Text": "2.0.0. Are you cultivating any other crop during Rabi 2022-23?"
+                                    }
+                                },
+                                {
+                                    "id": "HA_Q00010200",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q00010200_CultivatingAnyCropRabi",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ00010200_CultivatingAnyCropRabi",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "1=Yes, 2=No, 3=Cannot Say",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "CardViewKeys_Q00010201",
+                            "type": "MakeroidCardView",
+                            "properties":{
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "Label_Q00010201",
+                                    "type": "Label",
+                                    "properties":{
+                                        "Width": -2,
+                                        "Text": "2.0.1. If not cultivating any crop during Rabi 2022-23, reasons",
+                                        "FontBold": true
+                                    }
+                                },
+                                {
+                                    "id": "Label_Q00010201_Reason1",
+                                    "type": "Label",
+                                    "properties":{
+                                        "Width": -2,
+                                        "Text": "Reason1",
+                                        "FontBold": true
+                                    }
+                                },
+                                {
+                                    "id": "HA_Q00010201_Reason1",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q00010201_Reason1",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ00010201_Reason1",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "1=Lack of sufficient water, 2=Soil is not suitable, 3=Shortage of working capital, 4=Shortage of family labour 5=Availability of better employment and income opportunities, 6=Shortage of labour, 7=Cultivation is not profitable, 8=Paddy harvesting machines damage the standing Rabi crops (pulses), 9= Weed infestation, 10=Others Specify",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "LabelOthersQ00010201_Reason1",
+                                    "type": "Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Reason 1. If, Others Specifiy"
+                                    }
+                                },
+                                {
+                                    "id": "Q00010201_Reason1Others",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "Label_Q00010201_Reason2",
+                                    "type": "Label",
+                                    "properties":{
+                                        "Width": -2,
+                                        "Text": "Reason2",
+                                        "FontBold": true
+                                    }
+                                },
+                                {
+                                    "id": "HA_Q00010201_Reason2",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q00010201_Reason2",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ00010201_Reason2",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "1=Lack of sufficient water, 2=Soil is not suitable, 3=Shortage of working capital, 4=Shortage of family labour 5=Availability of better employment and income opportunities, 6=Shortage of labour, 7=Cultivation is not profitable, 8=Paddy harvesting machines damage the standing Rabi crops (pulses), 9= Weed infestation, 10=Others Specify",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "LabelOthersQ00010201_Reason2",
+                                    "type": "Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Reason 2. If, Others Specifiy"
+                                    }
+                                },
+                                {
+                                    "id": "Q00010201_Reason2Others",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },                                
+                                {
+                                    "id": "Label_Q00010201_Reason3",
+                                    "type": "Label",
+                                    "properties":{
+                                        "Width": -2,
+                                        "Text": "Reason3",
+                                        "FontBold": true
+                                    }
+                                },
+                                {
+                                    "id": "HA_Q00010201_Reason3",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q00010201_Reason3",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ00010201_Reason3",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "1=Lack of sufficient water, 2=Soil is not suitable, 3=Shortage of working capital, 4=Shortage of family labour 5=Availability of better employment and income opportunities, 6=Shortage of labour, 7=Cultivation is not profitable, 8=Paddy harvesting machines damage the standing Rabi crops (pulses), 9= Weed infestation, 10=Others Specify",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "LabelOthersQ00010201_Reason3",
+                                    "type": "Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Reason 3. If, Others Specifiy"
+                                    }
+                                },
+                                {
+                                    "id": "Q00010201_Reason3Others",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id": "Label_Q00010201_Reason4",
+                                    "type": "Label",
+                                    "properties":{
+                                        "Width": -2,
+                                        "Text": "Reason4",
+                                        "FontBold": true
+                                    }
+                                },
+                                {
+                                    "id": "HA_Q00010201_Reason4",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q00010201_Reason4",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ00010201_Reason4",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "1=Lack of sufficient water, 2=Soil is not suitable, 3=Shortage of working capital, 4=Shortage of family labour 5=Availability of better employment and income opportunities, 6=Shortage of labour, 7=Cultivation is not profitable, 8=Paddy harvesting machines damage the standing Rabi crops (pulses), 9= Weed infestation, 10=Others Specify",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "LabelOthersQ00010201_Reason4",
+                                    "type": "Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Reason 4. If, Others Specifiy"
+                                    }
+                                },
+                                {
+                                    "id": "Q00010201_Reason4Others",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2
+                                    }
+                                }                                                                                                                                                                                                               
+                            ]
+                        },
+                        {
+                            "id": "CardViewKeys_Q00010202",
+                            "type": "MakeroidCardView",
+                            "properties":{
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id": "LabelQ00010202",
+                                    "type": "Label",
+                                    "properties":{
+                                        "Width": -2,
+                                        "Text": "Are you continuing Kharif crops or PMDS crops (long duration crops like, Chillies, Sugarcane, horticulture, including vegetables) during Rabi 2022-23?"
+                                    }
+                                },
+                                {
+                                    "id": "HA_Q00010202",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "AlignVertical": 2,
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q00010202_ContinuingKharifinRabi",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "BackgroundColor": 4293848814,
+                                                "ReadOnly": true,
+                                                "WidthPercent": 50
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ00010202_ContinuingKharifinRabi",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString": "1=Yes, 2=No, 3=Cannot Say",
+                                                "Text": "Select",
+                                                "Title": "Select",
+                                                "WidthPercent": 30
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id":"SpacerQ0001",
+                            "type":"SpaceView",
+                            "properties":{
+                                "Height":50
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

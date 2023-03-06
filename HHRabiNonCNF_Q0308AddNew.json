@@ -1,5 +1,5 @@
 {
-    "name": "HHRabiCNF_Q0307AddNew",
+    "name": "HHRabiNonCNF_Q0308AddNew",
     "metadata-version": 1,
     "extension_version": 5,
     "author": "Naveen",
@@ -10,7 +10,7 @@
     "keys": [],
     "components": [
         {
-            "id": "PageVA_Q0307AddNew",
+            "id": "PageVA_Q0308AddNew",
             "type": "VerticalArrangement",
             "properties": {
                 "Width": -2,
@@ -18,18 +18,18 @@
             },
             "components": [
                 {
-                    "id":"PageTitleCard_Q0307AddNew",
+                    "id":"PageTitleCard_Q0308AddNew",
                     "type":"MakeroidCardView",
                     "properties":{
                         "Width":-2
                     },
                     "components": [
                         {
-                            "id":"PageTitleLabel_Q0307AddNew",
+                            "id":"PageTitleLabel_Q0308AddNew",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Q0307. Costs and Returns in mixed crops plots",
+                                "Text":"Q0308. Details of other than 12 selected non-APCNF seasonal crops + all natural farming or organic seasonal crops (including 12 selected crops)",
                                 "TextAlignment": 1,
                                 "FontBold": true,
                                 "FontSize": 16
@@ -38,7 +38,7 @@
                     ]
                 },
                 {
-                    "id":"VAScroll_Q0307AddNew",
+                    "id":"VAScroll_Q0308AddNew",
                     "type":"VerticalScrollArrangement",
                     "properties":{
                         "WidthPercent": 75,
@@ -46,7 +46,7 @@
                     },
                     "components":[
                         {
-                            "id": "LabelKeys_Q0307AddNew00",
+                            "id": "LabelKeys_Q0308AddNew00",
                             "type": "Label",
                             "properties":{
                                 "Width": -2,
@@ -54,7 +54,7 @@
                             }
                         },
                         {
-                            "id": "Q0307AddNew00_ID",
+                            "id": "Q0308AddNew00_ID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -63,7 +63,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew00_ParcelPlotCombo",
+                            "id":"Label_Q0308AddNew00_ParcelPlotCombo",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -71,16 +71,16 @@
                             }
                         },
                         {
-                            "id":"ListPickerPPFrom0203_Q0307AddNew",
+                            "id":"ListPickerPPFrom0203_Q0308AddNew",
                             "type":"ListPicker",
                             "properties":{
-                                "Text":"Select Parcel-Plot Combination from Mixed Crop Plots",
+                                "Text":"Select Parcel-Plot Combination",
                                 "Title": "Select Parcel-Plot Combination",
                                 "Width":-2
                             }
                         },
                         {
-                            "id": "Q0307AddNew00_ParcelPlotCombo",
+                            "id": "Q0308AddNew00_ParcelPlotCombo",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -89,7 +89,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew00_ParcelID",
+                            "id":"Label_Q0308AddNew00_ParcelID",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -97,7 +97,7 @@
                             }
                         },
                         {
-                            "id": "Q0307AddNew00_ParcelID",
+                            "id": "Q0308AddNew00_ParcelID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -106,7 +106,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew01_SNoParcel",
+                            "id":"Label_Q0308AddNew01_SNoParcel",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -114,7 +114,7 @@
                             }
                         },
                         {
-                            "id": "Q0307AddNew01_SNoParcel",
+                            "id": "Q0308AddNew01_SNoParcel",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -123,7 +123,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew00_PlotID",
+                            "id":"Label_Q0308AddNew00_PlotID",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -131,7 +131,7 @@
                             }
                         },
                         {
-                            "id": "Q0307AddNew00_PlotID",
+                            "id": "Q0308AddNew00_PlotID",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -140,7 +140,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew02_PlotNumber",
+                            "id":"Label_Q0308AddNew02_PlotNumber",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -148,7 +148,7 @@
                             }
                         },
                         {
-                            "id": "Q0307AddNew02_PlotNumber",
+                            "id": "Q0308AddNew02_PlotNumber",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -157,7 +157,23 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew06",
+                            "id":"Label_Q0308AddNew03",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Area Sown in Rabi (Acres.Cents)"
+                            }
+                        },
+                        {
+                            "id": "Q0308AddNew03_AreaInRabi",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"Label_Q0308AddNew06",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -165,7 +181,7 @@
                             }
                         },
                         {
-                            "id": "Q0307AddNew06_TypeOfFarming",
+                            "id": "Q0308AddNew06_TypeOfFarming",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -173,32 +189,15 @@
                             }
                         },
                         {
-                            "id":"CardQ0307AddNew_Crops",
-                            "type":"MakeroidCardView",
-                            "properties":{
-                                "Width":-2
-                            },
-                            "components":[
-                                {
-                                    "id":"LabelQ0307AddNew_Crops",
-                                    "type":"Label",
-                                    "properties":{
-                                        "Width":-2,
-                                        "Text":"Crops"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "id":"Label_Q0307AddNew10_MixedCrop",
+                            "id":"Label_Q0308AddNew10",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Crop 1"
+                                "Text":"Single Crop Name"
                             }
                         },
                         {
-                            "id": "Q0307AddNew10_MixedCrop",
+                            "id": "Q0308AddNew10_SingleCrop",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -206,79 +205,15 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew11_MixedCrop",
+                            "id":"Label_Q0308AddNew07Output",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Crop 2"
+                                "Text":"Total Output (Qtls.)"
                             }
                         },
                         {
-                            "id": "Q0307AddNew11_MixedCrop",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "ReadOnly":true
-                            }
-                        },
-                        {
-                            "id":"Label_Q0307AddNew12_MixedCrop",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Crop 3"
-                            }
-                        },
-                        {
-                            "id": "Q0307AddNew12_MixedCrop",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "ReadOnly":true
-                            }
-                        },
-                        {
-                            "id":"Label_Q0307AddNew13_MixedCrop",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Crop 4"
-                            }
-                        },
-                        {
-                            "id": "Q0307AddNew13_MixedCrop",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "ReadOnly":true
-                            }
-                        },
-                        {
-                            "id":"Label_Q0307AddNew03_AreaInRabi",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Area (Acres.Cents)"
-                            }
-                        },
-                        {
-                            "id": "Q0307AddNew03_AreaInRabi",
-                            "type": "TextBox",
-                            "properties": {
-                                "Width": -2,
-                                "ReadOnly":true
-                            }
-                        },
-                        {
-                            "id":"Label_Q0307AddNew8_TotalOutputRs",
-                            "type":"Label",
-                            "properties":{
-                                "Width":-2,
-                                "Text":"Total Output Value Rs."
-                            }
-                        },
-                        {
-                            "id": "Q0307AddNew8_TotalOutputRs",
+                            "id": "Q0308AddNew07_OutputObtainedQtl",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -286,15 +221,15 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew9_ByProductValueRs",
+                            "id":"Label_Q0308AddNew08_TotalOutputValueRs",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
-                                "Text":"Approximate total value of by-products Rs."
+                                "Text":"Total Output Value (Rs.)"
                             }
                         },
                         {
-                            "id": "Q0307AddNew9_ByProductValueRs",
+                            "id": "Q0308AddNew08_TotalOutputValueRs",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -302,7 +237,23 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew10_PaidoutCostRs",
+                            "id":"Label_Q0308AddNew09_ByProduct",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Approximate total value of by- products (Rs)"
+                            }
+                        },
+                        {
+                            "id": "Q0308AddNew09_TotalValueOfByProductsRs",
+                            "type": "TextBox",
+                            "properties": {
+                                "Width": -2,
+                                "InputType": 5
+                            }
+                        },
+                        {
+                            "id":"Label_Q0308AddNew10_PaidoutCostRs",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -310,7 +261,7 @@
                             }
                         },
                         {
-                            "id": "Q0307AddNew10_PaidoutCostRs",
+                            "id": "Q0308AddNew10_PaidoutCostRs",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -318,7 +269,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0307AddNew11_OwnLaborDays",
+                            "id":"Label_Q0308AddNew11_OwnLaborDays",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -326,17 +277,17 @@
                             }
                         },
                         {
-                            "id": "Q0307AddNew11_OwnLaborDays",
+                            "id": "Q0308AddNew11_OwnLaborDays",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
                                 "InputType": 5
                             }
-                        }       
+                        }
                     ]
                 },
                 {
-                    "id": "HAforBtns_Q0307AddNew",
+                    "id": "HAforBtns_Q0308AddNew",
                     "type":"HorizontalArrangement",
                     "properties":{
                         "Width":-2,
@@ -344,21 +295,21 @@
                     },
                     "components":[
                         {
-                            "id":"PopUpBtnCancel_Q0307AddNew",
+                            "id":"PopUpBtnCancel_Q0308AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Cancel"
                             }
                         },
                         {
-                            "id":"PopUpBtnDelete_Q0307AddNew",
+                            "id":"PopUpBtnDelete_Q0308AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Delete"
                             }
                         },
                         {
-                            "id":"PopUpBtnSave_Q0307AddNew",
+                            "id":"PopUpBtnSave_Q0308AddNew",
                             "type":"Button",
                             "properties":{
                                 "Text": "Save"

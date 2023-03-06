@@ -1,0 +1,1241 @@
+{
+    "name": "HHRabiNonCNF_Q09",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q09",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q09",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q09",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q09. Income obtained from other Sources by farmers during agriculture year 2022-23",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAScroll_Q09",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id": "Card_ViewQ0901",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0901",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "1. Dairy animals",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0901_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },                                
+                                {
+                                    "id":"Q0901_DairyIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0901_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },                                
+                                {
+                                    "id":"Q0901_DairyCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0902",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0902",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "2. Draught animals",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0902_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },                                
+                                {
+                                    "id":"Q0902_DraughtAnimalsIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0902_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },                                
+                                {
+                                    "id":"Q0902_DraughtAnimalsCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0903",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0903",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "3. Small ruminants",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0903_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },                                
+                                {
+                                    "id":"Q0903_SmallRuminantsIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0903_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },                                
+                                {
+                                    "id":"Q0903_SmallRuminantsCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0904",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0904",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "4. Poultry",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0904_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },                                
+                                {
+                                    "id":"Q0904_PoultryIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0904_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },                                
+                                {
+                                    "id":"Q0904_PoultryCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0905",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0905",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "5. Fishery",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0905_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0905_FisheryIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0905_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0905_FisheryCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0906",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0906",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "6. OtherAnimals",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0906_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0906_OtherAnimalsIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0906_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0906_OtherAnimalsCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0907",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0907",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "7. Remittances received",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0907_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0907_RemittancesIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0907_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0907_RemittancesCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0908",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0908",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "8. Salary or honorarium from local employment",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0908_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0908_SalaryIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0908_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0908_SalaryCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0909",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0909",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "9. Agriculture wage employment (including the seasonal migration)",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0909_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0909_AgriWageIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0909_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0909_AgriWageCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0910",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0910",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "10. Wage income from non-Agricultural activities (including the seasonal migration)",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0910_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0910_NonAgriWageIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0910_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0910_NonAgriWageCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0911",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0911",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "11. Non- Agricultural Self-employment activities (including the seasonal migration) ",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0911_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0911_NonAgriSelfEmpIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0911_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0911_NonAgriSelfEmpCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0912",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0912",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "12. NTFP Collection",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0912_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0912_NTFPIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0912_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0912_NTFPCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0913",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0913",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "13. Cash assistance received from Government (Do not club wages and salaries from Government here)",
+                                        "FontBold":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ091301",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ091301",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "13.1. Rythu Bharosa",
+                                        "FontBold":true
+                                    }
+                                },        
+                                {
+                                    "id":"LabelQ091301_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q091301_RythuBharosaIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ091301_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q091301_RythuBharosaCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ091302",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ091302",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "13.2. Amma Vadi",
+                                        "FontBold":true
+                                    }
+                                },        
+                                {
+                                    "id":"LabelQ091302_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q091302_AmmaVadiIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ091302_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q091302_AmmaVadiCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ091303",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ091303",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "13.3. Pensions",
+                                        "FontBold":true
+                                    }
+                                },        
+                                {
+                                    "id":"LabelQ091303_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q091303_PensionsIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ091303_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q091303_PensionsCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ091304",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ091304",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "13.4. Others Specify",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id": "Q091304_OthersSpecify",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width": -2
+                                    }
+                                },     
+                                {
+                                    "id":"LabelQ091304_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q091304_OthersIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ091304_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q091304_OthersCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ091305",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ091305",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "13.5. Others Specify",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id": "Q091305_OthersSpecify",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width": -2
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ091305_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q091305_OthersIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ091305_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q091305_OthersCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },                        
+                        {
+                            "id": "Card_ViewQ0914",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0914",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "14. Rental income from Leased out land",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0914_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0914_LandRentalIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0914_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0914_LandRentalCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0915",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0915",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "15. Rental income from House rented out",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0915_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0915_HouseRentalIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0915_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0915_HouseRentalCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0916",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0916",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "16. Rental income from rented out agriculture equipment",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0916_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0916_AgriEquipRentalIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0916_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0916_AgriEquipRentalCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0917",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0917",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "17. Others Specify",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id": "Q0917_OthersSpecify",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width": -2
+                                    }
+                                },        
+                                {
+                                    "id":"LabelQ0917_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0917_OthersIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0917_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0917_OthersCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_ViewQ0918",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components":[
+                                {
+                                    "id":"LabelQ0918",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "18. Others Specify",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id": "Q0918_OthersSpecify",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width": -2
+                                    }
+                                },        
+                                {
+                                    "id":"LabelQ0918_IncomeRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Gross Income in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0918_OthersIncomeRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0918_CostsRs",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "Cost of Input or Transaction in Rs.",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0918_OthersCostsRs",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
