@@ -53,3 +53,13 @@ Q0201AddNew Parcels ->
 Q0202AddNew Plots
 
 
+RABI Qualifier conditions:
+if (2.0 = No)
+    if (2.0.0 = No) 
+        if (2.0.2 = No)
+            then skip 2.3 to 3.10
+        else skip 3.1 to 3.8
+    else skip 3.1 to 3.5
+else if (2.0 = Yes) 
+    show all
+

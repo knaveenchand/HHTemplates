@@ -144,6 +144,23 @@
                                     }
                                 },
                                 {
+                                    "id":"LabelQ0807_Practice1Others",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "If Practice1 Others",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice1Others",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
                                     "id":"KNCListPickerQ0807_Practice2",
                                     "type":"ListPicker",
                                     "properties":{
@@ -154,6 +171,23 @@
                                 },
                                 {
                                     "id":"Q0807_Practice2",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0807_Practice2Others",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "If Practice2 Others",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice2Others",
                                     "type":"TextBox",
                                     "properties":{
                                         "Width":-2,
@@ -178,6 +212,23 @@
                                     }
                                 },
                                 {
+                                    "id":"LabelQ0807_Practice3Others",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "If Practice3 Others",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice3Others",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
                                     "id":"KNCListPickerQ0807_Practice4",
                                     "type":"ListPicker",
                                     "properties":{
@@ -195,6 +246,23 @@
                                     }
                                 },
                                 {
+                                    "id":"LabelQ0807_Practice4Others",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "If Practice4 Others",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice4Others",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },                                
+                                {
                                     "id":"KNCListPickerQ0807_Practice5",
                                     "type":"ListPicker",
                                     "properties":{
@@ -205,6 +273,23 @@
                                 },
                                 {
                                     "id":"Q0807_Practice5",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0807_Practice5Others",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "If Practice5 Others",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice5Others",
                                     "type":"TextBox",
                                     "properties":{
                                         "Width":-2,
@@ -229,6 +314,23 @@
                                     }
                                 },
                                 {
+                                    "id":"LabelQ0807_Practice6Others",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "If Practice6 Others",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice6Others",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },                                
+                                {
                                     "id":"KNCListPickerQ0807_Practice7",
                                     "type":"ListPicker",
                                     "properties":{
@@ -244,7 +346,24 @@
                                         "Width":-2,
                                         "ReadOnly":true
                                     }
-                                }
+                                },
+                                {
+                                    "id":"LabelQ0807_Practice7Others",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "If Practice7 Others",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0807_Practice7Others",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                }                            
                             ]
                         },
                         {
@@ -269,11 +388,28 @@
                                     "properties":{
                                         "Width":-2,
                                         "Text": "Select Reason1",
-                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others Specify"
                                     }
                                 },
                                 {
                                     "id":"Q0805_Reason1",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0805_Reason1Others",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "If Reason1 Others",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason1Others",
                                     "type":"TextBox",
                                     "properties":{
                                         "Width":-2,
@@ -286,11 +422,28 @@
                                     "properties":{
                                         "Width":-2,
                                         "Text": "Select Reason2",
-                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others Specify"
                                     }
                                 },
                                 {
                                     "id":"Q0805_Reason2",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0805_Reason2Others",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "If Reason2 Others",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason2Others",
                                     "type":"TextBox",
                                     "properties":{
                                         "Width":-2,
@@ -303,11 +456,28 @@
                                     "properties":{
                                         "Width":-2,
                                         "Text": "Select Reason3",
-                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others Specify"
                                     }
                                 },
                                 {
                                     "id":"Q0805_Reason3",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0805_Reason3Others",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "If Reason3 Others",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason3Others",
                                     "type":"TextBox",
                                     "properties":{
                                         "Width":-2,
@@ -320,7 +490,7 @@
                                     "properties":{
                                         "Width":-2,
                                         "Text": "Select Reason4",
-                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others Specify"
                                     }
                                 },
                                 {
@@ -332,16 +502,50 @@
                                     }
                                 },
                                 {
+                                    "id":"LabelQ0805_Reason4Others",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "If Reason4 Others",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason4Others",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },                                
+                                {
                                     "id":"KNCListPickerQ0805_Reason5",
                                     "type":"ListPicker",
                                     "properties":{
                                         "Width":-2,
                                         "Text": "Select Reason5",
-                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others Specify"
                                     }
                                 },
                                 {
                                     "id":"Q0805_Reason5",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0805_Reason5Others",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "If Reason5 Others",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason5Others",
                                     "type":"TextBox",
                                     "properties":{
                                         "Width":-2,
@@ -354,11 +558,28 @@
                                     "properties":{
                                         "Width":-2,
                                         "Text": "Select Reason6",
-                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others Specify"
                                     }
                                 },
                                 {
                                     "id":"Q0805_Reason6",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0805_Reason6Others",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "If Reason6 Others",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason6Others",
                                     "type":"TextBox",
                                     "properties":{
                                         "Width":-2,
@@ -371,11 +592,28 @@
                                     "properties":{
                                         "Width":-2,
                                         "Text": "Select Reason7",
-                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others, Specify"
+                                        "ElementsFromString":"1=Not remunerative, 2=Not enough extension services, 3=Non-availability or shortage of seeds, 4=Shortage of biological inputs, 5=Protection of crops from grazing animals, 6=non-availability of suitable tools and instruments (e.g. drums), 7=Shortage of hired labour, 8=Shortage of family labour, 9=Shortage of mulching materials, 10=Shortage of fencing material, 11=May affect the Kharif and Rabi crops timings, 12=Challenges in maintenance of temporary fencing, 13=Non confidence, 14=Others Specify"
                                     }
                                 },
                                 {
                                     "id":"Q0805_Reason7",
+                                    "type":"TextBox",
+                                    "properties":{
+                                        "Width":-2,
+                                        "ReadOnly":true
+                                    }
+                                },
+                                {
+                                    "id":"LabelQ0805_Reason7Others",
+                                    "type":"Label",
+                                    "properties":{
+                                        "Width":-2,
+                                        "Text": "If Reason7 Others",
+                                        "FontBold":true
+                                    }
+                                },
+                                {
+                                    "id":"Q0805_Reason7Others",
                                     "type":"TextBox",
                                     "properties":{
                                         "Width":-2,

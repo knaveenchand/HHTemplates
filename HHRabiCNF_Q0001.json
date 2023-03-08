@@ -700,7 +700,7 @@
                                             "id": "KNCListPickerQ00010201_Reason1",
                                             "type": "ListPicker",
                                             "properties": {
-                                                "ElementsFromString": "1=Lack of sufficient water, 2=Soil is not suitable, 3=Shortage of working capital, 4=Shortage of family labour 5=Availability of better employment and income opportunities, 6=Shortage of labour, 7=Cultivation is not profitable, 8=Paddy harvesting machines damage the standing Rabi crops (pulses), 9= Weed infestation, 10=Others Specify",
+                                                "ElementsFromString": "1=Lack of sufficient water, 2=Soil is not suitable, 3=Shortage of working capital, 4=Shortage of family labour, 5=Availability of better employment and income opportunities, 6=Shortage of labour, 7=Cultivation is not profitable, 8=Paddy harvesting machines damage the standing Rabi crops (pulses), 9= Weed infestation, 10=Others Specify",
                                                 "Text": "Select",
                                                 "Title": "Select",
                                                 "WidthPercent": 30
@@ -753,7 +753,7 @@
                                             "id": "KNCListPickerQ00010201_Reason2",
                                             "type": "ListPicker",
                                             "properties": {
-                                                "ElementsFromString": "1=Lack of sufficient water, 2=Soil is not suitable, 3=Shortage of working capital, 4=Shortage of family labour 5=Availability of better employment and income opportunities, 6=Shortage of labour, 7=Cultivation is not profitable, 8=Paddy harvesting machines damage the standing Rabi crops (pulses), 9= Weed infestation, 10=Others Specify",
+                                                "ElementsFromString": "1=Lack of sufficient water, 2=Soil is not suitable, 3=Shortage of working capital, 4=Shortage of family labour, 5=Availability of better employment and income opportunities, 6=Shortage of labour, 7=Cultivation is not profitable, 8=Paddy harvesting machines damage the standing Rabi crops (pulses), 9= Weed infestation, 10=Others Specify",
                                                 "Text": "Select",
                                                 "Title": "Select",
                                                 "WidthPercent": 30
@@ -806,7 +806,7 @@
                                             "id": "KNCListPickerQ00010201_Reason3",
                                             "type": "ListPicker",
                                             "properties": {
-                                                "ElementsFromString": "1=Lack of sufficient water, 2=Soil is not suitable, 3=Shortage of working capital, 4=Shortage of family labour 5=Availability of better employment and income opportunities, 6=Shortage of labour, 7=Cultivation is not profitable, 8=Paddy harvesting machines damage the standing Rabi crops (pulses), 9= Weed infestation, 10=Others Specify",
+                                                "ElementsFromString": "1=Lack of sufficient water, 2=Soil is not suitable, 3=Shortage of working capital, 4=Shortage of family labour, 5=Availability of better employment and income opportunities, 6=Shortage of labour, 7=Cultivation is not profitable, 8=Paddy harvesting machines damage the standing Rabi crops (pulses), 9= Weed infestation, 10=Others Specify",
                                                 "Text": "Select",
                                                 "Title": "Select",
                                                 "WidthPercent": 30
@@ -859,7 +859,7 @@
                                             "id": "KNCListPickerQ00010201_Reason4",
                                             "type": "ListPicker",
                                             "properties": {
-                                                "ElementsFromString": "1=Lack of sufficient water, 2=Soil is not suitable, 3=Shortage of working capital, 4=Shortage of family labour 5=Availability of better employment and income opportunities, 6=Shortage of labour, 7=Cultivation is not profitable, 8=Paddy harvesting machines damage the standing Rabi crops (pulses), 9= Weed infestation, 10=Others Specify",
+                                                "ElementsFromString": "1=Lack of sufficient water, 2=Soil is not suitable, 3=Shortage of working capital, 4=Shortage of family labour, 5=Availability of better employment and income opportunities, 6=Shortage of labour, 7=Cultivation is not profitable, 8=Paddy harvesting machines damage the standing Rabi crops (pulses), 9= Weed infestation, 10=Others Specify",
                                                 "Text": "Select",
                                                 "Title": "Select",
                                                 "WidthPercent": 30
@@ -896,7 +896,7 @@
                                     "type": "Label",
                                     "properties":{
                                         "Width": -2,
-                                        "Text": "Are you continuing Kharif crops or PMDS crops (long duration crops like, Chillies, Sugarcane, horticulture, including vegetables) during Rabi 2022-23?"
+                                        "Text": "2.0.2 Are you continuing Kharif crops or PMDS crops (long duration crops like, Chillies, Sugarcane, horticulture, including vegetables) during Rabi 2022-23?"
                                     }
                                 },
                                 {
