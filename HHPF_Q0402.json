@@ -1,0 +1,66 @@
+{
+    "name": "HHPF_Q0402",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q0402",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q0402",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q0402",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q0402. Costs and returns from crops, in which APCNF inputs were used in Kharif 2022-23. [Give details of plots/ fields, in which CNF inputs and chemical inputs are used] [Same plots as in above 4.1 table]",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "VAforBtn_Q0402",
+                    "type":"VerticalArrangement",
+                    "properties":{
+                        "Width":-2,
+                        "AlignHorizontal":2
+                    },
+                    "components":[
+                        {
+                            "id":"BtnAddNew_Q0402",
+                            "type":"Button",
+                            "properties":{
+                                "Text": "+ Add New"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAforHoldingCards_Q0402AddNew",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    }
+                }
+            ]
+        }
+    ]
+}

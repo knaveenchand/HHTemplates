@@ -1,0 +1,158 @@
+{
+    "name": "HHPF_Q0204",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q0204",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q0204",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q0204",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q0204. Land owned, leased-in, leased-out and cultivated during 2022-23",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAScroll_Q0204",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id": "Card_View020401",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label020401",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Land Owned (Acres.Cents)"
+                                    }
+                                },
+                                {
+                                    "id": "Q020401_LandOwnedAcresCents",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View020402",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label020402",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Land Leased-in (Acres.Cents)"
+                                    }
+                                },
+                                {
+                                    "id": "Q020402_LandLeasedInAcresCents",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View020403",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label020403",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Land Leased-out (Acres.Cents)"
+                                    }
+                                },
+                                {
+                                    "id": "Q020403_LandLeasedOutAcresCents",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View020404",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label020404",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Land Cultivated (Acres.Cents)"
+                                    }
+                                },
+                                {
+                                    "id": "Q020401_LandCultivatedAcresCents",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id":"SpacerQ0204",
+                            "type":"SpaceView",
+                            "properties":{
+                                "Height":50
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

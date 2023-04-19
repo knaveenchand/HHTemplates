@@ -1,0 +1,2055 @@
+{
+    "name": "HHPF_Q03",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q03",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q03",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q03",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q03. Awareness about, and interest in, APCNF and PMDS and practice",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAScroll_Q03",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id": "LabelQ0301",
+                            "type": "Label",
+                            "properties": {
+                                "Width": -2,
+                                "Text": "3.1. When did you know about APCNF: [year] "
+                            }
+                        },
+                        {
+                            "id": "HA_Q0301",
+                            "type": "HorizontalArrangement",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Q0301_WhenKnowAPCNF",
+                                    "type": "TextBox",
+                                    "properties": {
+                                       "Width": -2,
+                                        "InputType": 5,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0301_WhenKnowAPCNF",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "ElementsFromString":"2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000, 1999, 1998, 1997, 1996, 1995, 1994, 1993, 1992, 1991, 1990, 1989, 1988, 1987, 1986, 1985, 1984, 1983, 1982, 1981, 1980, 1979, 1978, 1977, 1976, 1975, 1974, 1973, 1972, 1971, 1970",
+                                        "Text": "Select",
+                                        "Title": "Select"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "CardViewQ0302Heading",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0302_heading",
+                                    "type": "Label",
+                                    "properties": {
+                                        "FontBold": true,
+                                        "Width": -2,
+                                        "Text": "3.2.How do you know about APCNF (multiple answers possible; do not read options. probe and tap the Switch to Select or Unselect  against the stated or appropriate input or practice)"
+                                    }
+                                },
+                                {
+                                    "id": "VA_Q030201",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030201",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.2.1. Through RySS local staff"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030201",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030201_RySSLocalStaff",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030201_RySSLocalStaff",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030202",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030202",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.2.2. Participated in RySS trainings"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030202",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030202_RySSTraining",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030202_RySSTraining",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030203",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030203",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.2.3. Exposure visits by RySS"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030203",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030203_ExposureVisits",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030203_ExposureVisits",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030204",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030204",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.2.4. Fellow Farmers in the village"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030204",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030204_FellowFarmers",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030204_FellowFarmers",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030205",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030205",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.2.5. SHG Members"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030205",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030205_SHG",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030205_SHG",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030206",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030206",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.2.6. NGO"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030206",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030206_NGO",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030206_NGO",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "Label_Q030206_NGOName",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.2.6. Specify NGO Name"
+                                            }
+                                        },
+                                        {
+                                            "id": "Q030206_NGOName",
+                                            "type": "TextBox",
+                                            "properties": {
+                                               "Width": -2
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030207",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030207",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.2.7. Learn in other villages"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030207",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030207_OtherVillages",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030207_OtherVillages",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030208",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030208",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.2.8. Others"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030208",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030208_Others",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030208_Others",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "Label_Q030208_OthersSpecify",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.2.8. If Others, Specify"
+                                            }
+                                        },
+                                        {
+                                            "id": "Q030208_OtherSpecify",
+                                            "type": "TextBox",
+                                            "properties": {
+                                               "Width": -2
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "LabelQ0303",
+                            "type": "Label",
+                            "properties": {
+                                "Width": -2,
+                                "Text": "3.3. Did you enrol yourself with RySS 2022-23 or earlier years?"
+                            }
+                        },
+                        {
+                            "id": "HA_Q0303",
+                            "type": "HorizontalArrangement",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Q0303_EnrolledWithRySS",
+                                    "type": "TextBox",
+                                    "properties": {
+                                       "Width": -2,
+                                        "InputType": 5,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0303_EnrolledWithRySS",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "ElementsFromString":"1=Yes, 2=No",
+                                        "Text": "Select",
+                                        "Title": "Select"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "LabelQ0303Note",
+                            "type": "Label",
+                            "properties": {
+                                "Width": -2,
+                                "Text": "[If yes, go to question number 3.5]",
+                                "FontBold":true
+                            }
+                        },
+                        {
+                            "id": "CardViewQ0304Heading",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0304_heading",
+                                    "type": "Label",
+                                    "properties": {
+                                        "FontBold": true,
+                                        "Width": -2,
+                                        "Text": "3.4. If no, reasons for not enrolling with RySS (multiple answers possible; do not read options; probe and put tick mark against appropriate option)"
+                                    }
+                                },
+                                {
+                                    "id": "VA_Q030401",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030401",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.4.1. Do not know how to enrol"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030401",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030401_NotKnowEnrol",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030401_NotKnowEnrol",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030402",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030402",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.4.2. APCNF is not profitable"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030402",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030402_NotProfitable",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030402_NotProfitable",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030403",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030403",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.4.3. RySS people are not reachable"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030403",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030403_RySSNotReachable",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030403_RySSNotReachable",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030404",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030404",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.4.4. APCNF is risky"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030404",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030404_APCNFRisky",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030404_APCNFRisky",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030405",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030405",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.4.5. RySS people are not cooperative"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030405",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030405_RySSNotCoop",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030405_RySSNotCoop",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030406",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030406",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.4.6. Dont have time for CNF processes"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030406",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030406_NoTime",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030406_NoTime",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030407",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030407",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.4.7. Not interested in agriculture"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030407",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030407_NotInterested",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030407_NotInterested",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030408",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030408",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.4.8. APCNF inputs are not available"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030408",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030408_InputsNotAvailable",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030408_InputsNotAvailable",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030409",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030409",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.4.9. No confidence in APCNF"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030409",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030409_NoConfidence",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030409_NoConfidence",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030410",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030410",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.4.10. Shortage of family labour"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030410",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030410_FamilyLabor",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030410_FamilyLabor",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030411",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030411",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.4.11. Shortage of hired labour"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030411",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030411_HiredLabor",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030411_HiredLabor",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },                
+                                {
+                                    "id": "VA_Q030412",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030412",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.4.12. Others"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030412",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030412_Others",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030412_Others",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "Label_Q030412_OthersSpecify",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.4.12. If Others, Specify"
+                                            }
+                                        },
+                                        {
+                                            "id": "Q030412_OtherSpecify",
+                                            "type": "TextBox",
+                                            "properties": {
+                                               "Width": -2
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "LabelQ0305",
+                            "type": "Label",
+                            "properties": {
+                                "Width": -2,
+                                "Text": "3.5. When you started using APCNF inputs/ practices in your fields: [year]"
+                            }
+                        },
+                        {
+                            "id": "HA_Q0306",
+                            "type": "HorizontalArrangement",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Q0306_WhenStartedAPCNF",
+                                    "type": "TextBox",
+                                    "properties": {
+                                       "Width": -2,
+                                        "InputType": 5,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0306_WhenStartedAPCNF",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "ElementsFromString":"2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000, 1999, 1998, 1997, 1996, 1995, 1994, 1993, 1992, 1991, 1990, 1989, 1988, 1987, 1986, 1985, 1984, 1983, 1982, 1981, 1980, 1979, 1978, 1977, 1976, 1975, 1974, 1973, 1972, 1971, 1970",
+                                        "Text": "Select",
+                                        "Title": "Select"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "CardViewQ0306Heading",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0306_heading",
+                                    "type": "Label",
+                                    "properties": {
+                                        "FontBold": true,
+                                        "Width": -2,
+                                        "Text": "3.6. What APCNF inputs and practices you have adopted in 2022-23 (multiple answers are possible; do not read options; probe and tap the Switch to Select or Unselect against the stated or appropriate input or practice)"
+                                    }
+                                },
+                                {
+                                    "id": "VA_Q030601",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030601",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.6.1. Practicing PMDS"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030601",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030601_PracticingPMDS",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030601_PracticingPMDS",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030602",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030602",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.6.2. Using Beejamrutham"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030602",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030602_UsingBJM",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030602_UsingBJM",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030603",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030603",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.6.3. Using Ghanajeevamrutham"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030603",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030603_UsingGJM",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030603_UsingGJM",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030604",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030604",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.6.4. Using Dravajeevamrutham"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030604",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030604_UsingDJM",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030604_UsingDJM",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030605",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030605",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.6.5. Using Kashayams"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030605",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030605_UsingKashyam",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030605_UsingKashyam",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030606",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030606",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.6.6. Using Asthrams"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030606",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030606_UsingAsthrams",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030606_UsingAsthrams",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030607",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030607",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.6.7. Layer models"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030607",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030607_LayerModels",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030607_LayerModels",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030608",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030608",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.6.8. Integrated farming"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030608",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030608_IntegratedFarming",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030608_IntegratedFarming",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030609",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030609",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.6.9. System of Root Intensification (SRI) cultivation"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030609",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030609_SRI",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030609_SRI",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030610",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030610",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.6.10. Inter cropping"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030610",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030610_InterCrop",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030610_InterCrop",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030611",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030611",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.6.11. Border cropping"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030611",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030611_BorderCrop",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030611_BorderCrop",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030612",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030612",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.6.12. Bund cropping"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030612",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030612_BundCrop",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030612_BundCrop",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030613",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030613",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.6.13. Mulching"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030613",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030613_Mulching",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030613_Mulching",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },        
+                                {
+                                    "id": "VA_Q030614",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030614",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.6.14. Others"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030614",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030614_Others",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030614_Others",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "Label_Q030614_OthersSpecify",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.6.14. If Others, Specify"
+                                            }
+                                        },
+                                        {
+                                            "id": "Q030614_OtherSpecify",
+                                            "type": "TextBox",
+                                            "properties": {
+                                               "Width": -2
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "LabelQ0307",
+                            "type": "Label",
+                            "properties": {
+                                "Width": -2,
+                                "Text": "3.7. Are you using APCNF inputs, along with agrochemicals on your entire operational area?"
+                            }
+                        },
+                        {
+                            "id": "HA_Q0307",
+                            "type": "HorizontalArrangement",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Q0307_UseCNFAndNonCNF",
+                                    "type": "TextBox",
+                                    "properties": {
+                                       "Width": -2,
+                                        "InputType": 5,
+                                        "ReadOnly": true
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0307_UseCNFAndNonCNF",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "ElementsFromString":"1=Yes, 2=No",
+                                        "Text": "Select",
+                                        "Title": "Select"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "LabelQ0307Note",
+                            "type": "Label",
+                            "properties": {
+                                "Width": -2,
+                                "Text": "[If yes, go to question number 4]",
+                                "FontBold":true
+                            }
+                        },
+                        {
+                            "id": "CardViewQ0308Heading",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "LabelQ0308_heading",
+                                    "type": "Label",
+                                    "properties": {
+                                        "FontBold": true,
+                                        "Width": -2,
+                                        "Text": "3.8. If no, you are doing now or planning to do"
+                                    }
+                                },
+                                {
+                                    "id": "VA_Q030801",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030801",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.8.1. Using APCNF inputs in a particular plot or area every year"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030801",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030801_UsingCNFInOnePlotArea",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030801_UsingCNFInOnePlotArea",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030802",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030802",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.8.2. Using APCNF inputs in different plots or areas in rotation year after year"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030802",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030802_UsingCNFInManyPlots",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030802_UsingCNFInManyPlots",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030803",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030803",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.8.3. Increasing area or plots under APCNF inputs year after year"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030803",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030803_IncreaseCNFPlotArea",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030803_IncreaseCNFPlotArea",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030804",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030804",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.8.4. Others"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030804",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030804_Others",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030804_Others",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "Label_Q030804_OthersSpecify",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.8.4. If Others, Specify"
+                                            }
+                                        },
+                                        {
+                                            "id": "Q030804_OtherSpecify",
+                                            "type": "TextBox",
+                                            "properties": {
+                                               "Width": -2
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q030805",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q030805",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.8.5. Others"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q030805",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q030805_Others",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ030805_Others",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "Label_Q030805_OthersSpecify",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "3.8.5. If Others, Specify"
+                                            }
+                                        },
+                                        {
+                                            "id": "Q030805_OtherSpecify",
+                                            "type": "TextBox",
+                                            "properties": {
+                                               "Width": -2
+                                            }
+                                        }
+                                    ]
+                                }        
+                            ]
+                        },
+                        {
+                            "id":"SpacerQ03",
+                            "type":"SpaceView",
+                            "properties":{
+                                "Height":50
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

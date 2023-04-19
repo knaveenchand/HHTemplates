@@ -1,0 +1,1271 @@
+{
+    "name": "HHPF_Q05",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q05",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q05",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q05",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q05. Reasons for not converting yourself into a S2S farmers (cultivating at least one plot with only CNF inputs, without applying any fertilizers, pesticides, weedicides, etc)",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAScroll_Q05",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id": "Card_View0501",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label0501",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "5.1. Why are you continuously using agrochemicals in all your plots/ fields?"
+                                    }
+                                },
+                                {
+                                    "id": "VA_Q050101",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050101",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050101. Do not have complete knowledge"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050101",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050101_NoKnowledge",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050101_NoKnowledge",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050102",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050102",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050102. No extension services"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050102",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050102_NoExt",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050102_NoExt",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050103",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050103",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050103. APCNF alone is not profitable"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050103",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050103_NotProfitable",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050103_NotProfitable",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050104",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050104",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050104. APCNF is risky"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050104",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050104_risky",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050104_risky",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050105",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050105",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050105. Shortage of livestock for dung and urine"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050105",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050105_shortagelivestock",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050105_shortagelivestock",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050106",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050106",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050106. Shortage of raw material to prepare CNF inputs"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050106",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050106_shortagerawmaterial",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050106_shortagerawmaterial",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050107",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050107",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050107. Not interested in agriculture"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050107",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050107_NoInterestAgri",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050107_NoInterestAgri",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050108",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050108",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050108. APCNF inputs are not available"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050108",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050108_NoCNFInputs",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050108_NoCNFInputs",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050109",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050109",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050109. No confidence in APCNF"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050109",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050109_NoConfidencCNF",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050109_NoConfidencCNF",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050110",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050110",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050110. Shortage of family labour"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050110",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050110_NoFamilyLabor",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050110_NoFamilyLabor",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050111",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050111",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050111. Shortage of hired labour"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050111",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050111_NoHiredLabor",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050111_NoHiredLabor",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050112",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050112",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050112. Preparation of CNF input is time consuming"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050112",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050112_NoTime",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050112_NoTime",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050113",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050113",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050113. Others Specify"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050113",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050113_Others",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050113_Others",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "Q050113_OthersSpecify",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050114",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050114",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050114. Others Specify"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050114",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050114_Others",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050114_Others",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "Q050114_OthersSpecify",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "LabelQ0502",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "5.2. If facilitated, would you like to become S2S farmer?"
+                                    }
+                                },
+                                {
+                                    "id": "HA_Q0502",
+                                    "type": "HorizontalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Q0502_BecomeS2S",
+                                            "type": "TextBox",
+                                            "properties": {
+                                               "Width": -2,
+                                                "InputType": 5,
+                                                "ReadOnly": true
+                                            }
+                                        },
+                                        {
+                                            "id": "KNCListPickerQ0502_BecomeS2S",
+                                            "type": "ListPicker",
+                                            "properties": {
+                                                "ElementsFromString":"1=Yes, 2=No",
+                                                "Text": "Select",
+                                                "Title": "Select"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "Label_Q0503",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "Q0503. If yes, what support you want? (Multiple answers are possible. do not read the options. Probe and tap the Switch to Select or Unselect)"
+                                    }
+                                },
+                                {
+                                    "id": "VA_Q050301",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050301",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050301. Higher prices for CNF output"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050301",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050301_HigherPrice",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050301_HigherPrice",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050302",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050302",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050302. Subsidy for farm ponds"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050302",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050302_SubsidyFarmPond",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050302_SubsidyFarmPond",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050303",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050303",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050303. Quality extension services"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050303",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050303_QualityExt",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050303_QualityExt",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050304",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050304",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050304. Self-learning videos and books"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050304",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050304_selflearning",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050304_selflearning",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050305",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050305",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050305. Subsidised livestock"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050305",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050305_subsidylivestock",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050305_subsidylivestock",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050306",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050306",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050306. Subsidy for CNF input making instruments and tools"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050306",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050306_subsidytools",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050306_subsidytools",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050307",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050307",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050307. Readymade CNF inputs shop"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050307",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050307_CNFInputShop",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050307_CNFInputShop",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050308",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050308",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050308. Demonstration plots"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050308",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050308_DemoPlots",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050308_DemoPlots",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050309",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050309",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050309. Free or subsidy seed of PMDS"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050309",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050309_subsidyPMDSseed",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050309_subsidyPMDSseed",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050310",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050310",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050310. Others Specify"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050310",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050310_Others",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050310_Others",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "Q050310_OthersSpecify",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050311",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050311",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050311. Others Specify"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050311",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050311_Others",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050311_Others",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "Q050311_OthersSpecify",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "VA_Q050312",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "Label_Q050312",
+                                            "type": "Label",
+                                            "properties": {
+                                                "Width": -2,
+                                                "Text": "Q050312. Others Specify"
+                                            }
+                                        },
+                                        {
+                                            "id": "HA_Q050312",
+                                            "type": "HorizontalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "Q050312_Others",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2,
+                                                       "ReadOnly":true,
+                                                       "BackgroundColor": -3355444
+                                                    }
+                                                },
+                                                {
+                                                    "id": "KNCSwitchQ050312_Others",
+                                                    "type": "SwitchToggle",
+                                                    "properties": {
+                                                        "TextOff": "",
+                                                        "TextOn": ""
+                                                    }
+                                                },
+                                                {
+                                                    "id": "Q050312_OthersSpecify",
+                                                    "type": "TextBox",
+                                                    "properties": {
+                                                       "Width": -2
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id":"SpacerQ05",
+                            "type":"SpaceView",
+                            "properties":{
+                                "Height":50
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

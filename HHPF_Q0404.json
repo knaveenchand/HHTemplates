@@ -1,0 +1,163 @@
+{
+    "name": "HHPF_Q0404",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q0404",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q0404",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q0404",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q0404. Other Benefits",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAScroll_Q0404",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id": "Card_View040401",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label040401",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "4.4. Did you see any improvement in the soil quality because of CNF inputs use"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0404_4SoilQuality",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "ElementsFromString": "1=Yes, 2=No",
+                                        "Text": "Select",
+                                        "Title": "Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0404_4SoilQuality",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "BackgroundColor": -3355444,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View040402",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label040402",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "4.5. Did you see any improvement in the crop quality, because of CNF inputs use"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0404_5CropQuality",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "ElementsFromString": "1=Yes, 2=No",
+                                        "Text": "Select",
+                                        "Title": "Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0404_5CropQuality",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "BackgroundColor": -3355444,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View040403",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label040403",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "4.6. Did you get higher prices to your crops’ outputs, because of CNF inputs use"
+                                    }
+                                },
+                                {
+                                    "id": "KNCListPickerQ0404_6HigherPrices",
+                                    "type": "ListPicker",
+                                    "properties": {
+                                        "ElementsFromString": "1=Yes, 2=No",
+                                        "Text": "Select",
+                                        "Title": "Select"
+                                    }
+                                },
+                                {
+                                    "id": "Q0404_6HigherPrices",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "BackgroundColor": -3355444,
+                                        "ReadOnly":true
+                                    }
+                                }
+                            ]
+                        },                        
+                        {
+                            "id":"SpacerQ0404",
+                            "type":"SpaceView",
+                            "properties":{
+                                "Height":50
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

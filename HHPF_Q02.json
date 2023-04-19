@@ -1,0 +1,108 @@
+{
+    "name": "HHPF_Q02",
+    "metadata-version": 1,
+    "extension_version": 5,
+    "author": "Naveen",
+    "platforms": [
+        "creator.kodular.io"
+    ],
+    "extensions": {},
+    "keys": [],
+    "components": [
+        {
+            "id": "PageVA_Q02",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id":"PageTitleCard_Q02",
+                    "type":"MakeroidCardView",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components": [
+                        {
+                            "id":"PageTitleLabel_Q02",
+                            "type":"Label",
+                            "properties":{
+                                "Width":-2,
+                                "Text":"Q02. Demography",
+                                "TextAlignment": 1,
+                                "FontBold": true,
+                                "FontSize": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id":"VAScroll_Q02",
+                    "type":"VerticalScrollArrangement",
+                    "properties":{
+                        "Width":-2
+                    },
+                    "components":[
+                        {
+                            "id": "Card_View0201",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label0201",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "2.1. Total number of family members"
+                                    }
+                                },
+                                {
+                                    "id": "Q0201_NumberOfFamilyMembers",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Card_View0202",
+                            "type": "MakeroidCardView",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "Label0202",
+                                    "type": "Label",
+                                    "properties": {
+                                        "Width": -2,
+                                        "Text": "2.2. Total number of workers in the family"
+                                    }
+                                },
+                                {
+                                    "id": "Q0202_NumberOfWorkers",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "Width": -2,
+                                        "InputType": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id":"SpacerQ02",
+                            "type":"SpaceView",
+                            "properties":{
+                                "Height":50
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
