@@ -55,7 +55,7 @@
                                     "type": "Label",
                                     "properties": {
                                         "Width": -2,
-                                        "Text": "2.1. Total number of family members"
+                                        "Text": "2.1. Total number of family members (including children)"
                                     }
                                 },
                                 {

@@ -169,7 +169,7 @@
                             ]
                         },
                         {
-                            "id":"Label_Q0402AddNew04_costofcultivation",
+                            "id":"Label_Q0402AddNew04_costofcultivationRs",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -177,7 +177,7 @@
                             }
                         },
                         {
-                            "id": "Q0402AddNew04_costofcultivation",
+                            "id": "Q0402AddNew04_costofcultivationRs",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -185,7 +185,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0402AddNew05_YieldsObtained",
+                            "id":"Label_Q0402AddNew05_YieldsObtainedQtl",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -193,7 +193,7 @@
                             }
                         },
                         {
-                            "id": "Q0402AddNew05_YieldsObtained",
+                            "id": "Q0402AddNew05_YieldsObtainedQtl",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -201,7 +201,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0402AddNew06_PriceObtained",
+                            "id":"Label_Q0402AddNew06_PriceObtainedRs",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -209,7 +209,7 @@
                             }
                         },
                         {
-                            "id": "Q0402AddNew06_PriceObtained",
+                            "id": "Q0402AddNew06_PriceObtainedRs",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
@@ -217,7 +217,7 @@
                             }
                         },
                         {
-                            "id":"Label_Q0402AddNew07_ValueOfByProduct",
+                            "id":"Label_Q0402AddNew07_ValueOfByProductRs",
                             "type":"Label",
                             "properties":{
                                 "Width":-2,
@@ -225,7 +225,7 @@
                             }
                         },
                         {
-                            "id": "Q0402AddNew07_ValueOfByProduct",
+                            "id": "Q0402AddNew07_ValueOfByProductRs",
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,

@@ -391,7 +391,7 @@
                                                     }
                                                 },
                                                 {
-                                                    "id": "Q0109_TeamName",
+                                                    "id": "Q0109_Team",
                                                     "type": "TextBox",
                                                     "properties": {
                                                         "BackgroundColor": 4293848814,
