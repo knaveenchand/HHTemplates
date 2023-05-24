@@ -181,6 +181,15 @@
                             }
                         },
                         {
+                            "id": "KNCListPickerQ0808AddNew06_TypeOfFarming",
+                            "type": "ListPicker",
+                            "properties": {
+                                "ElementsFromString": "1=PMDS+CNF, 2=Only CNF, 3=Non-CNF, 4=Partial (Mix of CNF and Non-CNF)",
+                                "Text": "Select Type of Farming",
+                                "Title": "Select"
+                            }
+                        },
+                        {
                             "id": "Q0808AddNew06_TypeOfFarming",
                             "type": "TextBox",
                             "properties": {

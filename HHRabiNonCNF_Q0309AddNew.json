@@ -234,7 +234,7 @@
                             "type": "TextBox",
                             "properties": {
                                 "Width": -2,
-                                "ReadOnly":true
+                                "InputType": 5
                             }
                         },
                         {
